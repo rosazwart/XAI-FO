@@ -8,7 +8,9 @@ This repository provides a drug-repurposing pipeline that predicts new drug cand
 
 ## Building Knowledge Graphs
 
-Two kinds of knowledge graphs can be built given any disease being a knowledge graph that aligns with the data model of previous research (original KG) and a knowledge graph that has undergone structural changes in order to conform to a newly designed conceptual model using Foundational Ontologies found ![here](https://github.com/rosazwart/XAI-FO/blob/main/images/final_model.png).
+Two kinds of knowledge graphs can be built given any disease being a knowledge graph that aligns with the data model of previous research (original KG) and a knowledge graph that has undergone structural changes in order to conform to a newly designed conceptual model using Foundational Ontologies: 
+
+![here](https://github.com/rosazwart/XAI-FO/blob/main/images/final_model.png)
 
 ### Collecting Data for Knowledge Graphs
 
@@ -16,4 +18,4 @@ The data that will initially populate the knowledge graphs come from the graph b
 
 To get all associations in the knowledge graph for a given disease, a list of seeds needs to be initialized that contain the most important entities that relate to the disease that serves as the foundation of the knowledge graph.
 
-- [`localfetcher/main.py`](https://github.com/rosazwart/XAI-FO/tree/main/localfetcher/main.py) - Running this script will prompt the user to enter the disease that will serve as the foundation of the knowledge graph. A list of seeds already exists for DMD, HD and OI, containing the identifier of the disease itself and the identifier of the most important causal/correlated genes. The output is a csv file found in [`localfetcher/output`](https://github.com/rosazwart/XAI-FO/tree/main/localfetcher/output) with all association triples given the initial seeds.
+- [`localfetcher/main.py`](https://github.com/rosazwart/XAI-FO/blob/main/localfetcher/main.py) - Running this script will prompt the user to enter the disease that will serve as the foundation of the knowledge graph. A list of seeds already exists for DMD, HD and OI, containing the identifier of the disease itself and the identifier of the most important causal/correlated genes. The output is a csv file found in [`localfetcher/output`](https://github.com/rosazwart/XAI-FO/tree/main/localfetcher/output) with all association triples given the initial seeds.
