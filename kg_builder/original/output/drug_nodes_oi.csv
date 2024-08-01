@@ -1,0 +1,154 @@
+﻿DRUG_NAME,DRUG_NAME,STRUCT_ID
+aclarubicin,aclarubicin,80
+aldosterone,aldosterone,111
+aminoquinuride,aminoquinuride,174
+androstenediol,androstenediol,214
+androstenedione,androstenedione,215
+astemizole,astemizole,249
+bacitracin,bacitracin,281
+beclometasone dipropionate,beclometasone dipropionate,294
+budesonide,budesonide,419
+busulfan,busulfan,438
+candesartan cilexetil,candesartan cilexetil,475
+cefonicid,cefonicid,542
+cefotetan,cefotetan,547
+cefotiam,cefotiam,548
+cefuroxime,cefuroxime,565
+cefalotin,cefalotin,574
+cefradine,cefradine,576
+chlorhexidine,chlorhexidine,597
+chloropyramine,chloropyramine,606
+chlorpromazine,chlorpromazine,621
+clomifene,clomifene,700
+clotrimazole,clotrimazole,719
+cortisone acetate,cortisone acetate,734
+ciclosporin,ciclosporin,760
+dacarbazine,dacarbazine,773
+danazol,danazol,779
+dasatinib,dasatinib,785
+daunorubicin,daunorubicin,786
+prasterone,prasterone,795
+desogestrel,desogestrel,818
+desoxycortone,desoxycortone,820
+dexamethasone,dexamethasone,824
+disulfiram,disulfiram,928
+dobutamine,dobutamine,937
+docetaxel,docetaxel,939
+doxorubicin,doxorubicin,960
+doxycycline,doxycycline,961
+ebastine,ebastine,977
+econazole,econazole,983
+entacapone,entacapone,1018
+erlotinib,erlotinib,1045
+estradiol,estradiol,1057
+estradiol benzoate,estradiol benzoate,1058
+estriol succinate,estriol succinate,1067
+ethinylestradiol,ethinylestradiol,1082
+ethisterone,ethisterone,1084
+etonogestrel,etonogestrel,1110
+flopropione,flopropione,1180
+floxacillin,floxacillin,1183
+fluphenazine,fluphenazine,1212
+gefitinib,gefitinib,1282
+gestrinone,gestrinone,1292
+hexachlorophene,hexachlorophene,1364
+hydrocortisone,hydrocortisone,1388
+imatinib,imatinib,1423
+diiodohydroxyquinoline,diiodohydroxyquinoline,1457
+lapatinib,lapatinib,1548
+levodopa,levodopa,1567
+levonorgestrel,levonorgestrel,1572
+losartan,losartan,1610
+medroxyprogesterone,medroxyprogesterone,1659
+methyldopa,methyldopa,1762
+miconazole,miconazole,1800
+mitoxantrone,mitoxantrone,1821
+montelukast,montelukast,1836
+nandrolone,nandrolone,1879
+nandrolone decanoate,nandrolone decanoate,1881
+nelfinavir,nelfinavir,1893
+niclosamide,niclosamide,1912
+nilotinib,nilotinib,1932
+norethisterone,norethisterone,1962
+norethindrone acetate,norethindrone acetate,1963
+perhexiline,perhexiline,2106
+prednisolone,prednisolone,2245
+prednisolone tebutate,prednisolone tebutate,2251
+pregnenolone succinate,pregnenolone succinate,2256
+progesterone,progesterone,2279
+raloxifene,raloxifene,2351
+secobarbital,secobarbital,2428
+sorafenib,sorafenib,2459
+sulindac,sulindac,2534
+suloctidil,suloctidil,2536
+sunitinib,sunitinib,2544
+tacrolimus,tacrolimus,2552
+tamoxifen,tamoxifen,2561
+terfenadine,terfenadine,2600
+testosterone,testosterone,2607
+thioridazine,thioridazine,2637
+tiludronic acid,tiludronic acid,2666
+tolcapone,tolcapone,2697
+ubenimex,ubenimex,2787
+zafirlukast,zafirlukast,2855
+zoledronic acid,zoledronic acid,2868
+bithionol,bithionol,3032
+estriol,estriol,3187
+estrone,estrone,3188
+oxyquinoline,oxyquinoline,3290
+mestanolone,mestanolone,3341
+mesterolone,mesterolone,3342
+methyltestosterone,methyltestosterone,3356
+pyrithione,pyrithione,3508
+quercetin,quercetin,3514
+ruboxistaurin,ruboxistaurin,3533
+thiram,thiram,3601
+androstanolone,androstanolone,3927
+tirilazad,tirilazad,4063
+ascorbic acid,ascorbic acid,4072
+pazopanib,pazopanib,4118
+gentian violet,gentian violet,4138
+vandetanib,vandetanib,4178
+crizotinib,crizotinib,4187
+hydroxyprogesterone caproate,hydroxyprogesterone caproate,4189
+prazosin,prazosin,4209
+axitinib,axitinib,4225
+afatinib,afatinib,4318
+zinc chloride,zinc chloride,4344
+bosutinib,bosutinib,4359
+cisplatin,cisplatin,4392
+colistin,colistin,4425
+regorafenib,regorafenib,4654
+sodium aurothiomalate,sodium aurothiomalate,4706
+cabozantinib,cabozantinib,4715
+ponatinib,ponatinib,4716
+dimethyl fumarate,dimethyl fumarate,4757
+ibrutinib,ibrutinib,4810
+ceritinib,ceritinib,4866
+nintedanib,nintedanib,4903
+lenvatinib,lenvatinib,4942
+cetuximab,cetuximab,4954
+panitumumab,panitumumab,4955
+siltuximab,siltuximab,4977
+osimertinib,osimertinib,5062
+necitumumab,necitumumab,5071
+chromic chloride,chromic chloride,5118
+opicapone,opicapone,5143
+icotinib,icotinib,5209
+olmutinib,olmutinib,5210
+midostaurin,midostaurin,5231
+brigatinib,brigatinib,5233
+neratinib,neratinib,5252
+tivozanib,tivozanib,5258
+dacomitinib,dacomitinib,5297
+lorlatinib,lorlatinib,5302
+caplacizumab,caplacizumab,5308
+quizartinib,quizartinib,5341
+entrectinib,entrectinib,5345
+fedratinib,fedratinib,5347
+selumetinib,selumetinib,5388
+tucatinib,tucatinib,5389
+ripretinib,ripretinib,5394
+pralsetinib,pralsetinib,5412
+filgotinib,filgotinib,5419
+infigratinib,infigratinib,5459

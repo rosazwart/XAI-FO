@@ -1,0 +1,63 @@
+subject,relation,object
+GENE,causes condition,DISO
+ORTH,colocalizes with,ORTH
+GENE,colocalizes with,GENE
+GENE,contributes to,DISO
+GENE,contributes to condition,GENO
+GENO,contributes to condition,GENO
+GENO,contributes to condition,DISO
+GENE,contributes to condition,DISO
+GENO,enables,PHYS
+ORTH,enables,PHYS
+GENE,enables,PHYS
+ORTH,expressed in,ANAT
+GENE,expressed in,ANAT
+VARI,has affected feature,GENE
+GENO,has affected feature,GENE
+GENO,has genotype,DISO
+GENE,has phenotype,DISO
+PHYS,has phenotype,DISO
+DISO,has phenotype,DISO
+ORTH,has phenotype,DISO
+ORTH,has phenotype,GENO
+ORTH,has role in modeling,DISO
+GENE,in 1 to 1 orthology relationship with,GENO
+GENO,in 1 to 1 orthology relationship with,ORTH
+GENO,in 1 to 1 orthology relationship with,GENE
+GENE,in 1 to 1 orthology relationship with,GENE
+GENE,in 1 to 1 orthology relationship with,ORTH
+ORTH,in 1 to 1 orthology relationship with,GENE
+ORTH,in 1 to 1 orthology relationship with,ORTH
+ORTH,in 1 to 1 orthology relationship with,GENO
+GENO,in orthology relationship with,ORTH
+GENE,in orthology relationship with,GENO
+ORTH,in orthology relationship with,ORTH
+ORTH,in orthology relationship with,GENO
+GENE,in orthology relationship with,GENE
+GENE,in orthology relationship with,ORTH
+GENO,in orthology relationship with,GENE
+ORTH,in orthology relationship with,GENE
+GENE,interacts with,GENE
+ORTH,interacts with,ORTH
+GENE,interacts with,ORTH
+ORTH,interacts with,GENE
+GENO,involved in,PHYS
+GENE,involved in,PHYS
+DISO,involved in,PHYS
+ORTH,involved in,PHYS
+ORTH,is allele of,ORTH
+DISO,is allele of,GENE
+GENE,is causal germline mutation in,DISO
+GENE,is causal loss of function germline mutation of in,DISO
+GENE,is part of,PHYS
+GENO,is part of,PHYS
+ORTH,is part of,PHYS
+DRUG,is substance that treats,DISO
+VARI,likely pathogenic for condition,DISO
+ORTH,nan,ORTH
+GENO,nan,GENE
+DISO,nan,GENO
+ORTH,nan,GENE
+VARI,pathogenic for condition,DISO
+DRUG,targets,ORTH
+DRUG,targets,GENE

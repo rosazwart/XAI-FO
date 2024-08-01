@@ -249,6 +249,6 @@ def get_monarch_associations(assoc_df: pd.DataFrame, nodes_list: list, disease_f
     all_associations = get_neighbour_associations(assoc_df=assoc_df, id_list=all_nodes_id_list, exclude_new_ids=True)
     print(f'A total of {len(all_associations)} associations have been found between all retrieved nodes.')
 
-    util.tuplelist2dataframe(tuple_list=list(all_associations)).to_csv(f'localfetcher/output/{disease_file_name_ref}_monarch_associations_{const.today}.csv', index=False)
+    util.tuplelist2dataframe(tuple_list=list(all_associations)).to_csv(f'localfetcher/output/{disease_file_name_ref}_monarch_associations.csv', index=False)
     
     return all_associations

@@ -1,0 +1,30 @@
+﻿,DRUG_ID,DRUG_NAME,DISEASES,PHASE,Name,ontologyTermName,ontologyTermIRI,validated,review,ID
+878,1932,Nilotinib,Chronic myelogenous leukaemia , Approved,chronic myelogenous leukaemia,Chronic myelogenous leukemia,http://purl.obolibrary.org/obo/HP_0005506,False,False,HP:0005506
+1167,1879,Nandrolone,Osteoporosis , Approved,osteoporosis,Osteoporosis,http://purl.obolibrary.org/obo/HP_0000939,False,False,HP:0000939
+1291,542,Cefonicid,Bacterial infection , Approved,bacterial infection,Cellulitis,http://purl.obolibrary.org/obo/HP_0100658,False,False,HP:0100658
+1945,574,Cefalotin,Bacterial infection , Approved,bacterial infection,Cellulitis,http://purl.obolibrary.org/obo/HP_0100658,False,False,HP:0100658
+2262,2351,Raloxifene,Osteoporosis , Approved,osteoporosis,Osteoporosis,http://purl.obolibrary.org/obo/HP_0000939,False,False,HP:0000939
+5006,4138,Gentian violet,Bacterial infection , Approved,bacterial infection,Cellulitis,http://purl.obolibrary.org/obo/HP_0100658,False,False,HP:0100658
+7442,576,Cefradine,Bacterial infection , Approved,bacterial infection,Cellulitis,http://purl.obolibrary.org/obo/HP_0100658,False,False,HP:0100658
+8028,2607,Testosterone,Osteoporosis , Approved,osteoporosis,Osteoporosis,http://purl.obolibrary.org/obo/HP_0000939,False,False,HP:0000939
+8752,4977,Siltuximab,Anemia , Approved,anemia,Anemia,http://purl.obolibrary.org/obo/HP_0001903,False,False,HP:0001903
+9195,960,Doxorubicin,Tumour , Investigative,tumour,Neoplasm,http://purl.obolibrary.org/obo/HP_0002664,False,False,HP:0002664
+12293,547,Cefotetan,Bacterial infection , Approved,bacterial infection,Cellulitis,http://purl.obolibrary.org/obo/HP_0100658,False,False,HP:0100658
+12354,1423,Imatinib,Chronic myelogenous leukaemia , Approved,chronic myelogenous leukaemia,Chronic myelogenous leukemia,http://purl.obolibrary.org/obo/HP_0005506,False,False,HP:0005506
+12748,1762,Methyldopa,Hypertension , Approved,hypertension,Hypertension,http://purl.obolibrary.org/obo/HP_0000822,False,False,HP:0000822
+13499,700,Clomifene,Female infertility , Approved,female infertility,Female infertility,http://purl.obolibrary.org/obo/HP_0008222,False,False,HP:0008222
+13982,1610,Losartan,Hypertension , Approved,hypertension,Hypertension,http://purl.obolibrary.org/obo/HP_0000822,False,False,HP:0000822
+14470,785,Dasatinib,Chronic myelogenous leukaemia , Approved,chronic myelogenous leukaemia,Chronic myelogenous leukemia,http://purl.obolibrary.org/obo/HP_0005506,False,False,HP:0005506
+16688,111,Aldosterone,Hypertension , Approved,hypertension,Hypertension,http://purl.obolibrary.org/obo/HP_0000822,False,False,HP:0000822
+16693,785,Dasatinib,Chronic myeloid leukaemia , Approved,chronic myeloid leukaemia,Chronic myelogenous leukemia,http://purl.obolibrary.org/obo/HP_0005506,False,False,HP:0005506
+17544,937,Dobutamine,Heart failure , Approved,heart failure,Congestive heart failure,http://purl.obolibrary.org/obo/HP_0001635,False,False,HP:0001635
+18177,3514,Quercetin,Obesity , Approved,obesity,Obesity,http://purl.obolibrary.org/obo/HP_0001513,False,False,HP:0001513
+18307,1423,Imatinib,Chronic myeloid leukaemia , Approved,chronic myeloid leukaemia,Chronic myelogenous leukemia,http://purl.obolibrary.org/obo/HP_0005506,False,False,HP:0005506
+18385,1388,Hydrocortisone,Inflammation , Approved,inflammation,Gastrointestinal inflammation,http://purl.obolibrary.org/obo/HP_0004386,False,False,HP:0004386
+19096,281,Bacitracin,Skin infection , Approved,skin infection,Cellulitis,http://purl.obolibrary.org/obo/HP_0100658,False,False,HP:0100658
+20415,1610,Losartan,Hypertension , Approved,hypertension,Hypertension,http://purl.obolibrary.org/obo/HP_0000822,False,False,HP:0000822
+21875,2666,Tiludronic acid,Osteoporosis , Approved,osteoporosis,Osteoporosis,http://purl.obolibrary.org/obo/HP_0000939,False,False,HP:0000939
+24637,597,Chlorhexidine,Bacterial infection , Approved,bacterial infection,Cellulitis,http://purl.obolibrary.org/obo/HP_0100658,False,False,HP:0100658
+25658,4209,Prazosin,Congestive heart failure , Approved,congestive heart failure,Congestive heart failure,http://purl.obolibrary.org/obo/HP_0001635,False,False,HP:0001635
+25660,4209,Prazosin,Hypertension , Approved,hypertension,Hypertension,http://purl.obolibrary.org/obo/HP_0000822,False,False,HP:0000822
+27493,1364,Hexachlorophene,Bacterial infection , Approved,bacterial infection,Cellulitis,http://purl.obolibrary.org/obo/HP_0100658,False,False,HP:0100658
