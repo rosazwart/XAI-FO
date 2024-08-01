@@ -51,9 +51,31 @@ First, the nodes and edges of the knowledge graph need to be indexed such that t
 
 #### Hyperparameters
 
+| Parameters          | DMD            |               | HD            |               | OI            |               |
+| ------------------- | -------------- | ------------- | --------------| ------------- | ------------- | ------------- |
+|                     | Original KG    | Restructured KG| Original KG   | Restructured KG| Original KG   | Restructured KG|
+| Number of walks     |                |               |               |               |               |               |
+| Walk length         |                |               |               |               |               |               |
+| Embedding dimension |                |               |               |               |               |               |
+| p                   |                |               |               |               |               |               |
+| q                   |                |               |               |               |               |               |
+| epochs              |                |               |               |               |               |               |
+
 ### Training GNN Model
 
 #### Hyperparameters
+
+| Parameters                   | DMD            |               | HD            |               | OI            |               |
+| ---------------------------- | -------------- | ------------- | --------------| ------------- | ------------- | ------------- |
+|                              | Original KG    | Restructured KG| Original KG   | Restructured KG| Original KG   | Restructured KG|
+| Hidden dimension             |                |               |               |               |               |               |
+| Output dimension             |                |               |               |               |               |               |
+| Layers                       |                |               |               |               |               |               |
+| Aggregation function         |                |               |               |               |               |               |
+| Dropout                      |                |               |               |               |               |               |
+| Learning rate                |                |               |               |               |               |               |
+| Epochs                       |                |               |               |               |               |               |
+| Edge Negative Sampling Ratio |                |               |               |               |               |               |
 
 ## Generating Explanations
 
