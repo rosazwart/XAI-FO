@@ -46,8 +46,7 @@ def get_nodes(assoc: list):
 if __name__ == "__main__":
     DISEASE_PREFIX = input('For which disease is the knowledge graph built? Choose from "dmd", "hd" and "oi"')
     assert DISEASE_PREFIX == 'dmd' or 'hd' or 'oi'
-    FILE_DATE = input('What is the date of creation (yyyy-mm-dd) of the knowledge graph build?')
-    FILENAME = f'{DISEASE_PREFIX}_monarch_associations_{FILE_DATE}.csv'
+    FILENAME = f'{DISEASE_PREFIX}_monarch_associations.csv'
 
     create_folder(folder_levels=[OUTPUT_FOLDER, DISEASE_PREFIX])
     create_folder(folder_levels=[current_dir, OUTPUT_FOLDER])

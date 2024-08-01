@@ -97,3 +97,252 @@ RO:HOM0000017                     in orthology relationship with
 RO:HOM0000020              in 1 to 1 orthology relationship with
 2024-08-01 13:24:26,483 INFO     Graph of all connections between concepts saved to prev_oi_concepts.png
 2024-08-01 13:24:26,500 INFO     List of triplets saved to prev_oi_triples.csv
+2024-08-01 16:21:31,165 INFO     Created a list of tuples with 96352 entries
+2024-08-01 16:21:31,170 INFO     Loaded 96352 associations
+2024-08-01 16:21:31,549 INFO     The graph contains 12 different semantic groups: {'homology', 'pathway', 'interaction', 'variant', 'marker', 'function', 'disease', 'phenotype', 'genotype', 'anatomy', 'model', 'gene'}
+2024-08-01 16:21:31,550 INFO     For the graph, a total of 95906 edges and 9732 nodes have been generated.
+2024-08-01 16:21:31,552 INFO     Extracted a total of 9732 nodes that belong to at least one of the semantic groups []
+2024-08-01 16:21:31,564 INFO     A total of 9732 gene IDs has been extracted
+2024-08-01 16:21:31,637 INFO     Loaded 19378 drug-target interactions:
+         DRUG_NAME  STRUCT_ID                                        TARGET_NAME TARGET_CLASS  ...                                     MOA_SOURCE_URL ACTION_TYPE    TDL      ORGANISM
+0  levobupivacaine          4  Potassium voltage-gated channel subfamily H me...  Ion channel  ...                                                NaN         NaN  Tclin  Homo sapiens
+1  levobupivacaine          4        Sodium channel protein type 1 subunit alpha  Ion channel  ...                                                NaN         NaN  Tclin  Homo sapiens
+2  levobupivacaine          4        Sodium channel protein type 4 subunit alpha  Ion channel  ...  https://www.ebi.ac.uk/chembl/compound/inspect/...     BLOCKER  Tclin  Homo sapiens
+
+[3 rows x 20 columns]
+2024-08-01 16:21:46,781 INFO     For a total of 16141 drug-target interactions, new mapped IDs are found.
+2024-08-01 16:21:46,790 INFO     Retrieved 208 drug-target interactions with matched gene IDs:
+          DRUG_NAME  STRUCT_ID     GENE_ID PROD_ID                     PROD_NAME
+198     aclarubicin         80   HGNC:7166  P08253    72 kDa type IV collagenase
+319     aldosterone        111  HGNC:10839  P04278  Sex hormone-binding globulin
+475  aminoquinuride        174   HGNC:7176  P14780    Matrix metalloproteinase-9
+716  androstenediol        214  HGNC:10839  P04278  Sex hormone-binding globulin
+2024-08-01 16:21:46,792 INFO     Total of 208 drug-target associations changed to 203 by dropping duplicates.
+2024-08-01 16:24:50,581 INFO     Created a list of tuples with 96352 entries
+2024-08-01 16:24:50,585 INFO     Loaded 96352 associations
+2024-08-01 16:24:50,970 INFO     The graph contains 12 different semantic groups: {'interaction', 'variant', 'disease', 'genotype', 'homology', 'anatomy', 'marker', 'phenotype', 'gene', 'function', 'pathway', 'model'}
+2024-08-01 16:24:50,970 INFO     For the graph, a total of 95906 edges and 9732 nodes have been generated.
+2024-08-01 16:24:50,973 INFO     Extracted a total of 9732 nodes that belong to at least one of the semantic groups []
+2024-08-01 16:24:50,987 INFO     A total of 9732 gene IDs has been extracted
+2024-08-01 16:24:51,096 INFO     Loaded 19378 drug-target interactions:
+         DRUG_NAME  STRUCT_ID                                        TARGET_NAME TARGET_CLASS  ...                                     MOA_SOURCE_URL ACTION_TYPE    TDL      ORGANISM
+0  levobupivacaine          4  Potassium voltage-gated channel subfamily H me...  Ion channel  ...                                                NaN         NaN  Tclin  Homo sapiens
+1  levobupivacaine          4        Sodium channel protein type 1 subunit alpha  Ion channel  ...                                                NaN         NaN  Tclin  Homo sapiens
+2  levobupivacaine          4        Sodium channel protein type 4 subunit alpha  Ion channel  ...  https://www.ebi.ac.uk/chembl/compound/inspect/...     BLOCKER  Tclin  Homo sapiens
+
+[3 rows x 20 columns]
+2024-08-01 16:25:06,083 INFO     For a total of 16141 drug-target interactions, new mapped IDs are found.
+2024-08-01 16:25:06,091 INFO     Retrieved 208 drug-target interactions with matched gene IDs:
+          DRUG_NAME  STRUCT_ID     GENE_ID PROD_ID                     PROD_NAME
+198     aclarubicin         80   HGNC:7166  P08253    72 kDa type IV collagenase
+319     aldosterone        111  HGNC:10839  P04278  Sex hormone-binding globulin
+475  aminoquinuride        174   HGNC:7176  P14780    Matrix metalloproteinase-9
+716  androstenediol        214  HGNC:10839  P04278  Sex hormone-binding globulin
+2024-08-01 16:25:06,093 INFO     Total of 208 drug-target associations changed to 203 by dropping duplicates.
+2024-08-01 16:25:06,245 INFO     All 406 TTD associations are saved into restr_oi_ttd_associations.csv
+2024-08-01 16:25:06,246 INFO     Created a list of tuples with 406 entries
+2024-08-01 16:25:06,251 INFO     Extracted a total of 153 nodes that belong to at least one of the semantic groups ['drug']
+2024-08-01 16:25:06,254 INFO     Extracted a total of 5370 nodes that belong to at least one of the semantic groups ['disease', 'phenotype']
+2024-08-01 16:25:06,267 INFO     There are 153 unique drug names
+2024-08-01 16:25:06,268 INFO     There are 5370 unique disease/phenotype IDs
+2024-08-01 16:25:06,396 INFO     Loaded 28978 drug-disease pairs:
+  DRUG_ID DRUG_NAME                 DISEASE_NAME     PHASE
+0  D00ABE   ald-301                     ischemia   Phase 2
+1  D00ABE   ald-301  peripheral arterial disease   Phase 2
+2  D00ABO   kw-2449      acute myeloid leukaemia   Phase 1
+2024-08-01 16:25:06,410 INFO     Loaded 699 phenotypes with matching IDs scoring 80:
+                  Name         ontologyTermName                            ontologyTermIRI   score  validated  review  DISEASE_ID
+0  respiratory failure      Respiratory failure  http://purl.obolibrary.org/obo/HP_0002878  100.00      False   False  HP:0002878
+1   sexual dysfunction  Male sexual dysfunction  http://purl.obolibrary.org/obo/HP_0040307   86.49      False   False  HP:0040307
+6          pollakiuria             Pollakisuria  http://purl.obolibrary.org/obo/HP_0100515   88.00      False   False  HP:0100515
+2024-08-01 16:25:06,444 INFO     Total of 14760 disease names mapped to their IDs:
+   DRUG_ID                                        DRUG_NAME  DISEASE_ID                           DISEASE_NAME
+1   D00ABE                                          ald-301  HP:0004950            peripheral arterial disease
+2   D00ABO                                          kw-2449  HP:0004808                acute myeloid leukaemia
+4   D00ACC                                           nd1251  HP:0000716                             depression
+5   D00ACH                                         hmr-4004  HP:0100658                    bacterial infection
+11  D00AHT  prame antigen-specific cancer immunotherapeutic  HP:0030358             non small cell lung cancer
+12  D00AHT  prame antigen-specific cancer immunotherapeutic  HP:0030358             non small cell lung cancer
+14  D00AHT  prame antigen-specific cancer immunotherapeutic  HP:0002861                               melanoma
+19  D00AJS                                            aik11  HP:0005978         non insulin dependent diabetes
+21  D00AKQ                             o-desulfated heparin  HP:0006510  chronic obstructive pulmonary disease
+22  D00AKR                                          amg 479  HP:0003002                          breast cancer
+2024-08-01 16:25:06,450 INFO     A total of 29 are matched with existing drugs and diseases/phenotypes
+2024-08-01 16:25:06,452 INFO     Total of 29 drug-disease associations changed to 29 by dropping duplicates.
+2024-08-01 16:25:06,508 INFO     All DrugCentral associations are saved into restr_oi_drugcentral_associations.csv
+2024-08-01 16:25:06,508 INFO     Created a list of tuples with 29 entries
+2024-08-01 16:25:06,659 INFO     The graph contains 14 different semantic groups: {'interaction', 'gene product', 'variant', 'disease', 'genotype', 'homology', 'anatomy', 'marker', 'phenotype', 'gene', 'function', 'pathway', 'model', 'drug'}
+2024-08-01 16:25:06,660 INFO     For the graph, a total of 96157 edges and 9907 nodes have been generated.
+2024-08-01 16:25:06,661 INFO     There are 14 semantic groups: ['phenotype' 'homology' 'gene' 'variant' 'interaction' 'drug' 'function'
+ 'genotype' 'model' 'disease' 'pathway' 'gene product' 'anatomy' 'marker']
+2024-08-01 16:25:06,677 INFO     There are 23 relation labels:                                                   relation_label
+relation_id                                                     
+BFO:0000050                                           is part of
+CustomRO:DC                             is substance that treats
+CustomRO:TTD1                                      is product of
+CustomRO:TTD2                                            targets
+GENO:0000222                                        has genotype
+GENO:0000408                                        is allele of
+GENO:0000418                                has affected feature
+GENO:0000840                            pathogenic for condition
+GENO:0000841                     likely pathogenic for condition
+RO:0002200                                         has phenotype
+RO:0002206                                          expressed in
+RO:0002325                                      colocalizes with
+RO:0002326                                        contributes to
+RO:0002327                                               enables
+RO:0002331                                           involved in
+RO:0002434                                        interacts with
+RO:0003301                                  has role in modeling
+RO:0003303                                      causes condition
+RO:0003304                              contributes to condition
+RO:0004012     is causal loss of function germline mutation o...
+RO:0004013                        is causal germline mutation in
+RO:HOM0000017                     in orthology relationship with
+RO:HOM0000020              in 1 to 1 orthology relationship with
+2024-08-01 16:25:07,121 INFO     Graph of all connections between concepts saved to all_oi_concepts.png
+2024-08-01 16:25:07,139 INFO     List of triplets saved to all_oi_triples.csv
+2024-08-01 16:33:14,148 INFO     The graph contains 11 different semantic groups: {'gene product', 'variant', 'disease', 'genotype', 'phenotype', 'gene', 'biological process', 'taxon', 'biological artifact', 'molecular function', 'drug'}
+2024-08-01 16:33:14,148 INFO     For the graph, a total of 97068 edges and 9897 nodes have been generated.
+2024-08-01 16:33:14,150 INFO     There are 11 semantic groups: ['phenotype' 'gene' 'variant' 'drug' 'molecular function' 'taxon'
+ 'genotype' 'disease' 'biological process' 'gene product'
+ 'biological artifact']
+2024-08-01 16:33:14,168 INFO     There are 21 relation labels:                                                                  relation_label
+relation_id                                                                    
+CustomRO:DC                                            is substance that treats
+CustomRO:TTD1                                                     is product of
+CustomRO:TTD2                                                           targets
+CustomRO:associatedphenotype                          associated with phenotype
+CustomRO:expressesgene                                           expresses gene
+CustomRO:foundin                                                       found in
+CustomRO:isof                                                             is of
+CustomRO:isvariantin                                              is variant in
+CustomRO:likelycauses                                   likely causes condition
+GENO:0000222                                                       has genotype
+GENO:0000408                                                       is allele of
+GENO:0000418                                               has affected feature
+RO:0002325                                                     colocalizes with
+RO:0002327                                                              enables
+RO:0002331                                                          involved in
+RO:0002434                                                       interacts with
+RO:0003301                                                 has role in modeling
+RO:0003303                                                     causes condition
+RO:0003304                                             contributes to condition
+RO:0004012                    is causal loss of function germline mutation o...
+RO:HOM0000017                                    in orthology relationship with
+2024-08-01 16:33:14,304 INFO     Graph of all connections between concepts saved to restr_oi_concepts.png
+2024-08-01 16:33:14,328 INFO     List of triplets saved to restr_oi_triples.csv
+2024-08-01 16:40:42,506 INFO     Created a list of tuples with 96352 entries
+2024-08-01 16:40:42,509 INFO     Loaded 96352 associations
+2024-08-01 16:40:42,884 INFO     The graph contains 12 different semantic groups: {'interaction', 'function', 'homology', 'genotype', 'gene', 'disease', 'phenotype', 'model', 'marker', 'anatomy', 'variant', 'pathway'}
+2024-08-01 16:40:42,884 INFO     For the graph, a total of 95906 edges and 9732 nodes have been generated.
+2024-08-01 16:40:42,887 INFO     Extracted a total of 9732 nodes that belong to at least one of the semantic groups []
+2024-08-01 16:40:42,900 INFO     A total of 9732 gene IDs has been extracted
+2024-08-01 16:40:42,967 INFO     Loaded 19378 drug-target interactions:
+         DRUG_NAME  STRUCT_ID                                        TARGET_NAME TARGET_CLASS  ...                                     MOA_SOURCE_URL ACTION_TYPE    TDL      ORGANISM
+0  levobupivacaine          4  Potassium voltage-gated channel subfamily H me...  Ion channel  ...                                                NaN         NaN  Tclin  Homo sapiens
+1  levobupivacaine          4        Sodium channel protein type 1 subunit alpha  Ion channel  ...                                                NaN         NaN  Tclin  Homo sapiens
+2  levobupivacaine          4        Sodium channel protein type 4 subunit alpha  Ion channel  ...  https://www.ebi.ac.uk/chembl/compound/inspect/...     BLOCKER  Tclin  Homo sapiens
+
+[3 rows x 20 columns]
+2024-08-01 16:40:58,359 INFO     For a total of 16141 drug-target interactions, new mapped IDs are found.
+2024-08-01 16:40:58,365 INFO     Retrieved 208 drug-target interactions with matched gene IDs:
+          DRUG_NAME  STRUCT_ID     GENE_ID PROD_ID                     PROD_NAME
+198     aclarubicin         80   HGNC:7166  P08253    72 kDa type IV collagenase
+319     aldosterone        111  HGNC:10839  P04278  Sex hormone-binding globulin
+475  aminoquinuride        174   HGNC:7176  P14780    Matrix metalloproteinase-9
+716  androstenediol        214  HGNC:10839  P04278  Sex hormone-binding globulin
+2024-08-01 16:40:58,366 INFO     Total of 208 drug-target associations changed to 203 by dropping duplicates.
+2024-08-01 16:40:58,526 INFO     All 406 TTD associations are saved into restr_oi_ttd_associations.csv
+2024-08-01 16:40:58,527 INFO     Created a list of tuples with 406 entries
+2024-08-01 16:40:58,532 INFO     Extracted a total of 153 nodes that belong to at least one of the semantic groups ['drug']
+2024-08-01 16:40:58,538 INFO     Extracted a total of 5370 nodes that belong to at least one of the semantic groups ['disease', 'phenotype']
+2024-08-01 16:40:58,549 INFO     There are 153 unique drug names
+2024-08-01 16:40:58,550 INFO     There are 5370 unique disease/phenotype IDs
+2024-08-01 16:40:58,684 INFO     Loaded 28978 drug-disease pairs:
+  DRUG_ID DRUG_NAME                 DISEASE_NAME     PHASE
+0  D00ABE   ald-301                     ischemia   Phase 2
+1  D00ABE   ald-301  peripheral arterial disease   Phase 2
+2  D00ABO   kw-2449      acute myeloid leukaemia   Phase 1
+2024-08-01 16:40:58,704 INFO     Loaded 699 phenotypes with matching IDs scoring 80:
+                  Name         ontologyTermName                            ontologyTermIRI   score  validated  review  DISEASE_ID
+0  respiratory failure      Respiratory failure  http://purl.obolibrary.org/obo/HP_0002878  100.00      False   False  HP:0002878
+1   sexual dysfunction  Male sexual dysfunction  http://purl.obolibrary.org/obo/HP_0040307   86.49      False   False  HP:0040307
+6          pollakiuria             Pollakisuria  http://purl.obolibrary.org/obo/HP_0100515   88.00      False   False  HP:0100515
+2024-08-01 16:40:58,730 INFO     Total of 14760 disease names mapped to their IDs:
+   DRUG_ID                                        DRUG_NAME  DISEASE_ID                           DISEASE_NAME
+1   D00ABE                                          ald-301  HP:0004950            peripheral arterial disease
+2   D00ABO                                          kw-2449  HP:0004808                acute myeloid leukaemia
+4   D00ACC                                           nd1251  HP:0000716                             depression
+5   D00ACH                                         hmr-4004  HP:0100658                    bacterial infection
+11  D00AHT  prame antigen-specific cancer immunotherapeutic  HP:0030358             non small cell lung cancer
+12  D00AHT  prame antigen-specific cancer immunotherapeutic  HP:0030358             non small cell lung cancer
+14  D00AHT  prame antigen-specific cancer immunotherapeutic  HP:0002861                               melanoma
+19  D00AJS                                            aik11  HP:0005978         non insulin dependent diabetes
+21  D00AKQ                             o-desulfated heparin  HP:0006510  chronic obstructive pulmonary disease
+22  D00AKR                                          amg 479  HP:0003002                          breast cancer
+2024-08-01 16:40:58,735 INFO     A total of 29 are matched with existing drugs and diseases/phenotypes
+2024-08-01 16:40:58,738 INFO     Total of 29 drug-disease associations changed to 29 by dropping duplicates.
+2024-08-01 16:40:58,796 INFO     All DrugCentral associations are saved into restr_oi_drugcentral_associations.csv
+2024-08-01 16:40:58,797 INFO     Created a list of tuples with 29 entries
+2024-08-01 16:40:58,957 INFO     The graph contains 14 different semantic groups: {'interaction', 'function', 'homology', 'genotype', 'gene', 'drug', 'disease', 'phenotype', 'model', 'marker', 'anatomy', 'gene product', 'variant', 'pathway'}
+2024-08-01 16:40:58,957 INFO     For the graph, a total of 96157 edges and 9907 nodes have been generated.
+2024-08-01 16:40:58,958 INFO     There are 14 semantic groups: ['phenotype' 'homology' 'gene' 'drug' 'disease' 'function' 'variant'
+ 'gene product' 'pathway' 'interaction' 'anatomy' 'genotype' 'model'
+ 'marker']
+2024-08-01 16:40:58,973 INFO     There are 23 relation labels:                                                   relation_label
+relation_id                                                     
+BFO:0000050                                           is part of
+CustomRO:DC                             is substance that treats
+CustomRO:TTD1                                      is product of
+CustomRO:TTD2                                            targets
+GENO:0000222                                        has genotype
+GENO:0000408                                        is allele of
+GENO:0000418                                has affected feature
+GENO:0000840                            pathogenic for condition
+GENO:0000841                     likely pathogenic for condition
+RO:0002200                                         has phenotype
+RO:0002206                                          expressed in
+RO:0002325                                      colocalizes with
+RO:0002326                                        contributes to
+RO:0002327                                               enables
+RO:0002331                                           involved in
+RO:0002434                                        interacts with
+RO:0003301                                  has role in modeling
+RO:0003303                                      causes condition
+RO:0003304                              contributes to condition
+RO:0004012     is causal loss of function germline mutation o...
+RO:0004013                        is causal germline mutation in
+RO:HOM0000017                     in orthology relationship with
+RO:HOM0000020              in 1 to 1 orthology relationship with
+2024-08-01 16:40:59,313 INFO     Graph of all connections between concepts saved to all_oi_concepts.png
+2024-08-01 16:40:59,332 INFO     List of triplets saved to all_oi_triples.csv
+2024-08-01 16:49:30,518 INFO     The graph contains 11 different semantic groups: {'taxon', 'genotype', 'gene', 'drug', 'disease', 'phenotype', 'biological process', 'biological artifact', 'molecular function', 'gene product', 'variant'}
+2024-08-01 16:49:30,519 INFO     For the graph, a total of 97068 edges and 9897 nodes have been generated.
+2024-08-01 16:49:30,520 INFO     There are 11 semantic groups: ['phenotype' 'gene' 'drug' 'disease' 'taxon' 'molecular function'
+ 'variant' 'gene product' 'biological process' 'genotype'
+ 'biological artifact']
+2024-08-01 16:49:30,537 INFO     There are 20 relation labels:                                               relation_label
+relation_id                                                 
+CustomRO:DC                         is substance that treats
+CustomRO:TTD1                                  is product of
+CustomRO:TTD2                                        targets
+CustomRO:associatedphenotype       associated with phenotype
+CustomRO:expressesgene                        expresses gene
+CustomRO:foundin                                    found in
+CustomRO:isof                                          is of
+CustomRO:isvariantin                           is variant in
+CustomRO:likelycauses                likely causes condition
+GENO:0000222                                    has genotype
+GENO:0000408                                    is allele of
+GENO:0000418                            has affected feature
+RO:0002325                                  colocalizes with
+RO:0002327                                           enables
+RO:0002331                                       involved in
+RO:0002434                                    interacts with
+RO:0003301                              has role in modeling
+RO:0003303                                  causes condition
+RO:0003304                          contributes to condition
+RO:HOM0000017                 in orthology relationship with
+2024-08-01 16:49:30,665 INFO     Graph of all connections between concepts saved to restr_oi_concepts.png
+2024-08-01 16:49:30,690 INFO     List of triplets saved to restr_oi_triples.csv

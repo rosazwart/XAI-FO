@@ -145,6 +145,11 @@ REL_GROUPING = {
         'label': 'likely causes condition',
         'iri': np.nan
     },
+    'RO:0004012': {
+        'id': 'RO:0003303',
+        'label': 'causes condition',
+        'iri': 'http://purl.obolibrary.org/obo/RO_0003303'
+    },
     'RO:0004013': {
         'id': 'RO:0003303',
         'label': 'causes condition',

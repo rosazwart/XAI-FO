@@ -5,13 +5,14 @@ current_dir = os.path.dirname(os.path.abspath(__file__))
 project_root = os.path.dirname(os.path.dirname(current_dir))
 sys.path.append(project_root)
 
-import util.constants as constants
 from util.loaders import load_associations_from_csv, create_folder, OUTPUT_FOLDER
 from util.kg_builder import AssocKnowledgeGraph
 
 import util.kg_analyzer as kg_analyzer
 
 def analyze_kg(kg: AssocKnowledgeGraph, concepts_filename, triples_filename):
+    """
+    """
     edges, nodes = kg.generate_dataframes()
     
     edge_colmapping = {
