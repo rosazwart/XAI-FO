@@ -4,19 +4,20 @@
 import pandas as pd
 import networkx as nx
 
-import edge2vec.transition3 as transitions
-import edge2vec.edge2vec3 as edge2vec
-
 import torch
 from torch.utils.data import DataLoader
 
 from deepsnap.dataset import GraphDataset
 from deepsnap.batch import Batch
 
-from gnn.linkpred_model import LinkPredModel, train, test
-
 from ray import tune
 from ray.tune.schedulers import ASHAScheduler
+
+import predictor.edge2vec.transition3 as transitions
+import predictor.edge2vec.edge2vec3 as edge2vec
+
+from predictor.gnn.linkpred_model import LinkPredModel, train, test
+
 
 def optim(args):
     # Node embedding using Edge2Vec
@@ -89,7 +90,7 @@ if __name__ == "__main__":
     disease_prefix = input('Enter disease prefix (dmd, hd, oi):')
     assert disease_prefix == 'dmd' or 'hd' or 'oi'
     
-    edge_df = pd.read_csv(f'../output/{disease_prefix}/{dataset_prefix}_{disease_prefix}_indexed_edges.csv')
+    edge_df = pd.read_csv(f'output/{disease_prefix}/{dataset_prefix}_{disease_prefix}_indexed_edges.csv')
     
     search_args = {
         'device': torch_device, 
