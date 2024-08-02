@@ -129,4 +129,4 @@ if __name__ == "__main__":
         local_dir = "output")
     
     best_trial = result.get_best_trial("val_auc")
-    print("Best trial config: {}".format(best_trial.config))
+    print(f"Best trial config for {dataset_prefix} {disease_prefix}: {best_trial.config}")
