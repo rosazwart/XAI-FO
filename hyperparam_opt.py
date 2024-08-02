@@ -1,6 +1,3 @@
-# IMPORTANT: Run with `xaifo` environment
-# TODO: error with `xaifognn` environment
-
 import pandas as pd
 import networkx as nx
 
@@ -42,7 +39,7 @@ def optim(args):
     e2v_embedding = e2v_embedding.sort_values('Node')
     
     # Build graph with nodes and their embedding as node feature
-    G2 = nx.DiGraph()   # TODO: changed from Graph
+    G2 = nx.Graph()   # TODO: Graph() or DiGraph()?
     for ind, node in e2v_embedding.iterrows(): 
         G2.add_node(int(node['Node']), node_feature=torch.Tensor(node['Embedding']))
     for ind, edge in args['df'].iterrows(): 
@@ -79,18 +76,15 @@ if __name__ == "__main__":
     print('Using device:', torch_device)
     
     # Load data
-    dataset_nr = input('Enter dataset number (1 or 2):')
-    assert dataset_nr == 1 or 2
-
-    if dataset_nr == 1:
-        dataset_prefix = 'prev'
-    else:
-        dataset_prefix = 'restr'
+    dataset_prefix = input('Enter dataset version (prev or restr):')
+    assert dataset_prefix == 'prev' or 'restr'
     
     disease_prefix = input('Enter disease prefix (dmd, hd, oi):')
     assert disease_prefix == 'dmd' or 'hd' or 'oi'
     
-    edge_df = pd.read_csv(f'output/{disease_prefix}/{dataset_prefix}_{disease_prefix}_indexed_edges.csv')
+    file_path = f'output/{disease_prefix}/{dataset_prefix}_{disease_prefix}_indexed_edges.csv'
+    edge_df = pd.read_csv(file_path)
+    print(f'Loaded {file_path}')
     
     search_args = {
         'device': torch_device, 
@@ -129,4 +123,9 @@ if __name__ == "__main__":
         local_dir = "output")
     
     best_trial = result.get_best_trial("val_auc")
-    print(f"Best trial config for {dataset_prefix} {disease_prefix}: {best_trial.config}")
+    
+    output_str = f'Best trial config for {dataset_prefix} {disease_prefix}: {best_trial.config}'
+    print(output_str)
+    
+    with open(f'optimized_params_{dataset_prefix}_{disease_prefix}.txt', 'w') as f:
+        f.write(output_str)

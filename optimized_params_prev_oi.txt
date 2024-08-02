@@ -1,0 +1,16 @@
+2024-08-02 17:10:28,075 INFO tune.py:798 -- Total run time: 10009.52 seconds (10000.34 seconds for the tuning loop).
+Best trial config for prev oi: {'device': device(type='cpu'), 'hidden_dim': 256, 'output_dim': 64, 'epochs': 100, 'type_size': 23, 'epoch_e2v': 10, 'num_walks': 6, 'walk_length': 7, 'p': 1, 'q': 0.5, 'dimensions_e2v': 128, 'df':
+                  head                  label_head  class_head  ...  class_tail index_tail type
+0                       HGNC:8546                       P4HA1           3  ...           5       8767    0
+1         WormBase:WBGene00000912                      daf-16           5  ...           1       7064    1
+2      ENSEMBL:ENSPTRG00000000158  ENSEMBL:ENSPTRG00000000158           5  ...           3       5930    0
+3      ENSEMBL:ENSACAG00000001165  ENSEMBL:ENSACAG00000001165           5  ...           5       1578    0
+4      ENSEMBL:ENSFCAG00000005653  ENSEMBL:ENSFCAG00000005653           5  ...           5       2504    0
+...                           ...                         ...         ...  ...         ...        ...  ...
+96133  ENSEMBL:ENSACAG00000014816  ENSEMBL:ENSACAG00000014816           5  ...           5       5697    0
+96134                 MGI:3045353                     Adamts3           5  ...           5       8465    2
+96135                 MGI:1100851                      Elavl1           5  ...           6       5718    4
+96136                   HGNC:9083                       PLOD3           3  ...           3       1971    3
+96137                 RGD:1596428                      Itga2b           5  ...           5       7173    0
+
+[96138 rows x 10 columns], 'lr': 0.0006060400655270159, 'aggr': 'mean', 'dropout': 0.2, 'layers': 2, 'edge_neg_sampl': 1.5}
