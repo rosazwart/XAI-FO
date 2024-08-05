@@ -55,31 +55,31 @@ First, the nodes and edges of the knowledge graph need to be indexed such that t
 
 #### Hyperparameters
 
-| Parameters          | DMD            |               | HD            |               | OI            |               |
-| ------------------- | -------------- | ------------- | --------------| ------------- | ------------- | ------------- |
+| Parameters          | DMD            |                | HD            |                | OI            |                |
+| ------------------- | -------------- | -------------- | --------------| -------------- | ------------- | -------------- |
 |                     | Original KG    | Restructured KG| Original KG   | Restructured KG| Original KG   | Restructured KG|
-| Number of walks     |                |               |               |               |               |               |
-| Walk length         |                |               |               |               |               |               |
-| Embedding dimension |                |               |               |               |               |               |
-| p                   |                |               |               |               |               |               |
-| q                   |                |               |               |               |               |               |
-| epochs              |                |               |               |               |               |               |
+| Number of walks     |                |                |               |                | 6             | 4              |
+| Walk length         |                |                |               |                | 7             | 7              |
+| Embedding dimension |                |                |               |                | 128           | 32             |
+| p                   |                |                |               |                | 1.0           | 0.5            |
+| q                   |                |                |               |                | 0.5           | 0.5            |
+| epochs              |                |                |               |                | 10            | 10             |
 
 ### Training GNN Model
 
 #### Hyperparameters
 
-| Parameters                   | DMD            |               | HD            |               | OI            |               |
-| ---------------------------- | -------------- | ------------- | --------------| ------------- | ------------- | ------------- |
+| Parameters                   | DMD            |                | HD            |                | OI            |                |
+| ---------------------------- | -------------- | -------------- | --------------| -------------- | ------------- | -------------- |
 |                              | Original KG    | Restructured KG| Original KG   | Restructured KG| Original KG   | Restructured KG|
-| Hidden dimension             |                |               |               |               |               |               |
-| Output dimension             |                |               |               |               |               |               |
-| Layers                       |                |               |               |               |               |               |
-| Aggregation function         |                |               |               |               |               |               |
-| Dropout                      |                |               |               |               |               |               |
-| Learning rate                |                |               |               |               |               |               |
-| Epochs                       |                |               |               |               |               |               |
-| Edge Negative Sampling Ratio |                |               |               |               |               |               |
+| Hidden dimension             |                |                |               |                | 256           | 64             |
+| Output dimension             |                |                |               |                | 64            | 128            |
+| Layers                       |                |                |               |                | 2             | 2              |
+| Aggregation function         |                |                |               |                | mean          | mean           |
+| Dropout                      |                |                |               |                | 0.2           | 0.1            |
+| Learning rate                |                |                |               |                | 0.000606      | 0.026789       |
+| Epochs                       |                |                |               |                | 100           | 150            |
+| Edge Negative Sampling Ratio |                |                |               |                | 1.5           | 1.0            |
 
 ## Generating Explanations
 
