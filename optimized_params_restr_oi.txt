@@ -1,0 +1,14 @@
+Best trial config for restr oi: {'device': device(type='cpu'), 'hidden_dim': 64, 'output_dim': 128, 'epochs': 150, 'type_size': 20, 'epoch_e2v': 10, 'num_walks': 4, 'walk_length': 7, 'p': 0.5, 'q': 0.5, 'dimensions_e2v': 32, 'df':                              head                                         label_head  ...  index_tail  type
+0                       MGI:95489                                               Fbn1  ...        7613     0
+1          ZFIN:ZDB-FISH-180503-6  col1a1a<dmh13>/col1a1a<+> [unspecified backgro...  ...        2303     1
+2                       MGI:88462                                             Col7a1  ...        5027     2
+3      ENSEMBL:ENSCAFG00000005814                         ENSEMBL:ENSCAFG00000005814  ...        8347     3
+4                       MGI:96610                                              Itgb1  ...        1890     0
+...                           ...                                                ...  ...         ...   ...
+97063       ClinVarVariant:575257         NM_000088.3(COL1A1):c.571G>A (p.Gly191Ser)  ...          19     0
+97064      Xenbase:XB-GENE-490472                                            adamts3  ...        3033     3
+97065  ENSEMBL:ENSMODG00000011516                         ENSEMBL:ENSMODG00000011516  ...        8757     3
+97066                   MGI:96614                                              Itgb5  ...        9221     0
+97067                   HGNC:2212                                             COL6A2  ...        6641     0
+
+[97068 rows x 10 columns], 'lr': 0.02678894881316133, 'aggr': 'mean', 'dropout': 0.1, 'layers': 2, 'edge_neg_sampl': 1.0}

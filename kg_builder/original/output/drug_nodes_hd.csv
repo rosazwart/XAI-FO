@@ -1,0 +1,216 @@
+﻿DRUG_NAME,DRUG_NAME,STRUCT_ID
+adenosine,adenosine,90
+adenosine triphosphate,adenosine triphosphate,91
+alfentanil,alfentanil,114
+alvimopan,alvimopan,143
+amiodarone,amiodarone,176
+amodiaquine,amodiaquine,186
+anileridine,anileridine,220
+astemizole,astemizole,249
+bacitracin,bacitracin,281
+bortezomib,bortezomib,391
+buprenorphine,buprenorphine,434
+butorphanol,butorphanol,454
+candesartan cilexetil,candesartan cilexetil,475
+carmofur,carmofur,511
+carvedilol,carvedilol,522
+cefapirin,cefapirin,575
+cerulenin,cerulenin,578
+chloroquine,chloroquine,607
+chlorpromazine,chlorpromazine,621
+cianidanol,cianidanol,629
+cinnarizine,cinnarizine,654
+clioquinol,clioquinol,681
+clomifene,clomifene,700
+clotrimazole,clotrimazole,719
+clozapine,clozapine,722
+codeine,codeine,725
+colchicine,colchicine,726
+cycloserine,cycloserine,759
+cyproterone acetate,cyproterone acetate,766
+dactinomycin,dactinomycin,774
+danazol,danazol,779
+dasatinib,dasatinib,785
+dextropropoxyphene,dextropropoxyphene,844
+dezocine,dezocine,847
+diacerein,diacerein,849
+diethylstilbestrol,diethylstilbestrol,875
+difenoxin,difenoxin,878
+alpha-Ergocryptine,alpha-Ergocryptine,885
+dihydrocodeine,dihydrocodeine,886
+dihydroergocristine,dihydroergocristine,887
+diphenoxylate,diphenoxylate,918
+disulfiram,disulfiram,928
+dobutamine,dobutamine,937
+docetaxel,docetaxel,939
+domperidone,domperidone,945
+ebastine,ebastine,977
+econazole,econazole,983
+edetic acid,edetic acid,987
+erlotinib,erlotinib,1045
+ethinylestradiol,ethinylestradiol,1082
+everolimus,everolimus,1118
+famotidine,famotidine,1129
+felbamate,felbamate,1140
+fentanyl,fentanyl,1164
+flunarizine,flunarizine,1200
+fluphenazine,fluphenazine,1212
+formoterol,formoterol,1239
+ganciclovir,ganciclovir,1277
+gefitinib,gefitinib,1282
+glutamic acid,glutamic acid,1310
+haloperidol,haloperidol,1353
+hesperetin,hesperetin,1362
+hexachlorophene,hexachlorophene,1364
+hydrocodone,hydrocodone,1386
+hydromorphone,hydromorphone,1393
+ifenprodil,ifenprodil,1419
+imatinib,imatinib,1423
+diiodohydroxyquinoline,diiodohydroxyquinoline,1457
+fluostigmine,fluostigmine,1494
+ketobemidone,ketobemidone,1526
+lansoprazole,lansoprazole,1547
+lapatinib,lapatinib,1548
+levallorphan,levallorphan,1560
+levodopa,levodopa,1567
+levomethadyl acetate,levomethadyl acetate,1571
+levorphanol,levorphanol,1574
+loperamide,loperamide,1599
+memantine,memantine,1679
+pethidine,pethidine,1690
+meptazinol,meptazinol,1706
+methadone,methadone,1728
+acetylmethadol,acetylmethadol,1729
+methyldopa,methyldopa,1762
+methylthioninium chloride,methylthioninium chloride,1763
+naltrexone,naltrexone,1765
+miconazole,miconazole,1800
+midodrine,midodrine,1803
+mifepristone,mifepristone,1805
+miltefosine,miltefosine,1810
+mitoxantrone,mitoxantrone,1821
+montelukast,montelukast,1836
+morphine,morphine,1845
+nalbuphine,nalbuphine,1874
+nalmefene,nalmefene,1876
+nalorphine,nalorphine,1877
+naloxone,naloxone,1878
+nelfinavir,nelfinavir,1893
+niclosamide,niclosamide,1912
+octreotide,octreotide,1980
+omapatrilat,omapatrilat,1989
+omeprazole,omeprazole,1990
+orlistat,orlistat,1996
+oxycodone,oxycodone,2029
+oxymorphone,oxymorphone,2034
+paclitaxel,paclitaxel,2044
+pantoprazole,pantoprazole,2054
+penfluridol,penfluridol,2080
+perhexiline,perhexiline,2106
+phenazocine,phenazocine,2119
+phenelzine,phenelzine,2123
+pimozide,pimozide,2172
+primaquine,primaquine,2266
+promethazine,promethazine,2286
+propiram,propiram,2299
+rabeprazole,rabeprazole,2350
+raloxifene,raloxifene,2351
+remifentanil,remifentanil,2363
+reserpine,reserpine,2370
+ritonavir,ritonavir,2391
+saquinavir,saquinavir,2422
+sirolimus,sirolimus,2446
+sorafenib,sorafenib,2459
+sufentanil,sufentanil,2491
+sulfaethidole,sulfaethidole,2504
+sulfasalazine,sulfasalazine,2525
+suloctidil,suloctidil,2536
+sunitinib,sunitinib,2544
+tacrine,tacrine,2551
+tacrolimus,tacrolimus,2552
+tamoxifen,tamoxifen,2561
+terfenadine,terfenadine,2600
+thioguanine,thioguanine,2632
+thioridazine,thioridazine,2637
+tianeptine,tianeptine,2650
+tilidine,tilidine,2663
+tramadol,tramadol,2711
+tranylcypromine,tranylcypromine,2715
+vesnarinone,vesnarinone,2817
+thiamine,thiamine,2832
+nicotinic acid,nicotinic acid,2835
+zafirlukast,zafirlukast,2855
+zotarolimus,zotarolimus,2949
+bithionol,bithionol,3032
+cetrimonium,cetrimonium,3082
+diosmin,diosmin,3157
+flusalan,flusalan,3236
+pentazocine,pentazocine,3424
+quercetin,quercetin,3514
+ruboxistaurin,ruboxistaurin,3533
+rutoside,rutoside,3535
+ciramadol,ciramadol,3713
+baicalin,baicalin,4055
+tirilazad,tirilazad,4063
+pazopanib,pazopanib,4118
+gentian violet,gentian violet,4138
+temsirolimus,temsirolimus,4161
+boceprevir,boceprevir,4172
+telaprevir,telaprevir,4173
+vandetanib,vandetanib,4178
+icatibant,icatibant,4186
+crizotinib,crizotinib,4187
+hydroxyprogesterone caproate,hydroxyprogesterone caproate,4189
+ruxolitinib,ruxolitinib,4190
+axitinib,axitinib,4225
+ingenol mebutate,ingenol mebutate,4226
+tapentadol,tapentadol,4283
+Florbetapir F-18,Florbetapir F-18,4285
+Flutemetamol (18F),Flutemetamol (18F),4301
+afatinib,afatinib,4318
+zinc chloride,zinc chloride,4344
+bosutinib,bosutinib,4359
+cetrimide,cetrimide,4360
+cisplatin,cisplatin,4392
+colistin,colistin,4425
+carfilzomib,carfilzomib,4483
+diosmetin,diosmetin,4601
+methylnaltrexone,methylnaltrexone,4616
+rose bengal,rose bengal,4637
+nalfurafine,nalfurafine,4673
+sodium aurothiomalate,sodium aurothiomalate,4706
+cabozantinib,cabozantinib,4715
+thiomersal,thiomersal,4733
+ridaforolimus,ridaforolimus,4778
+ibrutinib,ibrutinib,4810
+florbetaben F18,florbetaben F18,4818
+naloxegol,naloxegol,4832
+ceritinib,ceritinib,4866
+dexrabeprazole,dexrabeprazole,4867
+nintedanib,nintedanib,4903
+lenvatinib,lenvatinib,4942
+cetuximab,cetuximab,4954
+panitumumab,panitumumab,4955
+eluxadoline,eluxadoline,5001
+tannic acid,tannic acid,5039
+osimertinib,osimertinib,5062
+ixazomib,ixazomib,5067
+necitumumab,necitumumab,5071
+migalastat,migalastat,5110
+chromic chloride,chromic chloride,5118
+icotinib,icotinib,5209
+olmutinib,olmutinib,5210
+naldemedine,naldemedine,5220
+midostaurin,midostaurin,5231
+brigatinib,brigatinib,5233
+neratinib,neratinib,5252
+copanlisib,copanlisib,5256
+dacomitinib,dacomitinib,5297
+fedratinib,fedratinib,5347
+brilliant Blue G,brilliant Blue G,5359
+bempedoic acid,bempedoic acid,5382
+selumetinib,selumetinib,5388
+tucatinib,tucatinib,5389
+oliceridine,oliceridine,5406
+trilaciclib,trilaciclib,5442
+samidorphan,samidorphan,5460

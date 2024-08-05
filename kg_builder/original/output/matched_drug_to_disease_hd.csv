@@ -1,0 +1,40 @@
+﻿,DRUG_ID,DRUG_NAME,DISEASES,PHASE,Name,ontologyTermName,ontologyTermIRI,validated,review,ID
+492,2172,Pimozide,Schizophrenia , Approved,schizophrenia,Schizophrenia,http://purl.obolibrary.org/obo/HP_0100753,False,False,HP:0100753
+1301,91,Adenosine triphosphate,Heart disease , Phase 2,heart disease,Cardiomyopathy,http://purl.obolibrary.org/obo/HP_0001638,False,False,HP:0001638
+1302,91,Adenosine triphosphate,Bradycardia , Discontinued in Phase 2,bradycardia,Bradycardia,http://purl.obolibrary.org/obo/HP_0001662,False,False,HP:0001662
+2262,2351,Raloxifene,Osteoporosis , Approved,osteoporosis,Osteoporosis,http://purl.obolibrary.org/obo/HP_0000939,False,False,HP:0000939
+2281,1990,Omeprazole,Gastroesophageal reflux disease , Approved,gastroesophageal reflux disease,Gastroesophageal reflux,http://purl.obolibrary.org/obo/HP_0002020,False,False,HP:0002020
+2356,621,Chlorpromazine,Schizophrenia , Approved,schizophrenia,Schizophrenia,http://purl.obolibrary.org/obo/HP_0100753,False,False,HP:0100753
+3652,725,Codeine,Cough , Phase 1,cough,Cough,http://purl.obolibrary.org/obo/HP_0012735,False,False,HP:0012735
+4664,578,Cerulenin,Weight loss , Approved,weight loss,Weight loss,http://purl.obolibrary.org/obo/HP_0001824,False,False,HP:0001824
+5972,1200,Flunarizine,Migraine , Approved,migraine,Migraine,http://purl.obolibrary.org/obo/HP_0002076,False,False,HP:0002076
+6768,1989,Omapatrilat,Hypertension , Terminated,hypertension,Hypertension,http://purl.obolibrary.org/obo/HP_0000822,False,False,HP:0000822
+7027,434,Buprenorphine,Psychiatric disorder , Phase 3,psychiatric disorder,Behavioral abnormality,http://purl.obolibrary.org/obo/HP_0000708,False,False,HP:0000708
+7028,434,Buprenorphine,Migraine , Phase 2,migraine,Migraine,http://purl.obolibrary.org/obo/HP_0002076,False,False,HP:0002076
+12007,1353,Haloperidol,Schizophrenia , Approved,schizophrenia,Schizophrenia,http://purl.obolibrary.org/obo/HP_0100753,False,False,HP:0100753
+12748,1762,Methyldopa,Hypertension , Approved,hypertension,Hypertension,http://purl.obolibrary.org/obo/HP_0000822,False,False,HP:0000822
+13453,2080,Penfluridol,Schizophrenia , Approved,schizophrenia,Schizophrenia,http://purl.obolibrary.org/obo/HP_0100753,False,False,HP:0100753
+13486,1599,Loperamide,Diarrhea , Approved,diarrhea,Diarrhea,http://purl.obolibrary.org/obo/HP_0002014,False,False,HP:0002014
+13499,700,Clomifene,Female infertility , Approved,female infertility,Female infertility,http://purl.obolibrary.org/obo/HP_0008222,False,False,HP:0008222
+13579,1353,Haloperidol,Schizophrenia , Approved,schizophrenia,Schizophrenia,http://purl.obolibrary.org/obo/HP_0100753,False,False,HP:0100753
+13599,522,Carvedilol,Congestive heart failure , Approved,congestive heart failure,Congestive heart failure,http://purl.obolibrary.org/obo/HP_0001635,False,False,HP:0001635
+13953,5382,Bempedoic acid,Familial hypercholesterolemia , Approved,familial hypercholesterolemia,Hypercholesterolemia,http://purl.obolibrary.org/obo/HP_0003124,False,False,HP:0003124
+17354,918,Diphenoxylate,Diarrhea , Approved,diarrhea,Diarrhea,http://purl.obolibrary.org/obo/HP_0002014,False,False,HP:0002014
+17406,2370,Reserpine,Hypertension , Approved,hypertension,Hypertension,http://purl.obolibrary.org/obo/HP_0000822,False,False,HP:0000822
+17544,937,Dobutamine,Heart failure , Approved,heart failure,Congestive heart failure,http://purl.obolibrary.org/obo/HP_0001635,False,False,HP:0001635
+18177,3514,Quercetin,Obesity , Approved,obesity,Obesity,http://purl.obolibrary.org/obo/HP_0001513,False,False,HP:0001513
+18485,2817,VESNARINONE,Cardiac failure , Approved,cardiac failure,Congestive heart failure,http://purl.obolibrary.org/obo/HP_0001635,False,False,HP:0001635
+20430,4778,Ridaforolimus,Sarcoma , Phase 3,sarcoma,Sarcoma,http://purl.obolibrary.org/obo/HP_0100242,False,False,HP:0100242
+21288,2123,Phenelzine,Depression , Approved,depression,Depressivity,http://purl.obolibrary.org/obo/HP_0000716,False,False,HP:0000716
+23208,1599,Loperamide,Diarrhea , Approved,diarrhea,Diarrhea,http://purl.obolibrary.org/obo/HP_0002014,False,False,HP:0002014
+23377,2286,Promethazine,Nausea , Approved,nausea,Nausea,http://purl.obolibrary.org/obo/HP_0002018,False,False,HP:0002018
+23394,1574,Levorphanol,Ischemic stroke , Terminated,ischemic stroke,Ischemic stroke,http://purl.obolibrary.org/obo/HP_0002140,False,False,HP:0002140
+23558,2054,Pantoprazole,Gastroesophageal reflux disease , Approved,gastroesophageal reflux disease,Gastroesophageal reflux,http://purl.obolibrary.org/obo/HP_0002020,False,False,HP:0002020
+23674,1996,Orlistat,Obesity , Approved,obesity,Obesity,http://purl.obolibrary.org/obo/HP_0001513,False,False,HP:0001513
+23916,2637,Thioridazine,Schizophrenia , Approved,schizophrenia,Schizophrenia,http://purl.obolibrary.org/obo/HP_0100753,False,False,HP:0100753
+24093,4392,Cisplatin,Osteosarcoma , Phase 2,osteosarcoma,Osteosarcoma,http://purl.obolibrary.org/obo/HP_0002669,False,False,HP:0002669
+24723,621,Chlorpromazine,Schizophrenia , Withdrawn from market,schizophrenia,Schizophrenia,http://purl.obolibrary.org/obo/HP_0100753,False,False,HP:0100753
+25467,522,Carvedilol,Congestive heart failure , Approved,congestive heart failure,Congestive heart failure,http://purl.obolibrary.org/obo/HP_0001635,False,False,HP:0001635
+25825,1878,Naloxone,Respiratory depression , Phase 3,respiratory depression,Respiratory distress,http://purl.obolibrary.org/obo/HP_0002098,False,False,HP:0002098
+25826,1878,Naloxone,Pruritus , Phase 3,pruritus,Pruritus,http://purl.obolibrary.org/obo/HP_0000989,False,False,HP:0000989
+26992,722,Clozapine,Schizophrenia , Approved,schizophrenia,Schizophrenia,http://purl.obolibrary.org/obo/HP_0100753,False,False,HP:0100753
