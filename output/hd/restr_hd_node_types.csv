@@ -1,0 +1,12 @@
+Node Type,Count,Percentage
+gene,7746,52.05%
+phenotype,6433,43.23%
+drug,215,1.44%
+biological artifact,173,1.16%
+genotype,108,0.73%
+variant,84,0.56%
+molecular function,46,0.31%
+gene product,44,0.30%
+taxon,25,0.17%
+disease,7,0.05%
+biological process,1,0.01%
