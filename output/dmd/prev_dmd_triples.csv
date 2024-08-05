@@ -1,0 +1,66 @@
+subject,relation,object
+GENE,causes condition,DISO
+ORTH,colocalizes with,ORTH
+GENE,colocalizes with,GENE
+GENE,contributes to condition,GENO
+GENE,contributes to condition,DISO
+GENO,contributes to condition,GENO
+GENO,contributes to condition,DISO
+GENE,enables,PHYS
+GENO,enables,PHYS
+ORTH,enables,PHYS
+ORTH,expressed in,ANAT
+GENE,expressed in,ANAT
+GENO,has affected feature,GENE
+ORTH,has affected feature,ORTH
+VARI,has affected feature,GENE
+GENO,has genotype,ORTH
+GENO,has genotype,DISO
+GENO,has genotype,GENO
+ORTH,has phenotype,GENO
+DISO,has phenotype,DISO
+GENO,has phenotype,DISO
+GENE,has phenotype,DISO
+ORTH,has phenotype,DISO
+ORTH,has role in modeling,DISO
+GENO,has role in modeling,DISO
+GENE,in 1 to 1 orthology relationship with,GENE
+GENE,in 1 to 1 orthology relationship with,GENO
+GENE,in 1 to 1 orthology relationship with,ORTH
+ORTH,in 1 to 1 orthology relationship with,ORTH
+GENO,in 1 to 1 orthology relationship with,ORTH
+ORTH,in 1 to 1 orthology relationship with,GENE
+GENO,in 1 to 1 orthology relationship with,GENE
+ORTH,in 1 to 1 orthology relationship with,GENO
+GENO,in orthology relationship with,ORTH
+ORTH,in orthology relationship with,ORTH
+GENE,in orthology relationship with,GENO
+GENE,in orthology relationship with,ORTH
+ORTH,in orthology relationship with,GENE
+GENO,in orthology relationship with,GENE
+ORTH,in orthology relationship with,GENO
+GENE,in orthology relationship with,GENE
+ORTH,interacts with,ORTH
+ORTH,interacts with,GENE
+GENE,interacts with,ORTH
+GENE,interacts with,GENE
+ORTH,involved in,PHYS
+GENO,involved in,PHYS
+DISO,involved in,PHYS
+GENE,involved in,PHYS
+DISO,is allele of,GENE
+ORTH,is allele of,ORTH
+GENE,is causal germline mutation in,DISO
+GENE,is causal germline mutation partially giving rise to,DISO
+GENE,is part of,PHYS
+ORTH,is part of,PHYS
+GENO,is part of,PHYS
+DRUG,is substance that treats,DISO
+VARI,likely pathogenic for condition,DISO
+ORTH,nan,ORTH
+GENO,nan,GENE
+GENO,nan,ORTH
+DISO,nan,GENO
+VARI,pathogenic for condition,DISO
+DRUG,targets,ORTH
+DRUG,targets,GENE

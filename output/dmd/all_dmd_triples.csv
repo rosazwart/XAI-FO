@@ -1,0 +1,112 @@
+subject,relation,object
+interaction,causes condition,disease
+homology,colocalizes with,interaction
+gene,colocalizes with,interaction
+gene,colocalizes with,homology
+interaction,colocalizes with,homology
+interaction,colocalizes with,gene
+homology,colocalizes with,homology
+gene,colocalizes with,gene
+homology,colocalizes with,gene
+interaction,colocalizes with,interaction
+interaction,contributes to condition,phenotype
+homology,contributes to condition,phenotype
+variant,contributes to condition,phenotype
+gene,contributes to condition,disease
+gene,contributes to condition,phenotype
+variant,contributes to condition,disease
+marker,contributes to condition,disease
+interaction,contributes to condition,disease
+marker,contributes to condition,phenotype
+homology,contributes to condition,disease
+interaction,enables,function
+gene,enables,function
+homology,enables,function
+homology,expressed in,anatomy
+interaction,expressed in,anatomy
+gene,expressed in,anatomy
+variant,has affected feature,marker
+variant,has affected feature,homology
+variant,has affected feature,gene
+model,has affected feature,gene
+variant,has affected feature,interaction
+model,has genotype,genotype
+model,has genotype,variant
+disease,has phenotype,phenotype
+variant,has phenotype,phenotype
+homology,has phenotype,phenotype
+interaction,has phenotype,phenotype
+phenotype,has phenotype,phenotype
+genotype,has phenotype,phenotype
+model,has phenotype,phenotype
+gene,has phenotype,phenotype
+variant,has phenotype,disease
+genotype,has phenotype,disease
+gene,has role in modeling,disease
+genotype,has role in modeling,disease
+model,has role in modeling,disease
+homology,has role in modeling,disease
+variant,has role in modeling,disease
+interaction,has role in modeling,disease
+interaction,in 1 to 1 orthology relationship with,interaction
+gene,in 1 to 1 orthology relationship with,homology
+homology,in 1 to 1 orthology relationship with,homology
+gene,in 1 to 1 orthology relationship with,gene
+homology,in 1 to 1 orthology relationship with,gene
+interaction,in 1 to 1 orthology relationship with,homology
+interaction,in 1 to 1 orthology relationship with,gene
+gene,in 1 to 1 orthology relationship with,interaction
+homology,in 1 to 1 orthology relationship with,interaction
+homology,in orthology relationship with,homology
+gene,in orthology relationship with,homology
+homology,in orthology relationship with,gene
+interaction,in orthology relationship with,homology
+gene,in orthology relationship with,interaction
+interaction,in orthology relationship with,gene
+gene,in orthology relationship with,gene
+homology,in orthology relationship with,interaction
+interaction,in orthology relationship with,interaction
+homology,interacts with,homology
+gene,interacts with,homology
+gene,interacts with,interaction
+gene,interacts with,gene
+model,interacts with,homology
+homology,interacts with,gene
+model,interacts with,gene
+homology,interacts with,interaction
+homology,interacts with,model
+gene,interacts with,model
+interaction,interacts with,gene
+interaction,interacts with,homology
+interaction,interacts with,interaction
+disease,involved in,pathway
+interaction,involved in,function
+gene,involved in,function
+disease,involved in,function
+homology,involved in,function
+homology,involved in,pathway
+gene,involved in,pathway
+interaction,involved in,pathway
+variant,is allele of,gene
+variant,is allele of,interaction
+homology,is causal germline mutation in,disease
+gene,is causal germline mutation in,disease
+interaction,is causal germline mutation in,disease
+gene,is causal germline mutation partially giving rise to,disease
+interaction,is part of,function
+homology,is part of,function
+gene,is part of,function
+gene product,is product of,gene
+gene product,is product of,homology
+gene product,is product of,interaction
+chemical,is substance that treats,disease
+drug,is substance that treats,phenotype
+variant,likely pathogenic for condition,disease
+genotype,nan,interaction
+genotype,nan,gene
+model,nan,gene
+model,nan,interaction
+variant,nan,genotype
+genotype,nan,homology
+variant,pathogenic for condition,disease
+drug,targets,gene product

@@ -1,0 +1,39 @@
+subject,relation,object
+disease,associated with phenotype,phenotype
+phenotype,causes condition,phenotype
+biological artifact,causes condition,phenotype
+gene,causes condition,phenotype
+genotype,causes condition,phenotype
+variant,causes condition,phenotype
+genotype,causes condition,disease
+gene,causes condition,disease
+variant,causes condition,disease
+gene,colocalizes with,gene
+gene,contributes to condition,disease
+variant,contributes to condition,phenotype
+gene,contributes to condition,phenotype
+variant,contributes to condition,disease
+gene,enables,molecular function
+genotype,expresses gene,gene
+biological artifact,expresses gene,gene
+gene,found in,taxon
+variant,has affected feature,gene
+biological artifact,has genotype,variant
+biological artifact,has genotype,genotype
+gene,has role in modeling,disease
+variant,has role in modeling,disease
+genotype,has role in modeling,disease
+biological artifact,has role in modeling,disease
+gene,in orthology relationship with,gene
+gene,interacts with,gene
+disease,involved in,biological process
+disease,involved in,molecular function
+gene,involved in,biological process
+variant,is allele of,gene
+biological artifact,is of,taxon
+gene product,is product of,gene
+drug,is substance that treats,disease
+drug,is substance that treats,phenotype
+variant,is variant in,genotype
+variant,likely causes condition,disease
+drug,targets,gene product

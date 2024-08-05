@@ -1,0 +1,392 @@
+﻿DRUG_NAME,STRUCT_ID,TARGET_NAME,TARGET_CLASS,ACCESSION,GENE,SWISSPROT,ACT_VALUE,ACT_UNIT,ACT_TYPE,ACT_COMMENT,ACT_SOURCE,RELATION,MOA,MOA_SOURCE,ACT_SOURCE_URL,MOA_SOURCE_URL,ACTION_TYPE,TDL,ORGANISM,NEW_ID
+(S)-nitrendipine,6,Voltage-dependent L-type calcium channel subunit alpha-1D,Ion channel,Q01668,CACNA1D,CAC1D_HUMAN,8.4,,IC50,Recombinant Cav1.3 calcium channel complexes expressed in tsA-cells,IUPHAR,=,1.0,IUPHAR,,https://www.ebi.ac.uk/chembl/compound/inspect/CHEMBL251230,GATING INHIBITOR,Tclin,Homo sapiens,HGNC:1391
+(S)-nitrendipine,6,Voltage-dependent L-type calcium channel subunit alpha-1F,Ion channel,O60840,CACNA1F,CAC1F_HUMAN,6.0,,IC50,,IUPHAR,~,,,,,GATING INHIBITOR,Tclin,Homo sapiens,HGNC:1393
+(S)-nitrendipine,6,Voltage-dependent L-type calcium channel subunit alpha-1C,Ion channel,Q13936,CACNA1C,CAC1C_HUMAN,,,,Mechanism of Action,SCIENTIFIC LITERATURE,,1.0,SCIENTIFIC LITERATURE,,https://pubmed.ncbi.nlm.nih.gov/17276408,BLOCKER,Tclin,Homo sapiens,HGNC:1390
+phenylbutanoic acid,24,Histone deacetylase 2,Enzyme,Q92769,HDAC2,HDAC2_HUMAN,4.19,,IC50,Inhibition of human recombinant HDAC2,CHEMBL,=,,,,,,Tclin,Homo sapiens,HGNC:4853
+acetylcholine,65,Muscarinic acetylcholine receptor M1,GPCR,P11229,CHRM1,ACM1_HUMAN,6.11,,EC50,Activation of M1-ACh receptor-FLASH/CFP expressed in HEK293 cells assessed as FRET signal,CHEMBL,=,,,,,,Tclin,Homo sapiens,HGNC:1950
+acepromazine,73,Major prion protein,Surface antigen,P04156,PRNP,PRIO_HUMAN,5.3,,EC50,Half maximal inhibition of Prion protein PrPsc formation was assayed in ScN2a cells,CHEMBL,=,,,,,,Tchem,Homo sapiens,HGNC:9449
+adenosine phosphate,92,Proto-oncogene tyrosine-protein kinase Src,Kinase,P12931,SRC,SRC_HUMAN,7.0,,IC50,Inhibition of p60c-src expressed in chick embryo fibroblast,CHEMBL,=,,,,,,Tclin,Homo sapiens,HGNC:11283
+alcuronium,109,Muscarinic acetylcholine receptor M1,GPCR,P11229,CHRM1,ACM1_HUMAN,5.0,,Kd,,IUPHAR,=,,,,,ALLOSTERIC MODULATOR,Tclin,Homo sapiens,HGNC:1950
+amiodarone,176,Muscarinic acetylcholine receptor M1,GPCR,P11229,CHRM1,ACM1_HUMAN,6.201,,Ki,DRUGMATRIX: Muscarinic M1 radioligand binding (ligand: [3H] N-Methylscopolamine),DRUG MATRIX,=,,,,,,Tclin,Homo sapiens,HGNC:1950
+amitriptyline,180,Muscarinic acetylcholine receptor M1,GPCR,P11229,CHRM1,ACM1_HUMAN,7.83,,Ki,,WOMBAT-PK,=,,,,,ANTAGONIST,Tclin,Homo sapiens,HGNC:1950
+amlodipine,183,Voltage-dependent L-type calcium channel subunit alpha-1C,Ion channel,Q13936,CACNA1C,CAC1C_HUMAN,,,,,WOMBAT-PK,,1.0,CHEMBL,,https://www.ebi.ac.uk/chembl/compound/inspect/CHEMBL1491,BLOCKER,Tclin,Homo sapiens,HGNC:1390
+amlodipine,183,Voltage-dependent L-type calcium channel subunit alpha-1D,Ion channel,Q01668,CACNA1D,CAC1D_HUMAN,7.0,,Ki,,WOMBAT-PK,=,1.0,CHEMBL,,https://www.ebi.ac.uk/chembl/compound/inspect/CHEMBL1491,BLOCKER,Tclin,Homo sapiens,HGNC:1391
+amodiaquine,186,Amyloid beta A4 protein,Unclassified,P05067,APP,A4_HUMAN,5.4,,IC50,Modulation of human wild-type APP695 expressed in SH-SY5Y cells assessed as inhibition of amyloid beta (1 to 40 residues) production measured after 24 hrs,CHEMBL,=,,,,,,,Homo sapiens,HGNC:620
+amoxapine,191,Muscarinic acetylcholine receptor M1,GPCR,P11229,CHRM1,ACM1_HUMAN,6.542,,Ki,DRUGMATRIX: Muscarinic M1 radioligand binding (ligand: [3H] N-Methylscopolamine),DRUG MATRIX,=,,,,,,Tclin,Homo sapiens,HGNC:1950
+octatropine methylbromide,223,Muscarinic acetylcholine receptor M1,GPCR,P11229,CHRM1,ACM1_HUMAN,,,,,DRUGBANK,,1.0,CHEMBL,,https://www.ebi.ac.uk/chembl/compound/inspect/CHEMBL1578,ANTAGONIST,Tclin,Homo sapiens,HGNC:1950
+aprindine,231,Sodium/calcium exchanger 1,Transporter,P32418,SLC8A1,NAC1_HUMAN,4.301,,IC50,,WOMBAT-PK,=,,,,,,Tbio,Homo sapiens,HGNC:11068
+aripiprazole,242,Muscarinic acetylcholine receptor M1,GPCR,P11229,CHRM1,ACM1_HUMAN,5.169,,Ki,,PDSP,=,,,,,,Tclin,Homo sapiens,HGNC:1950
+astemizole,249,Muscarinic acetylcholine receptor M1,GPCR,P11229,CHRM1,ACM1_HUMAN,6.59,,Ki,DRUGMATRIX: Muscarinic M1 radioligand binding (ligand: [3H] N-Methylscopolamine),DRUG MATRIX,=,,,,,,Tclin,Homo sapiens,HGNC:1950
+atorvastatin,257,Histone deacetylase 2,Enzyme,Q92769,HDAC2,HDAC2_HUMAN,4.65,,IC50,Inhibition of recombinant HDAC2 (unknown origin) after 10 mins by fluorimetric analysis,CHEMBL,=,,,,,,Tclin,Homo sapiens,HGNC:4853
+atropine,260,Muscarinic acetylcholine receptor M1,GPCR,P11229,CHRM1,ACM1_HUMAN,9.31,,Ki,,WOMBAT-PK,=,1.0,CHEMBL,,https://www.ebi.ac.uk/chembl/compound/inspect/CHEMBL517712,ANTAGONIST,Tclin,Homo sapiens,HGNC:1950
+azathioprine,269,Ras-related C3 botulinum toxin substrate 1,Enzyme,P63000,RAC1,RAC1_HUMAN,,,,,WOMBAT-PK,,,,,,,Tbio,Homo sapiens,HGNC:9801
+azelastine,271,Muscarinic acetylcholine receptor M1,GPCR,P11229,CHRM1,ACM1_HUMAN,5.2,,IC50,Displacement of [3H]AF-DX 384 from recombinant human M1 receptor expressed in CHO cells,CHEMBL,=,,,,,,Tclin,Homo sapiens,HGNC:1950
+bendamustine,302,Histone deacetylase 2,Enzyme,Q92769,HDAC2,HDAC2_HUMAN,8.05,,IC50,,CHEMBL,=,,,,,,Tclin,Homo sapiens,HGNC:4853
+bendroflumethiazide,305,Calcium-activated potassium channel subunit alpha-1,Ion channel,Q12791,KCNMA1,KCMA1_HUMAN,,,,,WOMBAT-PK,,,,,,,Tclin,Homo sapiens,HGNC:6284
+diphenidol,313,Muscarinic acetylcholine receptor M1,GPCR,P11229,CHRM1,ACM1_HUMAN,7.108,,Ki,DRUGMATRIX: Muscarinic M1 radioligand binding (ligand: [3H] N-Methylscopolamine),DRUG MATRIX,=,1.0,CHEMBL,,https://www.ebi.ac.uk/chembl/compound/inspect/CHEMBL936,ANTAGONIST,Tclin,Homo sapiens,HGNC:1950
+benzbromarone,318,Tyrosine-protein phosphatase non-receptor type 1,Enzyme,P18031,PTPN1,PTN1_HUMAN,4.27,,IC50,Inhibition of PTP1B (unknown origin) by p-nitrophenylphosphate assay,CHEMBL,=,,,,,,Tchem,Homo sapiens,HGNC:9642
+benzthiazide,332,Calcium-activated potassium channel subunit alpha-1,Ion channel,Q12791,KCNMA1,KCMA1_HUMAN,,,,,WOMBAT-PK,,,,,,,Tclin,Homo sapiens,HGNC:6284
+benzatropine,333,Muscarinic acetylcholine receptor M1,GPCR,P11229,CHRM1,ACM1_HUMAN,9.636,,Ki,,WOMBAT-PK,=,1.0,CHEMBL,,https://www.ebi.ac.uk/chembl/compound/inspect/CHEMBL1201203,ANTAGONIST,Tclin,Homo sapiens,HGNC:1950
+bepridil,342,Voltage-dependent L-type calcium channel subunit alpha-1C,Ion channel,Q13936,CACNA1C,CAC1C_HUMAN,,,,Mechanism of Action,SCIENTIFIC LITERATURE,,1.0,SCIENTIFIC LITERATURE,https://pubmed.ncbi.nlm.nih.gov/1281221,https://pubmed.ncbi.nlm.nih.gov/1281221,BLOCKER,Tclin,Homo sapiens,HGNC:1390
+bepridil,342,Voltage-dependent L-type calcium channel subunit alpha-1D,Ion channel,Q01668,CACNA1D,CAC1D_HUMAN,,,,Mechanism of Action,SCIENTIFIC LITERATURE,,1.0,SCIENTIFIC LITERATURE,https://pubmed.ncbi.nlm.nih.gov/1281221,https://pubmed.ncbi.nlm.nih.gov/1281221,BLOCKER,Tclin,Homo sapiens,HGNC:1391
+bethanechol,358,Muscarinic acetylcholine receptor M1,GPCR,P11229,CHRM1,ACM1_HUMAN,4.0,,Ki,,IUPHAR,=,,,,,AGONIST,Tclin,Homo sapiens,HGNC:1950
+biperiden,374,Muscarinic acetylcholine receptor M1,GPCR,P11229,CHRM1,ACM1_HUMAN,9.32,,Kd,,IUPHAR,=,1.0,CHEMBL,,https://www.ebi.ac.uk/chembl/compound/inspect/CHEMBL1101,ANTAGONIST,Tclin,Homo sapiens,HGNC:1950
+bortezomib,391,Proteasome subunit beta type-5,Enzyme,P28074,PSMB5,PSB5_HUMAN,9.26,,Ki,Inhibition of 20S proteasome beta5 subunit (unknown origin) assessed as formation of reversible adduct with N-terminal threonine,CHEMBL,=,1.0,CHEMBL,,https://www.ebi.ac.uk/chembl/compound/inspect/CHEMBL325041,INHIBITOR,Tclin,Homo sapiens,HGNC:9542
+bromperidol,407,Muscarinic acetylcholine receptor M1,GPCR,P11229,CHRM1,ACM1_HUMAN,5.119,,Ki,,PDSP,=,,,,,,Tclin,Homo sapiens,HGNC:1950
+scopolamine butylbromide,458,Muscarinic acetylcholine receptor M1,GPCR,P11229,CHRM1,ACM1_HUMAN,,,,,WOMBAT-PK,,,,,,,Tclin,Homo sapiens,HGNC:1950
+cadralazine,461,Voltage-dependent L-type calcium channel subunit alpha-1C,Ion channel,Q13936,CACNA1C,CAC1C_HUMAN,,,,,WOMBAT-PK,,,,,,,Tclin,Homo sapiens,HGNC:1390
+carbachol,488,Muscarinic acetylcholine receptor M1,GPCR,P11229,CHRM1,ACM1_HUMAN,8.523,,EC50,,WOMBAT-PK,=,,,,,,Tclin,Homo sapiens,HGNC:1950
+carbachol,488,Muscarinic acetylcholine receptor M1,GPCR,P12657,Chrm1,ACM1_MOUSE,7.7,,Ki,Binding affinity (low) of [3H](R)-QNB binding to Muscarinic acetylcholine receptor M1 expressed in A9 L cell line in the absence of 300 uM GTP-gamma-S,CHEMBL,=,,,,,,,Mus musculus,MGI:88396
+carbenicillin,492,Muscarinic acetylcholine receptor M1,GPCR,P11229,CHRM1,ACM1_HUMAN,5.37,,IC50,,WOMBAT-PK,=,,,,,,Tclin,Homo sapiens,HGNC:1950
+pentoxyverine,494,Muscarinic acetylcholine receptor M1,GPCR,P11229,CHRM1,ACM1_HUMAN,7.12,,Ki,Binding affinity towards muscarinic m1 receptor,CHEMBL,=,,,,,,Tclin,Homo sapiens,HGNC:1950
+carvedilol,522,Amyloid beta A4 protein,Unclassified,P05067,APP,A4_HUMAN,4.52,,IC50,,CHEMBL,=,,,,,,,Homo sapiens,HGNC:620
+cevimeline,584,Muscarinic acetylcholine receptor M1,GPCR,P11229,CHRM1,ACM1_HUMAN,7.638,,EC50,,WOMBAT-PK,=,1.0,CHEMBL,,https://www.ebi.ac.uk/chembl/compound/inspect/CHEMBL168815,AGONIST,Tclin,Homo sapiens,HGNC:1950
+chloropyramine,606,Focal adhesion kinase 1,Kinase,Q05397,PTK2,FAK1_HUMAN,6.24,,Kd,Binding affinity to biotinylated human FAK FAT domain by biolayer interoferometry,CHEMBL,=,,,,,,Tclin,Homo sapiens,HGNC:9611
+chloroquine,607,Muscarinic acetylcholine receptor M1,GPCR,P11229,CHRM1,ACM1_HUMAN,5.04,,Ki,Activity of compound against Muscarinic acetylcholine receptor M1 (CHRM1) by displacement of 3H-QNB,CHEMBL,=,,,,,,Tclin,Homo sapiens,HGNC:1950
+chloroquine,607,Major prion protein,Surface antigen,P04156,PRNP,PRIO_HUMAN,5.4,,EC50,Half maximal inhibition of Prion protein PrPsc formation was assayed in ScN2a cells,CHEMBL,=,,,,,,Tchem,Homo sapiens,HGNC:9449
+chloroquine,607,Amyloid beta A4 protein,Unclassified,P05067,APP,A4_HUMAN,5.16,,IC50,Modulation of human wild-type APP695 expressed in SH-SY5Y cells assessed as inhibition of amyloid beta (1 to 40 residues) production measured after 24 hrs,CHEMBL,=,,,,,,,Homo sapiens,HGNC:620
+chlorpromazine,621,Muscarinic acetylcholine receptor M1,GPCR,P11229,CHRM1,ACM1_HUMAN,7.602,,Ki,,PDSP,=,,,,,,Tclin,Homo sapiens,HGNC:1950
+chlorpromazine,621,Major prion protein,Surface antigen,P04156,PRNP,PRIO_HUMAN,5.7,,EC50,Half maximal inhibition of Prion protein PrPsc formation was assayed in ScN2a cells,CHEMBL,=,,,,,,Tchem,Homo sapiens,HGNC:9449
+chlorpromazine,621,Major prion protein,Unclassified,P04925,Prnp,PRIO_MOUSE,5.7,,EC50,Activity at mouse prion protein expressed in Escherichia coli,CHEMBL,=,,,,,,,Mus musculus,MGI:97769
+chlorprothixene,623,Muscarinic acetylcholine receptor M1,GPCR,P11229,CHRM1,ACM1_HUMAN,7.959,,Ki,,PDSP,,,,,,,Tclin,Homo sapiens,HGNC:1950
+chlortetracycline,624,Major prion protein,Surface antigen,P04156,PRNP,PRIO_HUMAN,,,,,WOMBAT-PK,,,,,,,Tchem,Homo sapiens,HGNC:9449
+chlorzoxazone,626,"Nitric oxide synthase, brain",Enzyme,P29475,NOS1,NOS1_HUMAN,4.3,,IC50,Inhibitory activity against Neuronal nitric oxide synthase,CHEMBL,=,,,,,,Tchem,Homo sapiens,HGNC:7872
+chlorzoxazone,626,Calcium-activated potassium channel subunit alpha-1,Ion channel,Q12791,KCNMA1,KCMA1_HUMAN,4.523,,EC50,Chlorzoxazone-stimulated activity of BK(Ca) channels in neuroblastoma IMR-32 cells,SCIENTIFIC LITERATURE,=,1.0,SCIENTIFIC LITERATURE,https://pubmed.ncbi.nlm.nih.gov/12480161,https://pubmed.ncbi.nlm.nih.gov/12480161,OPENER,Tclin,Homo sapiens,HGNC:6284
+cianidanol,629,Amyloid beta A4 protein,Unclassified,P05067,APP,A4_HUMAN,4.48,,IC50,Inhibition of wild type Amyloid beta (1 to 42) (unknown origin) aggregation by Thioflavin-T fluorescence assay,CHEMBL,=,,,,,,,Homo sapiens,HGNC:620
+cianidanol,629,Amyloid beta A4 protein,Unclassified,P05067,APP,A4_HUMAN,4.48,,IC50,Inhibition of wild type Amyloid beta (1 to 42) (unknown origin) aggregation by Thioflavin-T fluorescence assay,CHEMBL,=,,,,,,Tchem,Homo sapiens,HGNC:620
+cinnarizine,654,Muscarinic acetylcholine receptor M1,GPCR,P11229,CHRM1,ACM1_HUMAN,6.218,,Ki,DRUGMATRIX: Muscarinic M1 radioligand binding (ligand: [3H] N-Methylscopolamine),DRUG MATRIX,=,,,,,,Tclin,Homo sapiens,HGNC:1950
+citalopram,663,Muscarinic acetylcholine receptor M1,GPCR,P11229,CHRM1,ACM1_HUMAN,5.875,,Ki,,PDSP,=,,,,,,Tclin,Homo sapiens,HGNC:1950
+clemastine,671,Muscarinic acetylcholine receptor M1,GPCR,P11229,CHRM1,ACM1_HUMAN,7.796,,Ki,,WOMBAT-PK,=,,,,,,Tclin,Homo sapiens,HGNC:1950
+clevidipine,674,Voltage-dependent L-type calcium channel subunit alpha-1C,Ion channel,Q13936,CACNA1C,CAC1C_HUMAN,,,,,WOMBAT-PK,,1.0,CHEMBL,,https://www.ebi.ac.uk/chembl/compound/inspect/CHEMBL1237132,BLOCKER,Tclin,Homo sapiens,HGNC:1390
+clevidipine,674,Voltage-dependent L-type calcium channel subunit alpha-1D,Ion channel,Q01668,CACNA1D,CAC1D_HUMAN,,,,,WOMBAT-PK,,1.0,CHEMBL,,https://www.ebi.ac.uk/chembl/compound/inspect/CHEMBL1237132,BLOCKER,Tclin,Homo sapiens,HGNC:1391
+clidinium,676,Muscarinic acetylcholine receptor M1,GPCR,P11229,CHRM1,ACM1_HUMAN,,,,Mechanism of Action; CHEMBL216; SINGLE PROTEIN,CHEMBL,,1.0,CHEMBL,,https://www.ebi.ac.uk/chembl/compound/inspect/CHEMBL620,ANTAGONIST,Tclin,Homo sapiens,HGNC:1950
+clioquinol,681,Amyloid beta A4 protein,Unclassified,P05067,APP,A4_HUMAN,4.0,,IC50,Inhibition of amyloid beta (1 to 42) aggregation (unknown origin) at 4:1 compound to protein concentration after 48 hrs by thioflavin T fluorescence assay,CHEMBL,=,,,,,,,Homo sapiens,HGNC:620
+clodronic acid,690,Tyrosine-protein phosphatase non-receptor type 1,Enzyme,P18031,PTPN1,PTN1_HUMAN,,,,,WOMBAT-PK,,,,,,,Tchem,Homo sapiens,HGNC:9642
+clomifene,700,Muscarinic acetylcholine receptor M1,GPCR,P11229,CHRM1,ACM1_HUMAN,6.407,,Ki,DRUGMATRIX: Muscarinic M1 radioligand binding (ligand: [3H] N-Methylscopolamine),DRUG MATRIX,=,,,,,,Tclin,Homo sapiens,HGNC:1950
+clomipramine,701,Muscarinic acetylcholine receptor M1,GPCR,P11229,CHRM1,ACM1_HUMAN,7.658,,Ki,DRUGMATRIX: Muscarinic M1 radioligand binding (ligand: [3H] N-Methylscopolamine),DRUG MATRIX,=,,,,,,Tclin,Homo sapiens,HGNC:1950
+clotrimazole,719,Muscarinic acetylcholine receptor M1,GPCR,P11229,CHRM1,ACM1_HUMAN,5.781,,Ki,DRUGMATRIX: Muscarinic M1 radioligand binding (ligand: [3H] N-Methylscopolamine),DRUG MATRIX,=,,,,,,Tclin,Homo sapiens,HGNC:1950
+clozapine,722,Muscarinic acetylcholine receptor M1,GPCR,P11229,CHRM1,ACM1_HUMAN,8.181,,IC50,,WOMBAT-PK,=,,,,,,Tclin,Homo sapiens,HGNC:1950
+colforsin daropate,729,Adenylate cyclase type 1,Enzyme,Q08828,ADCY1,ADCY1_HUMAN,7.39,,IC50,Inhibition of [125 I]6-IHPP-forskolin binding to adenylate cyclase 1,CHEMBL,=,,,,,,Tchem,Homo sapiens,HGNC:232
+cyamemazine,746,Muscarinic acetylcholine receptor M1,GPCR,P11229,CHRM1,ACM1_HUMAN,7.886,,Ki,,PDSP,=,,,,,,Tclin,Homo sapiens,HGNC:1950
+cyclizine,749,Muscarinic acetylcholine receptor M1,GPCR,P11229,CHRM1,ACM1_HUMAN,6.788,,Ki,DRUGMATRIX: Muscarinic M1 radioligand binding (ligand: [3H] N-Methylscopolamine),DRUG MATRIX,=,,,,,,Tclin,Homo sapiens,HGNC:1950
+cyclobenzaprine,751,Muscarinic acetylcholine receptor M1,GPCR,P11229,CHRM1,ACM1_HUMAN,6.95,,IC50,,WOMBAT-PK,=,,,,,,Tclin,Homo sapiens,HGNC:1950
+cycrimine,763,Muscarinic acetylcholine receptor M1,GPCR,P11229,CHRM1,ACM1_HUMAN,,,,,WOMBAT-PK,,1.0,CHEMBL,,https://www.ebi.ac.uk/chembl/compound/inspect/CHEMBL1201227,ANTAGONIST,Tclin,Homo sapiens,HGNC:1950
+cyproheptadine,765,Muscarinic acetylcholine receptor M1,GPCR,P11229,CHRM1,ACM1_HUMAN,8.0,,Ki,,WOMBAT-PK,=,,,,,,Tclin,Homo sapiens,HGNC:1950
+darifenacin,784,Muscarinic acetylcholine receptor M1,GPCR,P11229,CHRM1,ACM1_HUMAN,8.3,,Ki,GRAC: human M1 antagonist,CHEMBL,=,,,,,,Tclin,Homo sapiens,HGNC:1950
+dasatinib,785,Proto-oncogene tyrosine-protein kinase Src,Kinase,P12931,SRC,SRC_HUMAN,9.68,,Kd,Binding constant for SRC kinase domain,CHEMBL,=,1.0,CHEMBL,,https://www.ebi.ac.uk/chembl/compound/inspect/CHEMBL1421,INHIBITOR,Tclin,Homo sapiens,HGNC:11283
+dasatinib,785,Tyrosine-protein kinase Lyn,Kinase,P07948,LYN,LYN_HUMAN,9.24,,Kd,Binding constant for LYN kinase domain,CHEMBL,=,,,,,INHIBITOR,Tclin,Homo sapiens,HGNC:6735
+desipramine,812,Muscarinic acetylcholine receptor M1,GPCR,P11229,CHRM1,ACM1_HUMAN,6.76,,Ki,,WOMBAT-PK,=,,,,,,Tclin,Homo sapiens,HGNC:1950
+desloratadine,814,Muscarinic acetylcholine receptor M1,GPCR,P11229,CHRM1,ACM1_HUMAN,7.74,,Ki,,WOMBAT-PK,=,,,,,,Tclin,Homo sapiens,HGNC:1950
+dexfenfluramine,832,Muscarinic acetylcholine receptor M1,GPCR,P11229,CHRM1,ACM1_HUMAN,5.733,,Ki,,PDSP,=,,,,,,Tclin,Homo sapiens,HGNC:1950
+dicloxacillin,866,Muscarinic acetylcholine receptor M1,GPCR,P11229,CHRM1,ACM1_HUMAN,5.96,,IC50,,WOMBAT-PK,=,,,,,,Tclin,Homo sapiens,HGNC:1950
+dicycloverine,868,Muscarinic acetylcholine receptor M1,GPCR,P11229,CHRM1,ACM1_HUMAN,9.079,,Ki,DRUGMATRIX: Muscarinic M1 radioligand binding (ligand: [3H] N-Methylscopolamine),DRUG MATRIX,=,1.0,CHEMBL,,https://www.ebi.ac.uk/chembl/compound/inspect/CHEMBL1123,ANTAGONIST,Tclin,Homo sapiens,HGNC:1950
+diethylstilbestrol,875,Muscarinic acetylcholine receptor M1,GPCR,P11229,CHRM1,ACM1_HUMAN,5.437,,Ki,DRUGMATRIX: Muscarinic M1 radioligand binding (ligand: [3H] N-Methylscopolamine),DRUG MATRIX,=,,,,,,Tclin,Homo sapiens,HGNC:1950
+diltiazem,897,Voltage-dependent L-type calcium channel subunit alpha-1C,Ion channel,Q13936,CACNA1C,CAC1C_HUMAN,7.319,,IC50,,WOMBAT-PK,=,1.0,CHEMBL,,https://www.ebi.ac.uk/chembl/compound/inspect/CHEMBL23,BLOCKER,Tclin,Homo sapiens,HGNC:1390
+diltiazem,897,Voltage-dependent L-type calcium channel subunit alpha-1S,Ion channel,Q13698,CACNA1S,CAC1S_HUMAN,6.42,,Ki,Displacement of [3H]diltiazem from L-type calcium channel of guinea pig striated muscle,CHEMBL,=,,,,,,Tclin,Homo sapiens,HGNC:1397
+diltiazem,897,Voltage-dependent L-type calcium channel subunit alpha-1F,Ion channel,Q9JIS7,Cacna1f,CAC1F_MOUSE,4.0,,IC50,,IUPHAR,=,,,,,BLOCKER,,Mus musculus,MGI:1859639
+dimenhydrinate,901,Muscarinic acetylcholine receptor M1,GPCR,P11229,CHRM1,ACM1_HUMAN,6.963,,Ki,DRUGMATRIX: Muscarinic M1 radioligand binding (ligand: [3H] N-Methylscopolamine),DRUG MATRIX,=,,,,,,Tclin,Homo sapiens,HGNC:1950
+dimetindene,903,Muscarinic acetylcholine receptor M1,GPCR,P11229,CHRM1,ACM1_HUMAN,6.58,,Ki,,CHEMBL,=,,,,,,Tclin,Homo sapiens,HGNC:1950
+diphemanil,915,Muscarinic acetylcholine receptor M1,GPCR,P11229,CHRM1,ACM1_HUMAN,,,,Mechanism of Action; CHEMBL216; SINGLE PROTEIN,CHEMBL,,1.0,CHEMBL,,https://www.ebi.ac.uk/chembl/compound/inspect/CHEMBL1201340,ANTAGONIST,Tclin,Homo sapiens,HGNC:1950
+diphenhydramine,916,Muscarinic acetylcholine receptor M1,GPCR,P11229,CHRM1,ACM1_HUMAN,7.0,,Ki,,WOMBAT-PK,=,,,,,,Tclin,Homo sapiens,HGNC:1950
+diphenylpyraline,920,Muscarinic acetylcholine receptor M1,GPCR,P11229,CHRM1,ACM1_HUMAN,7.699,,Ki,,WOMBAT-PK,=,,,,,,Tclin,Homo sapiens,HGNC:1950
+disopyramide,926,Muscarinic acetylcholine receptor M1,GPCR,P11229,CHRM1,ACM1_HUMAN,,,,,WOMBAT-PK,,,,,,,Tclin,Homo sapiens,HGNC:1950
+dosulepin,951,Muscarinic acetylcholine receptor M1,GPCR,P11229,CHRM1,ACM1_HUMAN,7.744,,Ki,,WOMBAT-PK,=,,,,,,Tclin,Homo sapiens,HGNC:1950
+doxepin,956,Muscarinic acetylcholine receptor M1,GPCR,P11229,CHRM1,ACM1_HUMAN,7.42,,Ki,,WOMBAT-PK,=,,,,,,Tclin,Homo sapiens,HGNC:1950
+doxorubicin,960,Muscarinic acetylcholine receptor M1,GPCR,P11229,CHRM1,ACM1_HUMAN,5.433,,Ki,DRUGMATRIX: Muscarinic M1 radioligand binding (ligand: [3H] N-Methylscopolamine),DRUG MATRIX,=,,,,,,Tclin,Homo sapiens,HGNC:1950
+drotaverine,969,Voltage-dependent L-type calcium channel subunit alpha-1C,Ion channel,Q13936,CACNA1C,CAC1C_HUMAN,,,,,WOMBAT-PK,,,,,,,Tclin,Homo sapiens,HGNC:1390
+droxidopa,971,Muscarinic acetylcholine receptor M1,GPCR,P11229,CHRM1,ACM1_HUMAN,7.1,,Ki,,IUPHAR,=,,,,,ANTAGONIST,Tclin,Homo sapiens,HGNC:1950
+droxidopa,971,Muscarinic acetylcholine receptor M1,GPCR,P11229,CHRM1,ACM1_HUMAN,7.1,,Ki,,IUPHAR,=,,,,,ANTAGONIST,Tclin,Homo sapiens,HGNC:1950
+ebastine,977,Muscarinic acetylcholine receptor M1,GPCR,P11229,CHRM1,ACM1_HUMAN,5.96,,IC50,Compound is evaluated for in vitro receptor binding affinity against Muscarinic acetylcholine receptor M1,CHEMBL,=,,,,,,Tclin,Homo sapiens,HGNC:1950
+econazole,983,Muscarinic acetylcholine receptor M1,GPCR,P11229,CHRM1,ACM1_HUMAN,6.197,,Ki,DRUGMATRIX: Muscarinic M1 radioligand binding (ligand: [3H] N-Methylscopolamine),DRUG MATRIX,=,,,,,,Tclin,Homo sapiens,HGNC:1950
+edetic acid,987,Amyloid beta A4 protein,Unclassified,P05067,APP,A4_HUMAN,5.11,,IC50,Inhibition of amyloid beta aggregation (unknown origin) after 4 hrs by thioflavin S assay in presence of Zn2+,CHEMBL,=,,,,,,,Homo sapiens,HGNC:620
+endralazine,1008,Voltage-dependent L-type calcium channel subunit alpha-1C,Ion channel,Q13936,CACNA1C,CAC1C_HUMAN,,,,,WOMBAT-PK,,,,,,,Tclin,Homo sapiens,HGNC:1390
+ergotamine,1043,Muscarinic acetylcholine receptor M1,GPCR,P11229,CHRM1,ACM1_HUMAN,6.064,,Ki,,PDSP,,,,,,,Tclin,Homo sapiens,HGNC:1950
+erlotinib,1045,Proto-oncogene tyrosine-protein kinase Src,Kinase,P12931,SRC,SRC_HUMAN,6.15,,Kd,Binding constant for SRC kinase domain,CHEMBL,=,,,,,,Tclin,Homo sapiens,HGNC:11283
+erlotinib,1045,Focal adhesion kinase 1,Kinase,Q05397,PTK2,FAK1_HUMAN,5.13,,IC50,Inhibition of FAK (unknown origin) assembly preincubated with enzyme followed by GTP addition measured after 20 mins by spectrophotometric analysis,CHEMBL,=,,,,,,Tclin,Homo sapiens,HGNC:9611
+erlotinib,1045,Tyrosine-protein kinase Lyn,Kinase,P07948,LYN,LYN_HUMAN,6.28,,Kd,Binding constant for LYN kinase domain,CHEMBL,=,,,,,,Tclin,Homo sapiens,HGNC:6735
+escitalopram,1053,Muscarinic acetylcholine receptor M1,GPCR,P11229,CHRM1,ACM1_HUMAN,5.906,,Ki,,PDSP,,,,,,,Tclin,Homo sapiens,HGNC:1950
+estradiol,1057,Calcium-activated potassium channel subunit alpha-1,Ion channel,Q12791,KCNMA1,KCMA1_HUMAN,5.6,,EC50,,IUPHAR,=,,,,,ACTIVATOR,Tclin,Homo sapiens,HGNC:6284
+estramustine phosphate,1066,Tyrosine-protein phosphatase non-receptor type 1,Enzyme,P18031,PTPN1,PTN1_HUMAN,4.2,,IC50,Inhibition of recombinant PTP1B,CHEMBL,=,,,,,,Tchem,Homo sapiens,HGNC:9642
+profenamine,1086,Muscarinic acetylcholine receptor M1,GPCR,P11229,CHRM1,ACM1_HUMAN,,,,,WOMBAT-PK,,1.0,CHEMBL,,https://www.ebi.ac.uk/chembl/compound/inspect/CHEMBL1206,ANTAGONIST,Tclin,Homo sapiens,HGNC:1950
+felodipine,1142,Voltage-dependent L-type calcium channel subunit alpha-1C,Ion channel,Q13936,CACNA1C,CAC1C_HUMAN,,,,,WOMBAT-PK,,1.0,CHEMBL,,https://www.ebi.ac.uk/chembl/compound/inspect/CHEMBL1480,BLOCKER,Tclin,Homo sapiens,HGNC:1390
+felodipine,1142,Voltage-dependent L-type calcium channel subunit alpha-1D,Ion channel,Q01668,CACNA1D,CAC1D_HUMAN,,,,,WOMBAT-PK,,1.0,CHEMBL,,https://www.ebi.ac.uk/chembl/compound/inspect/CHEMBL1480,BLOCKER,Tclin,Homo sapiens,HGNC:1391
+fenfluramine,1150,Muscarinic acetylcholine receptor M1,GPCR,P11229,CHRM1,ACM1_HUMAN,6.016,,Ki,,PDSP,,,,,,,Tclin,Homo sapiens,HGNC:1950
+flunarizine,1200,Muscarinic acetylcholine receptor M1,GPCR,P11229,CHRM1,ACM1_HUMAN,6.151,,Ki,DRUGMATRIX: Muscarinic M1 radioligand binding (ligand: [3H] N-Methylscopolamine),DRUG MATRIX,=,,,,,,Tclin,Homo sapiens,HGNC:1950
+fluoxetine,1209,Muscarinic acetylcholine receptor M1,GPCR,P11229,CHRM1,ACM1_HUMAN,6.047,,Ki,,WOMBAT-PK,=,,,,,,Tclin,Homo sapiens,HGNC:1950
+fluphenazine,1212,Muscarinic acetylcholine receptor M1,GPCR,P11229,CHRM1,ACM1_HUMAN,6.0,,Ki,,WOMBAT-PK,=,,,,,,Tclin,Homo sapiens,HGNC:1950
+fluphenazine enanthate,1214,Muscarinic acetylcholine receptor M1,GPCR,P11229,CHRM1,ACM1_HUMAN,5.961,,Ki,,PDSP,=,,,,,,Tclin,Homo sapiens,HGNC:1950
+gallamine,1273,Muscarinic acetylcholine receptor M1,GPCR,P11229,CHRM1,ACM1_HUMAN,5.07,,Ki,Competitive inhibition of EGFP-fused human M1 receptor N-terminal truncated at 17 residues expressed in HEK293 cells after 4 hrs by FRET assay in presence of para-LRB-AC42,CHEMBL,=,,,,,,Tclin,Homo sapiens,HGNC:1950
+gallamine,1273,Acetylcholine receptor subunit alpha,Ion channel,P02708,CHRNA1,ACHA_HUMAN,6.0,,IC50,,IUPHAR,~,,,,,BLOCKER,Tclin,Homo sapiens,HGNC:1955
+gefitinib,1282,Tyrosine-protein kinase Lyn,Kinase,P07948,LYN,LYN_HUMAN,6.0,,Kd,Binding constant for LYN kinase domain,CHEMBL,=,,,,,,Tclin,Homo sapiens,HGNC:6735
+gefitinib,1282,Proto-oncogene tyrosine-protein kinase Src,Kinase,P12931,SRC,SRC_HUMAN,5.42,,Kd,,SCIENTIFIC LITERATURE,,,,https://pubmed.ncbi.nlm.nih.gov/22037378,,,Tclin,Homo sapiens,HGNC:11283
+haloperidol,1353,Muscarinic acetylcholine receptor M1,GPCR,P11229,CHRM1,ACM1_HUMAN,5.8,,Ki,Binding affinity to human cloned muscarinic M1 receptor,CHEMBL,=,,,,,,Tclin,Homo sapiens,HGNC:1950
+hexocyclium,1371,Muscarinic acetylcholine receptor M1,GPCR,P11229,CHRM1,ACM1_HUMAN,,,,,UNKNOWN,,1.0,CHEMBL,,https://www.ebi.ac.uk/chembl/compound/inspect/CHEMBL1201325,ANTAGONIST,Tclin,Homo sapiens,HGNC:1950
+homatropine,1379,Muscarinic acetylcholine receptor M1,GPCR,P11229,CHRM1,ACM1_HUMAN,7.495,,Ki,DRUGMATRIX: Muscarinic M1 radioligand binding (ligand: [3H] N-Methylscopolamine),DRUG MATRIX,=,,,,,,Tclin,Homo sapiens,HGNC:1950
+hydralazine,1384,Voltage-dependent L-type calcium channel subunit alpha-1C,Ion channel,Q13936,CACNA1C,CAC1C_HUMAN,,,,,WOMBAT-PK,,,,,,,Tclin,Homo sapiens,HGNC:1390
+hydrochlorothiazide,1385,Calcium-activated potassium channel subunit alpha-1,Ion channel,Q12791,KCNMA1,KCMA1_HUMAN,,,,,WOMBAT-PK,,,,,,,Tclin,Homo sapiens,HGNC:6284
+hydroxychloroquine,1395,Muscarinic acetylcholine receptor M1,GPCR,P11229,CHRM1,ACM1_HUMAN,4.81,,Ki,Activity of compound against Muscarinic acetylcholine receptor M1 (CHRM1) by displacement of 3H-QNB,CHEMBL,=,,,,,,Tclin,Homo sapiens,HGNC:1950
+hyoscyamine,1402,Muscarinic acetylcholine receptor M1,GPCR,P11229,CHRM1,ACM1_HUMAN,9.0,,Ki,,WOMBAT-PK,=,1.0,KEGG DRUG,,http://www.kegg.jp/entry/D00147,ANTAGONIST,Tclin,Homo sapiens,HGNC:1950
+imatinib,1423,Proto-oncogene tyrosine-protein kinase Src,Kinase,P12931,SRC,SRC_HUMAN,4.51,,Ki,Inhibition of recombinant human c-Src,CHEMBL,=,,,,,,Tclin,Homo sapiens,HGNC:11283
+imatinib,1423,Tyrosine-protein kinase Lyn,Kinase,P07948,LYN,LYN_HUMAN,6.05,,Kd,Binding constant for LYN kinase domain,CHEMBL,=,,,,,,Tclin,Homo sapiens,HGNC:6735
+imipramine,1427,Muscarinic acetylcholine receptor M1,GPCR,P11229,CHRM1,ACM1_HUMAN,7.377,,Ki,,WOMBAT-PK,=,,,,,,Tclin,Homo sapiens,HGNC:1950
+imipramine,1427,Major prion protein,Surface antigen,P04156,PRNP,PRIO_HUMAN,5.0,,EC50,Half maximal inhibition of Prion protein PrPsc formation was assayed in ScN2a cells,CHEMBL,=,,,,,,Tchem,Homo sapiens,HGNC:9449
+ipratropium,1475,Muscarinic acetylcholine receptor M1,GPCR,P11229,CHRM1,ACM1_HUMAN,9.31,,Ki,,WOMBAT-PK,=,,,,,,Tclin,Homo sapiens,HGNC:1950
+isopropamide,1500,Muscarinic acetylcholine receptor M1,GPCR,P11229,CHRM1,ACM1_HUMAN,,,,Mechanism of Action; CHEMBL216; SINGLE PROTEIN,CHEMBL,,1.0,CHEMBL,,https://www.ebi.ac.uk/chembl/compound/inspect/CHEMBL1201232,ANTAGONIST,Tclin,Homo sapiens,HGNC:1950
+isradipine,1511,Voltage-dependent L-type calcium channel subunit alpha-1C,Ion channel,Q13936,CACNA1C,CAC1C_HUMAN,8.8,,IC50,,IUPHAR,=,1.0,CHEMBL,,https://www.ebi.ac.uk/chembl/compound/inspect/CHEMBL399539,GATING INHIBITOR,Tclin,Homo sapiens,HGNC:1390
+isradipine,1511,Voltage-dependent L-type calcium channel subunit alpha-1D,Ion channel,Q01668,CACNA1D,CAC1D_HUMAN,9.3,,IC50,Recombinant Ca<sub>v</sub>1.3 calcium channel complexes expressed in tsA201-cells,IUPHAR,=,1.0,CHEMBL,,https://www.ebi.ac.uk/chembl/compound/inspect/CHEMBL399539,GATING INHIBITOR,Tclin,Homo sapiens,HGNC:1391
+isradipine,1511,Voltage-dependent L-type calcium channel subunit alpha-1F,Ion channel,Q9JIS7,Cacna1f,CAC1F_MOUSE,6.7,,IC50,,IUPHAR,=,,,,,GATING INHIBITOR,,Mus musculus,MGI:1859639
+isradipine,1511,Voltage-dependent L-type calcium channel subunit alpha-1C,Ion channel,Q01815,Cacna1c,CAC1C_MOUSE,7.5,,IC50,,IUPHAR,=,,,,,GATING INHIBITOR,,Mus musculus,MGI:103013
+ketorolac,1529,Serine/threonine-protein kinase PAK 1,Kinase,Q13153,PAK1,PAK1_HUMAN,4.44,,IC50,Inhibition of PAK1 in human A549 cells using myelin basic protein as substrate preincubated for 24 hrs followed by PAK1 immunoprecipation and substrate addition measured after 60 mins by ATP-Glo kinase assay,CHEMBL,=,,,,,,Tchem,Homo sapiens,HGNC:8590
+ketotifen,1530,Muscarinic acetylcholine receptor M1,GPCR,P11229,CHRM1,ACM1_HUMAN,7.016,,Ki,,WOMBAT-PK,=,,,,,,Tclin,Homo sapiens,HGNC:1950
+levosimendan,1576,"Troponin C, slow skeletal and cardiac muscles",Cytosolic other,P63316,TNNC1,TNNC1_HUMAN,3.155,,Kd,affinity for the binding of levosimendan to cNTnC-Ca2+-cTnI-(144-163) complex,SCIENTIFIC LITERATURE,=,1.0,SCIENTIFIC LITERATURE,https://pubmed.ncbi.nlm.nih.gov/18570382,https://pubmed.ncbi.nlm.nih.gov/18570382,OPENER,Tclin,Homo sapiens,HGNC:11943
+lofepramine,1592,Muscarinic acetylcholine receptor M1,GPCR,P11229,CHRM1,ACM1_HUMAN,7.174,,Ki,,WOMBAT-PK,=,,,,,,Tclin,Homo sapiens,HGNC:1950
+lovastatin,1612,Histone deacetylase 2,Enzyme,Q92769,HDAC2,HDAC2_HUMAN,4.59,,IC50,Inhibition of recombinant HDAC2 (unknown origin) after 10 mins by fluorimetric analysis,CHEMBL,=,,,,,,Tclin,Homo sapiens,HGNC:4853
+loxapine,1613,Muscarinic acetylcholine receptor M1,GPCR,P11229,CHRM1,ACM1_HUMAN,5.26,,IC50,Inhibition of binding of 1.0 nM [3H]pirenzepine to cloned human Muscarinic acetylcholine receptor M1 expressed in membranes from CHO-K1 cells,CHEMBL,=,,,,,,Tclin,Homo sapiens,HGNC:1950
+maprotiline,1634,Muscarinic acetylcholine receptor M1,GPCR,P11229,CHRM1,ACM1_HUMAN,6.845,,Ki,DRUGMATRIX: Muscarinic M1 radioligand binding (ligand: [3H] N-Methylscopolamine),DRUG MATRIX,=,,,,,,Tclin,Homo sapiens,HGNC:1950
+mebhydrolin,1643,Muscarinic acetylcholine receptor M1,GPCR,P11229,CHRM1,ACM1_HUMAN,6.745,,Ki,,WOMBAT-PK,=,,,,,,Tclin,Homo sapiens,HGNC:1950
+mecamylamine,1646,Acetylcholine receptor subunit alpha,Ion channel,P02708,CHRNA1,ACHA_HUMAN,5.82,,IC50,,IUPHAR,~,,,,,BLOCKER,Tclin,Homo sapiens,HGNC:1955
+menadione,1683,Dual specificity phosphatase Cdc25A,Enzyme,P30304,CDC25A,MPIP1_HUMAN,5.16,,IC50,Inhibition of recombinant Cdc25A (unknown origin) using OMFP as substrate measured every 30 sec for 10 mins by fluorometric assay,CHEMBL,=,,,,,,Tchem,Homo sapiens,HGNC:1725
+menadione,1683,M-phase inducer phosphatase 1,Enzyme,P30304,CDC25A,MPIP1_HUMAN,5.16,,IC50,Inhibition of recombinant Cdc25A (unknown origin) using OMFP as substrate measured every 30 sec for 10 mins by fluorometric assay,CHEMBL,=,,,,,,Tchem,Homo sapiens,HGNC:1725
+pecazine,1688,Muscarinic acetylcholine receptor M1,GPCR,P11229,CHRM1,ACM1_HUMAN,7.721,,Ki,DRUGMATRIX: Muscarinic M1 radioligand binding (ligand: [3H] N-Methylscopolamine),DRUG MATRIX,=,,,,,,Tclin,Homo sapiens,HGNC:1950
+mepenzolate,1689,Muscarinic acetylcholine receptor M1,GPCR,P11229,CHRM1,ACM1_HUMAN,,,,Mechanism of Action; CHEMBL216; SINGLE PROTEIN,CHEMBL,,1.0,CHEMBL,,https://www.ebi.ac.uk/chembl/compound/inspect/CHEMBL524004,ANTAGONIST,Tclin,Homo sapiens,HGNC:1950
+mequitazine,1707,Muscarinic acetylcholine receptor M1,GPCR,P11229,CHRM1,ACM1_HUMAN,8.252,,Ki,,PDSP,,,,,,,Tclin,Homo sapiens,HGNC:1950
+mesoridazine,1712,Muscarinic acetylcholine receptor M1,GPCR,P11229,CHRM1,ACM1_HUMAN,8.0,,Ki,,PDSP,=,,,,,,Tclin,Homo sapiens,HGNC:1950
+methacholine,1726,Muscarinic acetylcholine receptor M1,GPCR,P11229,CHRM1,ACM1_HUMAN,7.638,,Ki,,PDSP,=,,,,,,Tclin,Homo sapiens,HGNC:1950
+methapyrilene,1738,Muscarinic acetylcholine receptor M1,GPCR,P11229,CHRM1,ACM1_HUMAN,5.939,,Ki,DRUGMATRIX: Muscarinic M1 radioligand binding (ligand: [3H] N-Methylscopolamine),DRUG MATRIX,=,,,,,,Tclin,Homo sapiens,HGNC:1950
+methscopolamine,1757,Muscarinic acetylcholine receptor M1,GPCR,P11229,CHRM1,ACM1_HUMAN,9.9,,Ki,,IUPHAR,=,1.0,CHEMBL,,https://www.ebi.ac.uk/chembl/compound/inspect/CHEMBL1201268,ANTAGONIST,Tclin,Homo sapiens,HGNC:1950
+methylthioninium chloride,1763,Amyloid beta A4 protein,Unclassified,P05067,APP,A4_HUMAN,6.26,,IC50,,CHEMBL,=,,,,,,,Homo sapiens,HGNC:620
+methysergide,1775,Muscarinic acetylcholine receptor M1,GPCR,P11229,CHRM1,ACM1_HUMAN,5.263,,Ki,,PDSP,,,,,,,Tclin,Homo sapiens,HGNC:1950
+metixene,1780,Muscarinic acetylcholine receptor M1,GPCR,P11229,CHRM1,ACM1_HUMAN,,,,Mechanism of Action; CHEMBL216; SINGLE PROTEIN,CHEMBL,,1.0,CHEMBL,,https://www.ebi.ac.uk/chembl/compound/inspect/CHEMBL1201342,ANTAGONIST,Tclin,Homo sapiens,HGNC:1950
+metoclopramide,1782,Muscarinic acetylcholine receptor M1,GPCR,P11229,CHRM1,ACM1_HUMAN,,,,,WOMBAT-PK,,,,,,,Tclin,Homo sapiens,HGNC:1950
+mezlocillin,1795,Serum albumin,Secreted,P02768,ALB,ALBU_HUMAN,4.18,,Ki,,WOMBAT-PK,=,,,,,,Tchem,Homo sapiens,HGNC:399
+mianserin,1796,Muscarinic acetylcholine receptor M1,GPCR,P11229,CHRM1,ACM1_HUMAN,6.465,,Ki,DRUGMATRIX: Muscarinic M1 radioligand binding (ligand: [3H] N-Methylscopolamine),DRUG MATRIX,=,,,,,,Tclin,Homo sapiens,HGNC:1950
+mibefradil,1797,Voltage-dependent L-type calcium channel subunit alpha-1C,Ion channel,Q13936,CACNA1C,CAC1C_HUMAN,4.9,,IC50,,IUPHAR,=,,,,,BLOCKER,Tclin,Homo sapiens,HGNC:1390
+miconazole,1800,Muscarinic acetylcholine receptor M1,GPCR,P11229,CHRM1,ACM1_HUMAN,6.02,,Ki,DRUGMATRIX: Muscarinic M1 radioligand binding (ligand: [3H] N-Methylscopolamine),DRUG MATRIX,=,,,,,,Tclin,Homo sapiens,HGNC:1950
+miltefosine,1810,Dual specificity phosphatase Cdc25A,Enzyme,P30304,CDC25A,MPIP1_HUMAN,4.6,,IC50,Inhibition of Cell division cycle 25 (Cdc25) phosphatase,CHEMBL,=,,,,,,Tchem,Homo sapiens,HGNC:1725
+minaprine,1812,Muscarinic acetylcholine receptor M1,GPCR,P11229,CHRM1,ACM1_HUMAN,4.77,,Ki,Binding affinity towards muscarinic M1 receptor,CHEMBL,=,,,,,,Tclin,Homo sapiens,HGNC:1950
+mirtazapine,1816,Muscarinic acetylcholine receptor M1,GPCR,P11229,CHRM1,ACM1_HUMAN,,,,,WOMBAT-PK,,,,,,,Tclin,Homo sapiens,HGNC:1950
+mitoxantrone,1821,Muscarinic acetylcholine receptor M1,GPCR,P11229,CHRM1,ACM1_HUMAN,6.744,,Ki,DRUGMATRIX: Muscarinic M1 radioligand binding (ligand: [3H] N-Methylscopolamine),DRUG MATRIX,=,,,,,,Tclin,Homo sapiens,HGNC:1950
+montelukast,1836,Muscarinic acetylcholine receptor M1,GPCR,P11229,CHRM1,ACM1_HUMAN,5.713,,Ki,DRUGMATRIX: Muscarinic M1 radioligand binding (ligand: [3H] N-Methylscopolamine),DRUG MATRIX,=,,,,,,Tclin,Homo sapiens,HGNC:1950
+nicotinamide,1906,NAD-dependent protein deacetylase sirtuin-2,Enzyme,Q8IXJ6,SIRT2,SIR2_HUMAN,5.92,,IC50,Inhibition of recombinant SIRT2 using ZMAL substrate after 4 hrs by homogeneous fluorescence assay,CHEMBL,=,,,,,,Tchem,Homo sapiens,HGNC:10886
+niclosamide,1912,Proto-oncogene tyrosine-protein kinase Src,Kinase,P12931,SRC,SRC_HUMAN,5.0,,IC50,Inhibition of Src kinase,CHEMBL,=,,,,,,Tclin,Homo sapiens,HGNC:11283
+niclosamide,1912,Tyrosine-protein kinase Lyn,Kinase,P07948,LYN,LYN_HUMAN,4.62,,IC50,Inhibition of LYN after 60 mins by radiometric assay,CHEMBL,=,,,,,,Tclin,Homo sapiens,HGNC:6735
+nicotine,1920,Acetylcholine receptor subunit alpha,Ion channel,P02708,CHRNA1,ACHA_HUMAN,4.68,,IC50,Inhibition of [3H]alpha-BGT binding to alpha1 nicotinic acetylcholine receptor in Homo sapiens (human) TE671 cells co-expressing gammaalpha1deltabeta1 nicotinic acetylcholine receptor subunits,CHEMBL,=,,,,,,Tclin,Homo sapiens,HGNC:1955
+nifedipine,1922,Voltage-dependent L-type calcium channel subunit alpha-1D,Ion channel,Q01668,CACNA1D,CAC1D_HUMAN,7.7,,IC50,Recombinant Cav1.3 calcium channel complexes expressed in tsA-cells,IUPHAR,=,1.0,CHEMBL,,https://www.ebi.ac.uk/chembl/compound/inspect/CHEMBL193,GATING INHIBITOR,Tclin,Homo sapiens,HGNC:1391
+nifedipine,1922,Voltage-dependent L-type calcium channel subunit alpha-1S,Ion channel,Q13698,CACNA1S,CAC1S_HUMAN,6.3,,IC50,,IUPHAR,=,,,,,INHIBITOR,Tclin,Homo sapiens,HGNC:1397
+nifedipine,1922,Voltage-dependent L-type calcium channel subunit alpha-1F,Ion channel,O60840,CACNA1F,CAC1F_HUMAN,6.0,,IC50,,IUPHAR,=,,,,,GATING INHIBITOR,Tclin,Homo sapiens,HGNC:1393
+nifedipine,1922,Voltage-dependent L-type calcium channel subunit alpha-1C,Ion channel,Q13936,CACNA1C,CAC1C_HUMAN,9.4,,Kd,Displacement of [3H]nitrendipine from dihydropyridine receptor of guinea pig myocardial membranes,CHEMBL,=,1.0,SCIENTIFIC LITERATURE,,https://pubmed.ncbi.nlm.nih.gov/17276408,BLOCKER,Tclin,Homo sapiens,HGNC:1390
+nilotinib,1932,Proto-oncogene tyrosine-protein kinase Src,Kinase,P12931,SRC,SRC_HUMAN,5.72,,Kd,Binding constant for SRC kinase domain,CHEMBL,=,,,,,,Tclin,Homo sapiens,HGNC:11283
+nilotinib,1932,Tyrosine-protein kinase Lyn,Kinase,P07948,LYN,LYN_HUMAN,7.0,,Kd,Binding constant for LYN kinase domain,CHEMBL,=,,,,,,Tclin,Homo sapiens,HGNC:6735
+nilvadipine,1934,Voltage-dependent L-type calcium channel subunit alpha-1C,Ion channel,Q13936,CACNA1C,CAC1C_HUMAN,,,,,WOMBAT-PK,,,,,,,Tclin,Homo sapiens,HGNC:1390
+nilvadipine,1934,Voltage-dependent L-type calcium channel subunit alpha-1D,Ion channel,Q01668,CACNA1D,CAC1D_HUMAN,,,,,WOMBAT-PK,,,,,,,Tclin,Homo sapiens,HGNC:1391
+nimodipine,1937,Voltage-dependent L-type calcium channel subunit alpha-1C,Ion channel,Q13936,CACNA1C,CAC1C_HUMAN,,,,,UNKNOWN,,1.0,CHEMBL,,https://www.ebi.ac.uk/chembl/compound/inspect/CHEMBL1428,BLOCKER,Tclin,Homo sapiens,HGNC:1390
+nimodipine,1937,Voltage-dependent L-type calcium channel subunit alpha-1D,Ion channel,Q01668,CACNA1D,CAC1D_HUMAN,,,,,UNKNOWN,,1.0,CHEMBL,,https://www.ebi.ac.uk/chembl/compound/inspect/CHEMBL1428,BLOCKER,Tclin,Homo sapiens,HGNC:1391
+nimodipine,1937,Voltage-dependent L-type calcium channel subunit alpha-1S,Ion channel,Q13698,CACNA1S,CAC1S_HUMAN,6.0,,IC50,,IUPHAR,~,,,,,GATING INHIBITOR,Tclin,Homo sapiens,HGNC:1397
+nimodipine,1937,Voltage-dependent L-type calcium channel subunit alpha-1F,Ion channel,O60840,CACNA1F,CAC1F_HUMAN,6.0,,IC50,,IUPHAR,~,,,,,GATING INHIBITOR,Tclin,Homo sapiens,HGNC:1393
+nisoldipine,1942,Voltage-dependent L-type calcium channel subunit alpha-1C,Ion channel,Q13936,CACNA1C,CAC1C_HUMAN,7.1,,IC50,,IUPHAR,=,1.0,CHEMBL,,https://www.ebi.ac.uk/chembl/compound/inspect/CHEMBL1726,GATING INHIBITOR,Tclin,Homo sapiens,HGNC:1390
+nisoldipine,1942,Voltage-dependent L-type calcium channel subunit alpha-1D,Ion channel,Q01668,CACNA1D,CAC1D_HUMAN,,,,,UNKNOWN,,1.0,CHEMBL,,https://www.ebi.ac.uk/chembl/compound/inspect/CHEMBL1726,BLOCKER,Tclin,Homo sapiens,HGNC:1391
+nisoldipine,1942,Voltage-dependent L-type calcium channel subunit alpha-1C,Ion channel,Q01815,Cacna1c,CAC1C_MOUSE,8.0,,IC50,,IUPHAR,=,,,,,GATING INHIBITOR,,Mus musculus,MGI:103013
+nisoldipine,1942,Voltage-dependent L-type calcium channel subunit alpha-1D,Ion channel,Q99246,Cacna1d,CAC1D_MOUSE,7.0,,IC50,,IUPHAR,=,,,,,GATING INHIBITOR,,Mus musculus,MGI:88293
+nitrendipine,1947,Voltage-dependent L-type calcium channel subunit alpha-1D,Ion channel,Q01668,CACNA1D,CAC1D_HUMAN,8.4,,IC50,Recombinant Cav1.3 calcium channel complexes expressed in tsA-cells,IUPHAR,=,1.0,IUPHAR,,http://www.guidetopharmacology.org/GRAC/LigandDisplayForward?ligandId=2334,GATING INHIBITOR,Tclin,Homo sapiens,HGNC:1391
+nitrendipine,1947,Voltage-dependent L-type calcium channel subunit alpha-1F,Ion channel,O60840,CACNA1F,CAC1F_HUMAN,6.0,,IC50,,IUPHAR,~,,,,,GATING INHIBITOR,Tclin,Homo sapiens,HGNC:1393
+nitrendipine,1947,Voltage-dependent L-type calcium channel subunit alpha-1C,Ion channel,Q13936,CACNA1C,CAC1C_HUMAN,9.6,,Ki,Inhibition of [3H]nitrendipine binding to L-type calcium channel dihydropyridine site of porcine cardiac sarcolemma membrane vesicles,CHEMBL,=,1.0,SCIENTIFIC LITERATURE,,https://pubmed.ncbi.nlm.nih.gov/17276408,BLOCKER,Tclin,Homo sapiens,HGNC:1390
+nortriptyline,1971,Muscarinic acetylcholine receptor M1,GPCR,P11229,CHRM1,ACM1_HUMAN,7.398,,Ki,,WOMBAT-PK,=,,,,,,Tclin,Homo sapiens,HGNC:1950
+nortriptyline,1971,ATP-sensitive inward rectifier potassium channel 10,Ion channel,P78508,KCNJ10,KCJ10_HUMAN,4.796,,IC50,inhibition at +30 mV,SCIENTIFIC LITERATURE,=,,,https://pubmed.ncbi.nlm.nih.gov/17071817,,BLOCKER,Tbio,Homo sapiens,HGNC:6256
+ofloxacin,1981,Muscarinic acetylcholine receptor M1,GPCR,P11229,CHRM1,ACM1_HUMAN,4.41,,IC50,,WOMBAT-PK,=,,,,,,Tclin,Homo sapiens,HGNC:1950
+olanzapine,1982,Muscarinic acetylcholine receptor M1,GPCR,P11229,CHRM1,ACM1_HUMAN,7.506,,Ki,,WOMBAT-PK,=,,,,,,Tclin,Homo sapiens,HGNC:1950
+omapatrilat,1989,Amyloid beta A4 protein,Unclassified,P05067,APP,A4_HUMAN,6.7,,IC50,Inhibition of APP (unknown origin),CHEMBL,=,,,,,,,Homo sapiens,HGNC:620
+omapatrilat,1989,Amyloid beta A4 protein,Unclassified,P05067,APP,A4_HUMAN,6.7,,IC50,Inhibition of APP (unknown origin),CHEMBL,=,,,,,,Tchem,Homo sapiens,HGNC:620
+orphenadrine,1999,Muscarinic acetylcholine receptor M1,GPCR,P11229,CHRM1,ACM1_HUMAN,7.39,,Ki,,WOMBAT-PK,=,,,,,,Tclin,Homo sapiens,HGNC:1950
+oxatomide,2014,Muscarinic acetylcholine receptor M1,GPCR,P11229,CHRM1,ACM1_HUMAN,6.13,,Ki,,WOMBAT-PK,=,,,,,,Tclin,Homo sapiens,HGNC:1950
+oxyphencyclimine,2026,Muscarinic acetylcholine receptor M1,GPCR,P11229,CHRM1,ACM1_HUMAN,,,,Mechanism of Action; CHEMBL216; SINGLE PROTEIN,CHEMBL,,1.0,CHEMBL,,https://www.ebi.ac.uk/chembl/compound/inspect/CHEMBL1200891,ANTAGONIST,Tclin,Homo sapiens,HGNC:1950
+oxybutynin,2028,Muscarinic acetylcholine receptor M1,GPCR,P11229,CHRM1,ACM1_HUMAN,9.0,,Ki,Displacement of 1-[N-methyl- 3H]scopolamine from human muscarinic M1 receptor expressed in Sf9 cells,CHEMBL,=,1.0,DRUG LABEL,,http://www.ema.europa.eu/docs/en_GB/document_library/EPAR_-_Product_Information/human/000532/WC500040171.pdf,ANTAGONIST,Tclin,Homo sapiens,HGNC:1950
+oxyphenonium,2039,Muscarinic acetylcholine receptor M1,GPCR,P11229,CHRM1,ACM1_HUMAN,,,,,WOMBAT-PK,,1.0,CHEMBL,,https://www.ebi.ac.uk/chembl/compound/inspect/CHEMBL1200906,ANTAGONIST,Tclin,Homo sapiens,HGNC:1950
+aminosalicylic acid,2050,Tyrosine-protein phosphatase non-receptor type 1,Enzyme,P18031,PTPN1,PTN1_HUMAN,2.92,,Kd,Dissociation constant for Protein-tyrosine phosphatase 1B,CHEMBL,=,,,,,,Tchem,Homo sapiens,HGNC:9642
+paroxetine,2068,Muscarinic acetylcholine receptor M1,GPCR,P11229,CHRM1,ACM1_HUMAN,7.456,,Ki,DRUGMATRIX: Muscarinic M1 radioligand binding (ligand: [3H] N-Methylscopolamine),DRUG MATRIX,=,,,,,,Tclin,Homo sapiens,HGNC:1950
+perhexiline,2106,Muscarinic acetylcholine receptor M1,GPCR,P11229,CHRM1,ACM1_HUMAN,6.185,,Ki,DRUGMATRIX: Muscarinic M1 radioligand binding (ligand: [3H] N-Methylscopolamine),DRUG MATRIX,=,,,,,,Tclin,Homo sapiens,HGNC:1950
+phenylpropanolamine,2149,Muscarinic acetylcholine receptor M1,GPCR,P11229,CHRM1,ACM1_HUMAN,5.171,,Ki,,PDSP,,,,,,,Tclin,Homo sapiens,HGNC:1950
+physostigmine,2159,Muscarinic acetylcholine receptor M1,GPCR,P12657,Chrm1,ACM1_MOUSE,4.43,,IC50,Binding affinity against mouse muscarinic acetylcholine receptor M1 using cerebral cortex and [3H]pirenzepine,CHEMBL,=,,,,,,,Mus musculus,MGI:88396
+pilocarpine,2166,Muscarinic acetylcholine receptor M1,GPCR,P12657,Chrm1,ACM1_MOUSE,5.16,,EC50,Tested against Muscarinic acetylcholine receptor M1 expressed in A9 L cell line,CHEMBL,=,,,,,,,Mus musculus,MGI:88396
+pilocarpine,2166,Muscarinic acetylcholine receptor M1,GPCR,P11229,CHRM1,ACM1_HUMAN,7.02,,EC50,calcium response in CHO cells,SCIENTIFIC LITERATURE,=,,,https://pubmed.ncbi.nlm.nih.gov/24558448,,AGONIST,Tclin,Homo sapiens,HGNC:1950
+pinacidil,2173,Calcium-activated potassium channel subunit alpha-1,Ion channel,Q12791,KCNMA1,KCMA1_HUMAN,,,,,WOMBAT-PK,,,,,,,Tclin,Homo sapiens,HGNC:6284
+pirenzepine,2200,Muscarinic acetylcholine receptor M1,GPCR,P11229,CHRM1,ACM1_HUMAN,7.68,,Ki,,WOMBAT-PK,=,1.0,IUPHAR,,http://www.guidetopharmacology.org/GRAC/LigandDisplayForward?ligandId=328,ANTAGONIST,Tclin,Homo sapiens,HGNC:1950
+pizotifen,2220,Muscarinic acetylcholine receptor M1,GPCR,P11229,CHRM1,ACM1_HUMAN,8.7,,Ki,Binding affinity to muscarinic M1 receptor (unknown origin),CHEMBL,=,,,,,,Tclin,Homo sapiens,HGNC:1950
+pridinol,2263,Muscarinic acetylcholine receptor M1,GPCR,P11229,CHRM1,ACM1_HUMAN,8.796,,Ki,,PDSP,=,,,,,,Tclin,Homo sapiens,HGNC:1950
+prochlorperazine,2274,Muscarinic acetylcholine receptor M1,GPCR,P11229,CHRM1,ACM1_HUMAN,6.613,,Ki,DRUGMATRIX: Muscarinic M1 radioligand binding (ligand: [3H] N-Methylscopolamine),DRUG MATRIX,=,,,,,,Tclin,Homo sapiens,HGNC:1950
+procyclidine,2276,Muscarinic acetylcholine receptor M1,GPCR,P11229,CHRM1,ACM1_HUMAN,8.337,,Ki,,PDSP,=,1.0,CHEMBL,,https://www.ebi.ac.uk/chembl/compound/inspect/CHEMBL86715,ANTAGONIST,Tclin,Homo sapiens,HGNC:1950
+promazine,2284,Muscarinic acetylcholine receptor M1,GPCR,P11229,CHRM1,ACM1_HUMAN,6.825,,Ki,,WOMBAT-PK,=,,,,,,Tclin,Homo sapiens,HGNC:1950
+promazine,2284,Major prion protein,Surface antigen,P04156,PRNP,PRIO_HUMAN,5.3,,EC50,Half maximal inhibition of Prion protein PrPsc formation was assayed in ScN2a cells,CHEMBL,=,,,,,,Tchem,Homo sapiens,HGNC:9449
+promethazine,2286,Muscarinic acetylcholine receptor M1,GPCR,P11229,CHRM1,ACM1_HUMAN,8.479,,Ki,DRUGMATRIX: Muscarinic M1 radioligand binding (ligand: [3H] N-Methylscopolamine),DRUG MATRIX,=,,,,,,Tclin,Homo sapiens,HGNC:1950
+promethazine,2286,Major prion protein,Surface antigen,P04156,PRNP,PRIO_HUMAN,5.1,,EC50,Half maximal inhibition of Prion protein PrPsc formation was assayed in ScN2a cells,CHEMBL,=,,,,,,Tchem,Homo sapiens,HGNC:9449
+propantheline,2293,Muscarinic acetylcholine receptor M1,GPCR,P11229,CHRM1,ACM1_HUMAN,9.7,,Ki,,IUPHAR,=,1.0,CHEMBL,,https://www.ebi.ac.uk/chembl/compound/inspect/CHEMBL1180725,ANTAGONIST,Tclin,Homo sapiens,HGNC:1950
+propiomazine,2298,Muscarinic acetylcholine receptor M1,GPCR,P11229,CHRM1,ACM1_HUMAN,,,,,WOMBAT-PK,,,,,,,Tclin,Homo sapiens,HGNC:1950
+propranolol,2303,Voltage-dependent L-type calcium channel subunit alpha-1C,Ion channel,Q13936,CACNA1C,CAC1C_HUMAN,4.319,,Ki,,WOMBAT-PK,=,,,,,,Tclin,Homo sapiens,HGNC:1390
+protriptyline,2320,Muscarinic acetylcholine receptor M1,GPCR,P11229,CHRM1,ACM1_HUMAN,7.7,,Ki,,WOMBAT-PK,=,,,,,,Tclin,Homo sapiens,HGNC:1950
+pyrimethamine,2332,Muscarinic acetylcholine receptor M1,GPCR,P11229,CHRM1,ACM1_HUMAN,8.721,,Ki,,PDSP,,,,,,,Tclin,Homo sapiens,HGNC:1950
+quetiapine,2337,Muscarinic acetylcholine receptor M1,GPCR,P11229,CHRM1,ACM1_HUMAN,7.25,,Ki,Binding affinity towards human M1 receptor.,CHEMBL,=,,,,,,Tclin,Homo sapiens,HGNC:1950
+mepacrine,2338,Muscarinic acetylcholine receptor M1,GPCR,P11229,CHRM1,ACM1_HUMAN,6.445,,Ki,DRUGMATRIX: Muscarinic M1 radioligand binding (ligand: [3H] N-Methylscopolamine),DRUG MATRIX,=,,,,,,Tclin,Homo sapiens,HGNC:1950
+mepacrine,2338,Major prion protein,Surface antigen,P04156,PRNP,PRIO_HUMAN,6.52,,EC50,Half maximal inhibition of Prion protein PrPsc formation was assayed in ScN2a cells,CHEMBL,=,,,,,,Tchem,Homo sapiens,HGNC:9449
+risperidone,2389,Muscarinic acetylcholine receptor M1,GPCR,P11229,CHRM1,ACM1_HUMAN,5.55,,Ki,Binding affinity to human cloned muscarinic M1 receptor,CHEMBL,=,,,,,,Tclin,Homo sapiens,HGNC:1950
+scopolamine,2424,Muscarinic acetylcholine receptor M1,GPCR,P11229,CHRM1,ACM1_HUMAN,9.0,,Ki,,WOMBAT-PK,=,1.0,CHEMBL,,https://www.ebi.ac.uk/chembl/compound/inspect/CHEMBL2251240,ANTAGONIST,Tclin,Homo sapiens,HGNC:1950
+sertraline,2436,Muscarinic acetylcholine receptor M1,GPCR,P11229,CHRM1,ACM1_HUMAN,6.128,,Ki,,PDSP,=,,,,,,Tclin,Homo sapiens,HGNC:1950
+solifenacin,2457,Muscarinic acetylcholine receptor M1,GPCR,P11229,CHRM1,ACM1_HUMAN,7.2,,IC50,Displacement of [3H]NMS from human muscarinic M1 receptor expressed in CHO-K1 cells after 1 hr by scintillation counting,CHEMBL,=,,,,,,Tclin,Homo sapiens,HGNC:1950
+sorafenib,2459,Proto-oncogene tyrosine-protein kinase Src,Kinase,P12931,SRC,SRC_HUMAN,6.41,,IC50,Inhibition of recombinant c-Src by radioactive phosphotransfer assay in presence of 10 uM ATP,CHEMBL,=,,,,,,Tclin,Homo sapiens,HGNC:11283
+sorafenib,2459,Tyrosine-protein kinase Lyn,Kinase,P07948,LYN,LYN_HUMAN,5.52,,Kd,Binding constant for LYN kinase domain,CHEMBL,=,,,,,,Tclin,Homo sapiens,HGNC:6735
+strychnine,2484,Muscarinic acetylcholine receptor M1,GPCR,P11229,CHRM1,ACM1_HUMAN,5.0,,Kd,,IUPHAR,=,,,,,ALLOSTERIC MODULATOR,Tclin,Homo sapiens,HGNC:1950
+sulconazole,2495,Muscarinic acetylcholine receptor M1,GPCR,P11229,CHRM1,ACM1_HUMAN,6.053,,Ki,DRUGMATRIX: Muscarinic M1 radioligand binding (ligand: [3H] N-Methylscopolamine),DRUG MATRIX,=,,,,,,Tclin,Homo sapiens,HGNC:1950
+suloctidil,2536,Muscarinic acetylcholine receptor M1,GPCR,P11229,CHRM1,ACM1_HUMAN,5.965,,Ki,DRUGMATRIX: Muscarinic M1 radioligand binding (ligand: [3H] N-Methylscopolamine),DRUG MATRIX,=,,,,,,Tclin,Homo sapiens,HGNC:1950
+sunitinib,2544,Proto-oncogene tyrosine-protein kinase Src,Kinase,P12931,SRC,SRC_HUMAN,5.68,,Kd,Binding constant for SRC kinase domain,CHEMBL,=,,,,,,Tclin,Homo sapiens,HGNC:11283
+sunitinib,2544,Focal adhesion kinase 1,Kinase,Q05397,PTK2,FAK1_HUMAN,6.36,,Kd,Binding constant for PTK2 kinase domain,CHEMBL,=,,,,,,Tclin,Homo sapiens,HGNC:9611
+sunitinib,2544,Serine/threonine-protein kinase MARK2,Kinase,Q7KZI7,MARK2,MARK2_HUMAN,6.51,,Kd,Binding constant for MARK2 kinase domain,CHEMBL,=,,,,,,Tchem,Homo sapiens,HGNC:3332
+sunitinib,2544,Tyrosine-protein kinase Lyn,Kinase,P07948,LYN,LYN_HUMAN,6.57,,Kd,Binding constant for LYN kinase domain,CHEMBL,=,,,,,,Tclin,Homo sapiens,HGNC:6735
+sunitinib,2544,Serine/threonine-protein kinase PAK 3,Kinase,O75914,PAK3,PAK3_HUMAN,7.8,,Kd,Binding constant for full-length PAK3,CHEMBL,=,,,,,,Tchem,Homo sapiens,HGNC:8592
+sunitinib,2544,Serine/threonine-protein kinase PAK 7,Kinase,Q9P286,PAK5,PAK5_HUMAN,6.19,,Kd,Binding constant for PAK7/PAK5 kinase domain,CHEMBL,=,,,,,,Tchem,Homo sapiens,HGNC:15916
+sunitinib,2544,Serine/threonine-protein kinase PAK 4,Kinase,O96013,PAK4,PAK4_HUMAN,5.64,,Kd,Binding constant for PAK4 kinase domain,CHEMBL,=,,,,,,Tchem,Homo sapiens,HGNC:16059
+tacrine,2551,Muscarinic acetylcholine receptor M1,GPCR,P12657,Chrm1,ACM1_MOUSE,5.7,,IC50,Binding affinity against mouse Muscarinic acetylcholine receptor M1 using cerebral cortex and [3H]pirenzepine,CHEMBL,=,,,,,,,Mus musculus,MGI:88396
+tacrine,2551,Amyloid beta A4 protein,Unclassified,P05067,APP,A4_HUMAN,7.91,,IC50,Inhibition of self-mediated amyloid beta (1 to 42) (unknown origin) aggregation after 24 hrs by thioflavin T fluorescence assay,CHEMBL,=,,,,,,,Homo sapiens,HGNC:620
+tamoxifen,2561,Muscarinic acetylcholine receptor M1,GPCR,P11229,CHRM1,ACM1_HUMAN,6.167,,Ki,DRUGMATRIX: Muscarinic M1 radioligand binding (ligand: [3H] N-Methylscopolamine),DRUG MATRIX,=,,,,,,Tclin,Homo sapiens,HGNC:1950
+terconazole,2599,Muscarinic acetylcholine receptor M1,GPCR,P11229,CHRM1,ACM1_HUMAN,5.862,,Ki,DRUGMATRIX: Muscarinic M1 radioligand binding (ligand: [3H] N-Methylscopolamine),DRUG MATRIX,=,,,,,,Tclin,Homo sapiens,HGNC:1950
+terfenadine,2600,Muscarinic acetylcholine receptor M1,GPCR,P11229,CHRM1,ACM1_HUMAN,5.54,,IC50,Compound is evaluated for in vitro receptor binding affinity against Muscarinic acetylcholine receptor M1,CHEMBL,=,,,,,,Tclin,Homo sapiens,HGNC:1950
+sapropterin,2612,"Nitric oxide synthase, brain",Enzyme,P29475,NOS1,NOS1_HUMAN,5.95,,Kd,Activity of tetrahydrobiopterin free nNOS,CHEMBL,=,,,,,,Tchem,Homo sapiens,HGNC:7872
+thiethylperazine,2630,Muscarinic acetylcholine receptor M1,GPCR,P11229,CHRM1,ACM1_HUMAN,,,,,WOMBAT-PK,,,,,,,Tclin,Homo sapiens,HGNC:1950
+thioridazine,2637,Muscarinic acetylcholine receptor M1,GPCR,P11229,CHRM1,ACM1_HUMAN,8.569,,Ki,,PDSP,=,,,,,,Tclin,Homo sapiens,HGNC:1950
+thiothixene,2639,Muscarinic acetylcholine receptor M1,GPCR,P11229,CHRM1,ACM1_HUMAN,5.585,,Ki,,PDSP,=,,,,,,Tclin,Homo sapiens,HGNC:1950
+tiludronic acid,2666,Tyrosine-protein phosphatase non-receptor type 1,Enzyme,P18031,PTPN1,PTN1_HUMAN,,,,,WOMBAT-PK,,,,,,,Tchem,Homo sapiens,HGNC:9642
+tiotropium bromide,2677,Muscarinic acetylcholine receptor M1,GPCR,P11229,CHRM1,ACM1_HUMAN,11.0,,Ki,,WOMBAT-PK,=,,,,,,Tclin,Homo sapiens,HGNC:1950
+tolterodine,2705,Muscarinic acetylcholine receptor M1,GPCR,P11229,CHRM1,ACM1_HUMAN,8.85,,Ki,Displacement of [3H]N-methyl Scopolamine from human cloned muscarinic M1 receptor expressed in CHO cells,CHEMBL,=,,,,,,Tclin,Homo sapiens,HGNC:1950
+tridihexethyl,2737,Muscarinic acetylcholine receptor M1,GPCR,P11229,CHRM1,ACM1_HUMAN,,,,Mechanism of Action; CHEMBL216; SINGLE PROTEIN,CHEMBL,,1.0,CHEMBL,,https://www.ebi.ac.uk/chembl/compound/inspect/CHEMBL1201354,ANTAGONIST,Tclin,Homo sapiens,HGNC:1950
+trihexyphenidyl,2745,Muscarinic acetylcholine receptor M1,GPCR,P11229,CHRM1,ACM1_HUMAN,8.89,,IC50,Evaluated for its binding affinity at human muscarinic receptor m1 by displacement of [3H]NMS binding using membranes in transfected chinese hamster ovarian cell,CHEMBL,=,1.0,CHEMBL,,https://www.ebi.ac.uk/chembl/compound/inspect/CHEMBL1092,ANTAGONIST,Tclin,Homo sapiens,HGNC:1950
+troglitazone,2767,Tyrosine-protein phosphatase non-receptor type 1,Enzyme,P18031,PTPN1,PTN1_HUMAN,4.26,,IC50,Inhibition of PTP1B,CHEMBL,=,,,,,,Tchem,Homo sapiens,HGNC:9642
+tropicamide,2774,Muscarinic acetylcholine receptor M1,GPCR,P11229,CHRM1,ACM1_HUMAN,7.167,,Ki,DRUGMATRIX: Muscarinic M1 radioligand binding (ligand: [3H] N-Methylscopolamine),DRUG MATRIX,=,,,,,,Tclin,Homo sapiens,HGNC:1950
+trospium,2776,Muscarinic acetylcholine receptor M1,GPCR,P11229,CHRM1,ACM1_HUMAN,,,,,WOMBAT-PK,,,,,,,Tclin,Homo sapiens,HGNC:1950
+valethamate,2800,Muscarinic acetylcholine receptor M1,GPCR,P11229,CHRM1,ACM1_HUMAN,8.56,,Ki,DRUGMATRIX: Muscarinic M1 radioligand binding (ligand: [3H] N-Methylscopolamine),CHEMBL,=,,,,,,Tclin,Homo sapiens,HGNC:1950
+valproic acid,2803,Histone deacetylase 2,Enzyme,Q92769,HDAC2,HDAC2_HUMAN,4.21,,IC50,Inhibition of human recombinant HDAC2,CHEMBL,=,,,,,,Tclin,Homo sapiens,HGNC:4853
+verapamil,2815,Voltage-dependent L-type calcium channel subunit alpha-1C,Ion channel,Q13936,CACNA1C,CAC1C_HUMAN,6.0,,IC50,,WOMBAT-PK,=,1.0,CHEMBL,,https://www.ebi.ac.uk/chembl/compound/inspect/CHEMBL6966,BLOCKER,Tclin,Homo sapiens,HGNC:1390
+verapamil,2815,Voltage-dependent L-type calcium channel subunit alpha-1S,Ion channel,Q13698,CACNA1S,CAC1S_HUMAN,,,,,UNKNOWN,,1.0,IUPHAR,,http://www.guidetopharmacology.org/GRAC/LigandDisplayForward?ligandId=2406,BLOCKER,Tclin,Homo sapiens,HGNC:1397
+vinburnine,2824,Muscarinic acetylcholine receptor M1,GPCR,P11229,CHRM1,ACM1_HUMAN,5.1,,Kd,,IUPHAR,=,,,,,ALLOSTERIC MODULATOR,Tclin,Homo sapiens,HGNC:1950
+nicotinic acid,2835,Amyloid beta A4 protein,Unclassified,P05067,APP,A4_HUMAN,4.88,,IC50,Inhibition of amyloid beta aggregation (unknown origin) after 4 hrs by thioflavin S assay in absence of Zn2+,CHEMBL,=,,,,,,,Homo sapiens,HGNC:620
+ziprasidone,2865,Muscarinic acetylcholine receptor M1,GPCR,P11229,CHRM1,ACM1_HUMAN,6.55,,Ki,,WOMBAT-PK,=,,,,,,Tclin,Homo sapiens,HGNC:1950
+zotepine,2875,Muscarinic acetylcholine receptor M1,GPCR,P11229,CHRM1,ACM1_HUMAN,7.745,,Ki,,PDSP,=,,,,,,Tclin,Homo sapiens,HGNC:1950
+suramin,2966,NAD-dependent protein deacetylase sirtuin-2,Enzyme,Q8IXJ6,SIRT2,SIR2_HUMAN,5.96,,IC50,Inhibition of recombinant SIRT2 using ZMAL substrate after 4 hrs by homogeneous fluorescence assay,CHEMBL,=,,,,,,Tchem,Homo sapiens,HGNC:10886
+benzethonium,3018,Muscarinic acetylcholine receptor M1,GPCR,P11229,CHRM1,ACM1_HUMAN,7.004,,Ki,DRUGMATRIX: Muscarinic M1 radioligand binding (ligand: [3H] N-Methylscopolamine),DRUG MATRIX,=,,,,,,Tclin,Homo sapiens,HGNC:1950
+bietamiverine,3025,Muscarinic acetylcholine receptor M1,GPCR,P11229,CHRM1,ACM1_HUMAN,6.57,,Ki,Displacement of [3H] N-methylscopolamine from human muscarinic M1 receptor expressed in CHOK1 cells after 30 mins by scintillation counting analysis,CHEMBL,=,,,,,,Tclin,Homo sapiens,HGNC:1950
+eburnamonine,3170,Muscarinic acetylcholine receptor M1,GPCR,P11229,CHRM1,ACM1_HUMAN,5.1,,Kd,,IUPHAR,=,,,,,ALLOSTERIC MODULATOR,Tclin,Homo sapiens,HGNC:1950
+enoxolone,3178,Tyrosine-protein phosphatase non-receptor type 1,Enzyme,P18031,PTPN1,PTN1_HUMAN,4.34,,IC50,Inhibition of recombinant PTP1B,CHEMBL,=,,,,,,Tchem,Homo sapiens,HGNC:9642
+evans blue,3217,Tyrosine-protein phosphatase non-receptor type 1,Enzyme,P18031,PTPN1,PTN1_HUMAN,5.89,,IC50,Inhibition of human PTPase 1B,CHEMBL,=,,,,,,Tchem,Homo sapiens,HGNC:9642
+femoxetine,3220,Muscarinic acetylcholine receptor M1,GPCR,P11229,CHRM1,ACM1_HUMAN,7.036,,Ki,,PDSP,,,,,,,Tclin,Homo sapiens,HGNC:1950
+furtrethonium,3256,Muscarinic acetylcholine receptor M1,GPCR,P11229,CHRM1,ACM1_HUMAN,4.1,,Ki,,IUPHAR,=,,,,,AGONIST,Tclin,Homo sapiens,HGNC:1950
+iloperidone,3294,Muscarinic acetylcholine receptor M1,GPCR,P11229,CHRM1,ACM1_HUMAN,5.31,,Ki,,PDSP,=,,,,,,Tclin,Homo sapiens,HGNC:1950
+oxiconazole,3408,Muscarinic acetylcholine receptor M1,GPCR,P11229,CHRM1,ACM1_HUMAN,5.943,,Ki,DRUGMATRIX: Muscarinic M1 radioligand binding (ligand: [3H] N-Methylscopolamine),DRUG MATRIX,=,,,,,,Tclin,Homo sapiens,HGNC:1950
+quercetin,3514,Tyrosine-protein phosphatase non-receptor type 1,Enzyme,P18031,PTPN1,PTN1_HUMAN,4.63,,IC50,The inhibitory activity tested against human Protein-tyrosine phosphatase 1B enzyme,CHEMBL,=,,,,,,Tchem,Homo sapiens,HGNC:9642
+quercetin,3514,Proto-oncogene tyrosine-protein kinase Src,Kinase,P12931,SRC,SRC_HUMAN,6.92,,IC50,Inhibition of SRC (unknown origin),CHEMBL,=,,,,,,Tclin,Homo sapiens,HGNC:11283
+quercetin,3514,Focal adhesion kinase 1,Kinase,Q05397,PTK2,FAK1_HUMAN,5.92,,IC50,Inhibition of FAK (unknown origin),CHEMBL,=,,,,,,Tclin,Homo sapiens,HGNC:9611
+quercetin,3514,Proteasome subunit beta type-5,Enzyme,P28074,PSMB5,PSB5_HUMAN,5.7,,IC50,Inhibition of chymotrypsin-like activity of human 26S proteasome in human Jurkat cells assessed as decrease in AMC hydrolysis using Z-Gly-Gly-Leu-AMC as substrate after 24 hrs by fluorescence based method,CHEMBL,=,,,,,,Tclin,Homo sapiens,HGNC:9542
+quercetin,3514,Amyloid beta A4 protein,Unclassified,P05067,APP,A4_HUMAN,5.1,,IC50,Inhibition of amyloid beta (1 to 42) aggregation (unknown origin),CHEMBL,=,,,,,,,Homo sapiens,HGNC:620
+quercetin,3514,Proteasome subunit beta type-5,Enzyme,P28074,PSMB5,PSB5_HUMAN,5.7,,IC50,Inhibition of chymotrypsin-like activity of human 26S proteasome in human Jurkat cells assessed as decrease in AMC hydrolysis using Z-Gly-Gly-Leu-AMC as substrate after 24 hrs by fluorescence based method,CHEMBL,=,,,,,,Tclin,Homo sapiens,HGNC:9542
+ruboxistaurin,3533,Serine/threonine-protein kinase MARK2,Kinase,Q7KZI7,MARK2,MARK2_HUMAN,5.64,,Kd,Average Binding Constant for MARK2; NA=Not Active at 10 uM,CHEMBL,=,,,,,,Tchem,Homo sapiens,HGNC:3332
+sabcomeline,3536,Muscarinic acetylcholine receptor M1,GPCR,P11229,CHRM1,ACM1_HUMAN,6.77,,IC50,In vitro affinity against human Muscarinic acetylcholine receptor M1 using quinuclidynyl benzylate (QNB),CHEMBL,=,,,,,,Tclin,Homo sapiens,HGNC:1950
+vincamine,3643,Muscarinic acetylcholine receptor M1,GPCR,P11229,CHRM1,ACM1_HUMAN,4.8,,Kd,,IUPHAR,=,,,,,ALLOSTERIC MODULATOR,Tclin,Homo sapiens,HGNC:1950
+xanomeline,3652,Muscarinic acetylcholine receptor M1,GPCR,P11229,CHRM1,ACM1_HUMAN,7.38,,Ki,Affinity towards human M1 receptor expressed in CHO cells using [3H]QNB as radioligand,CHEMBL,=,,,,,,Tclin,Homo sapiens,HGNC:1950
+xanomeline,3652,Muscarinic acetylcholine receptor M1,GPCR,P12657,Chrm1,ACM1_MOUSE,5.24,,EC50,Tested against Muscarinic acetylcholine receptor M1 expressed in A9 L cell line,CHEMBL,=,,,,,,,Mus musculus,MGI:88396
+yohimbine,3659,Dual specificity phosphatase Cdc25A,Enzyme,P30304,CDC25A,MPIP1_HUMAN,4.65,,IC50,Inhibition of His-tagged Cdc25A expressed in the Escherichia coli BL21(DE3) using p-nitrophenyl phosphate as substrate for 80 mins by spectrophotometry,CHEMBL,=,,,,,,Tchem,Homo sapiens,HGNC:1725
+ivermectin,3972,Muscarinic acetylcholine receptor M1,GPCR,P11229,CHRM1,ACM1_HUMAN,5.924,,Ki,DRUGMATRIX: Muscarinic M1 radioligand binding (ligand: [3H] N-Methylscopolamine),DRUG MATRIX,=,,,,,,Tclin,Homo sapiens,HGNC:1950
+asenapine,4115,Muscarinic acetylcholine receptor M1,GPCR,P11229,CHRM1,ACM1_HUMAN,6.107,,Ki,,PDSP,,,,,,,Tclin,Homo sapiens,HGNC:1950
+pazopanib,4118,Proto-oncogene tyrosine-protein kinase Src,Kinase,P12931,SRC,SRC_HUMAN,5.55,,Kd,Binding constant for SRC kinase domain,CHEMBL,=,,,,,,Tclin,Homo sapiens,HGNC:11283
+pazopanib,4118,Tyrosine-protein kinase Lyn,Kinase,P07948,LYN,LYN_HUMAN,6.05,,Kd,Binding constant for LYN kinase domain,CHEMBL,=,,,,,,Tclin,Homo sapiens,HGNC:6735
+romidepsin,4119,Histone deacetylase 2,Enzyme,Q92769,HDAC2,HDAC2_HUMAN,7.328,,IC50,,WOMBAT-PK,=,,,,,,Tclin,Homo sapiens,HGNC:4853
+vorinostat,4124,Histone deacetylase 2,Enzyme,Q92769,HDAC2,HDAC2_HUMAN,8.8,,Ki,Inhibition of human HDAC2,CHEMBL,=,1.0,CHEMBL,,https://www.ebi.ac.uk/chembl/compound/inspect/CHEMBL98,INHIBITOR,Tclin,Homo sapiens,HGNC:4853
+gentian violet,4138,Muscarinic acetylcholine receptor M1,GPCR,P11229,CHRM1,ACM1_HUMAN,6.578,,Ki,DRUGMATRIX: Muscarinic M1 radioligand binding (ligand: [3H] N-Methylscopolamine),DRUG MATRIX,=,,,,,,Tclin,Homo sapiens,HGNC:1950
+linagliptin,4175,Muscarinic acetylcholine receptor M1,GPCR,P11229,CHRM1,ACM1_HUMAN,6.53,,IC50,Displacement of [N-methyl-3H]scopolamine from human recombinant muscarinic M1 receptor expressed in CHO cells,CHEMBL,=,,,,,,Tclin,Homo sapiens,HGNC:1950
+vandetanib,4178,Proto-oncogene tyrosine-protein kinase Src,Kinase,P12931,SRC,SRC_HUMAN,7.15,,Kd,Binding constant for SRC kinase domain,CHEMBL,=,,,,,INHIBITOR,Tclin,Homo sapiens,HGNC:11283
+vandetanib,4178,Tyrosine-protein kinase Lyn,Kinase,P07948,LYN,LYN_HUMAN,6.96,,Kd,Binding constant for LYN kinase domain,CHEMBL,=,,,,,,Tclin,Homo sapiens,HGNC:6735
+crizotinib,4187,Proto-oncogene tyrosine-protein kinase Src,Kinase,P12931,SRC,SRC_HUMAN,6.25,,Kd,Binding constant for SRC kinase domain,CHEMBL,=,,,,,,Tclin,Homo sapiens,HGNC:11283
+crizotinib,4187,Focal adhesion kinase 1,Kinase,Q05397,PTK2,FAK1_HUMAN,6.51,,Kd,Binding constant for FAK kinase domain,CHEMBL,=,,,,,,Tclin,Homo sapiens,HGNC:9611
+crizotinib,4187,Tyrosine-protein kinase Lyn,Kinase,P07948,LYN,LYN_HUMAN,6.03,,Kd,Binding constant for LYN kinase domain,CHEMBL,=,,,,,,Tclin,Homo sapiens,HGNC:6735
+ruxolitinib,4190,Serine/threonine-protein kinase MARK2,Kinase,Q7KZI7,MARK2,MARK2_HUMAN,6.18,,Kd,Binding constant for MARK2 kinase domain,CHEMBL,=,,,,,,Tchem,Homo sapiens,HGNC:3332
+ruxolitinib,4190,Serine/threonine-protein kinase PAK 7,Kinase,Q9P286,PAK5,PAK5_HUMAN,5.89,,Kd,Binding constant for PAK7 kinase domain,CHEMBL,=,,,,,,Tchem,Homo sapiens,HGNC:15916
+ruxolitinib,4190,Serine/threonine-protein kinase PAK 4,Kinase,O96013,PAK4,PAK4_HUMAN,5.8,,Kd,Binding constant for PAK4 kinase domain,CHEMBL,=,,,,,,Tchem,Homo sapiens,HGNC:16059
+fesoterodine,4191,Muscarinic acetylcholine receptor M1,GPCR,P11229,CHRM1,ACM1_HUMAN,6.393,,Ki,,WOMBAT-PK,=,,,,,,Tclin,Homo sapiens,HGNC:1950
+axitinib,4225,Serine/threonine-protein kinase PAK 4,Kinase,O96013,PAK4,PAK4_HUMAN,5.35,,Kd,Binding constant for PAK4 kinase domain,CHEMBL,=,,,,,,Tchem,Homo sapiens,HGNC:16059
+Florbetapir F-18,4285,Amyloid beta A4 protein,Unclassified,P05067,APP,A4_HUMAN,8.54,,Ki,,CHEMBL,=,,,,,,,Homo sapiens,HGNC:620
+Flutemetamol (18F),4301,Amyloid beta A4 protein,Unclassified,P05067,APP,A4_HUMAN,9.15,,Ki,Binding affinity to human amyloid beta plaque,CHEMBL,=,,,,,,,Homo sapiens,HGNC:620
+glycopyrronium bromide,4302,Muscarinic acetylcholine receptor M1,GPCR,P11229,CHRM1,ACM1_HUMAN,9.69,,Ki,,SCIENTIFIC LITERATURE,=,1.0,CHEMBL,http://www.ema.europa.eu/docs/en_GB/document_library/EPAR_-_Public_assessment_report/human/002430/WC500133771.pdf,https://www.ebi.ac.uk/chembl/compound/inspect/CHEMBL1201027,ANTAGONIST,Tclin,Homo sapiens,HGNC:1950
+aceclidine,4314,Muscarinic acetylcholine receptor M1,GPCR,P11229,CHRM1,ACM1_HUMAN,5.0,,EC50,,IUPHAR,=,,,,,AGONIST,Tclin,Homo sapiens,HGNC:1950
+afatinib,4318,Proto-oncogene tyrosine-protein kinase Src,Kinase,P12931,SRC,SRC_HUMAN,5.55,,Kd,Binding constant for SRC kinase domain,CHEMBL,=,,,,,,Tclin,Homo sapiens,HGNC:11283
+bosutinib,4359,Proto-oncogene tyrosine-protein kinase Src,Kinase,P12931,SRC,SRC_HUMAN,9.0,,Kd,Binding constant for SRC kinase domain,CHEMBL,=,1.0,CHEMBL,,https://www.ebi.ac.uk/chembl/compound/inspect/CHEMBL288441,INHIBITOR,Tclin,Homo sapiens,HGNC:11283
+bosutinib,4359,Focal adhesion kinase 1,Kinase,Q05397,PTK2,FAK1_HUMAN,6.24,,Kd,Binding constant for FAK kinase domain,CHEMBL,=,,,,,,Tclin,Homo sapiens,HGNC:9611
+bosutinib,4359,Tyrosine-protein kinase Lyn,Kinase,P07948,LYN,LYN_HUMAN,8.38,,Kd,Binding constant for LYN kinase domain,CHEMBL,=,1.0,CHEMBL,,https://www.ebi.ac.uk/chembl/compound/inspect/CHEMBL288441,INHIBITOR,Tclin,Homo sapiens,HGNC:6735
+bosutinib,4359,Serine/threonine-protein kinase PAK 3,Kinase,O75914,PAK3,PAK3_HUMAN,5.24,,Kd,Binding constant for PAK3 kinase domain,CHEMBL,=,,,,,,Tchem,Homo sapiens,HGNC:8592
+bosutinib,4359,Serine/threonine-protein kinase PAK 1,Kinase,Q13153,PAK1,PAK1_HUMAN,5.64,,Kd,Binding constant for PAK1 kinase domain,CHEMBL,=,,,,,,Tchem,Homo sapiens,HGNC:8590
+bosutinib,4359,Serine/threonine-protein kinase PAK 2,Kinase,Q13177,PAK2,PAK2_HUMAN,5.72,,Kd,Binding constant for PAK2 kinase domain,CHEMBL,=,,,,,,Tchem,Homo sapiens,HGNC:8591
+dexchlorpheniramine,4411,Muscarinic acetylcholine receptor M1,GPCR,P11229,CHRM1,ACM1_HUMAN,6.478,,Ki,DRUGMATRIX: Muscarinic M1 radioligand binding (ligand: [3H] N-Methylscopolamine),DRUG MATRIX,=,,,,,,Tclin,Homo sapiens,HGNC:1950
+carfilzomib,4483,Proteasome subunit beta type-5,Enzyme,P28074,PSMB5,PSB5_HUMAN,8.222,,IC50,fluorogenic peptide substrate hydrolysis,SCIENTIFIC LITERATURE,=,1.0,SCIENTIFIC LITERATURE,https://pubmed.ncbi.nlm.nih.gov/17616698,https://pubmed.ncbi.nlm.nih.gov/17616698,INHIBITOR,Tclin,Homo sapiens,HGNC:9542
+aclidinium bromide,4484,Muscarinic acetylcholine receptor M1,GPCR,P11229,CHRM1,ACM1_HUMAN,10.1,,Ki,Binding affinity to muscarinic M1 receptor,CHEMBL,=,,,,,,Tclin,Homo sapiens,HGNC:1950
+trypan blue,4608,Tyrosine-protein phosphatase non-receptor type 1,Enzyme,P18031,PTPN1,PTN1_HUMAN,5.41,,IC50,Inhibition of human PTPase 1B,CHEMBL,=,,,,,,Tchem,Homo sapiens,HGNC:9642
+trabectedin,4633,Proto-oncogene tyrosine-protein kinase Src,Kinase,P12931,SRC,SRC_HUMAN,6.68,,IC50,Inhibition of Src,CHEMBL,=,,,,,,Tclin,Homo sapiens,HGNC:11283
+betamethasone phosphate,4667,Muscarinic acetylcholine receptor M1,GPCR,P11229,CHRM1,ACM1_HUMAN,5.776,,Ki,DRUGMATRIX: Muscarinic M1 radioligand binding (ligand: [3H] N-Methylscopolamine),DRUG MATRIX,=,,,,,,Tclin,Homo sapiens,HGNC:1950
+panobinostat,4682,Histone deacetylase 2,Enzyme,Q92769,HDAC2,HDAC2_HUMAN,9.19,,Ki,Inhibition of human HDAC2,CHEMBL,=,1.0,DRUG LABEL,,http://www.accessdata.fda.gov/drugsatfda_docs/label/2015/205353s000lbl.pdf,INHIBITOR,Tclin,Homo sapiens,HGNC:4853
+cabozantinib,4715,Proto-oncogene tyrosine-protein kinase Src,Kinase,P12931,SRC,SRC_HUMAN,6.75,,IC50,"Inhibition of Src (unknown origin) using poly (Glu,Tyr) 4:1 as substrate after 1 hr by ELISA",CHEMBL,=,,,,,,Tclin,Homo sapiens,HGNC:11283
+ponatinib,4716,Proto-oncogene tyrosine-protein kinase Src,Kinase,P12931,SRC,SRC_HUMAN,8.52,,IC50,,CHEMBL,=,,,,,,Tclin,Homo sapiens,HGNC:11283
+ponatinib,4716,Tyrosine-protein kinase Lyn,Kinase,P07948,LYN,LYN_HUMAN,9.62,,IC50,,WOMBAT-PK,=,,,,,INHIBITOR,Tclin,Homo sapiens,HGNC:6735
+tenidap,4728,Inward rectifier potassium channel 4,Ion channel,P48050,KCNJ4,KCNJ4_HUMAN,6.4,,EC50,,IUPHAR,=,,,,,ACTIVATOR,Tchem,Homo sapiens,HGNC:6265
+ibrutinib,4810,Tyrosine-protein kinase Lyn,Kinase,P07948,LYN,LYN_HUMAN,7.854,,Ki,measured in anti-IgM stimulated Ramos human B cell line,SCIENTIFIC LITERATURE,=,,,https://pubmed.ncbi.nlm.nih.gov/17154430,,,Tclin,Homo sapiens,HGNC:6735
+ibrutinib,4810,Proto-oncogene tyrosine-protein kinase Src,Kinase,P12931,SRC,SRC_HUMAN,7.721,,IC50,,SCIENTIFIC LITERATURE,=,,,https://pubmed.ncbi.nlm.nih.gov/26641137,,INHIBITOR,Tclin,Homo sapiens,HGNC:11283
+umeclidinium,4816,Muscarinic acetylcholine receptor M1,GPCR,P11229,CHRM1,ACM1_HUMAN,9.796,,Ki,"radioligand binding assays in CHO cells expressing human M1, M2, or M3 receptors in a scintillation proximity assay with 0.5 nM [3H]-N-methyl scopolamine as the ligand",SCIENTIFIC LITERATURE,=,,,https://pubmed.ncbi.nlm.nih.gov/19317446,,,Tclin,Homo sapiens,HGNC:1950
+florbetaben F18,4818,Amyloid beta A4 protein,Unclassified,P05067,APP,A4_HUMAN,8.65,,Ki,,CHEMBL,=,,,,,,,Homo sapiens,HGNC:620
+ceritinib,4866,Proto-oncogene tyrosine-protein kinase Src,Kinase,P12931,SRC,SRC_HUMAN,5.77,,IC50,Inhibition of TEL-fused SRC (unknown origin) by cell-based assay,CHEMBL,=,,,,,,Tclin,Homo sapiens,HGNC:11283
+ceritinib,4866,Tyrosine-protein kinase Lyn,Kinase,P07948,LYN,LYN_HUMAN,6.08,,IC50,Inhibition of LYN (unknown origin) after 60 mins,CHEMBL,=,,,,,,Tclin,Homo sapiens,HGNC:6735
+belinostat,4876,Histone deacetylase 2,Enzyme,Q92769,HDAC2,HDAC2_HUMAN,9.07,,Ki,Inhibition of human HDAC2,CHEMBL,=,1.0,CHEMBL,,https://www.ebi.ac.uk/chembl/compound/inspect/CHEMBL408513,INHIBITOR,Tclin,Homo sapiens,HGNC:4853
+imidafenacin,4902,Muscarinic acetylcholine receptor M1,GPCR,P11229,CHRM1,ACM1_HUMAN,8.384,,Kb,,SCIENTIFIC LITERATURE,=,,,https://pubmed.ncbi.nlm.nih.gov/10428387,,,Tclin,Homo sapiens,HGNC:1950
+nintedanib,4903,Proto-oncogene tyrosine-protein kinase Src,Kinase,P12931,SRC,SRC_HUMAN,6.24,,Kd,Binding constant for SRC kinase domain,CHEMBL,=,,,,,,Tclin,Homo sapiens,HGNC:11283
+nintedanib,4903,Focal adhesion kinase 1,Kinase,Q05397,PTK2,FAK1_HUMAN,6.68,,Kd,Binding constant for FAK kinase domain,CHEMBL,=,,,,,,Tclin,Homo sapiens,HGNC:9611
+nintedanib,4903,Serine/threonine-protein kinase MARK2,Kinase,Q7KZI7,MARK2,MARK2_HUMAN,5.85,,Kd,Binding constant for MARK2 kinase domain,CHEMBL,=,,,,,,Tchem,Homo sapiens,HGNC:3332
+nintedanib,4903,Tyrosine-protein kinase Lyn,Kinase,P07948,LYN,LYN_HUMAN,6.03,,Kd,Binding constant for LYN kinase domain,CHEMBL,=,,,,,,Tclin,Homo sapiens,HGNC:6735
+nintedanib,4903,Serine/threonine-protein kinase PAK 3,Kinase,O75914,PAK3,PAK3_HUMAN,6.68,,Kd,Binding constant for PAK3 kinase domain,CHEMBL,=,,,,,,Tchem,Homo sapiens,HGNC:8592
+nintedanib,4903,Serine/threonine-protein kinase PAK 7,Kinase,Q9P286,PAK5,PAK5_HUMAN,5.89,,Kd,Binding constant for PAK7 kinase domain,CHEMBL,=,,,,,,Tchem,Homo sapiens,HGNC:15916
+nintedanib,4903,Serine/threonine-protein kinase PAK 2,Kinase,Q13177,PAK2,PAK2_HUMAN,5.48,,Kd,Binding constant for PAK2 kinase domain,CHEMBL,=,,,,,,Tchem,Homo sapiens,HGNC:8591
+nintedanib,4903,Serine/threonine-protein kinase PAK 4,Kinase,O96013,PAK4,PAK4_HUMAN,5.52,,Kd,Binding constant for PAK4 kinase domain,CHEMBL,=,,,,,,Tchem,Homo sapiens,HGNC:16059
+chidamide,4973,Histone deacetylase 2,Enzyme,Q92769,HDAC2,HDAC2_HUMAN,6.796,,IC50,HDAC enzyme inhibition assay using BSA substrate,SCIENTIFIC LITERATURE,=,1.0,SCIENTIFIC LITERATURE,https://pubmed.ncbi.nlm.nih.gov/22080169,https://pubmed.ncbi.nlm.nih.gov/22080169,INHIBITOR,Tclin,Homo sapiens,HGNC:4853
+ixazomib,5067,Proteasome subunit beta type-5,Enzyme,P28074,PSMB5,PSB5_HUMAN,8.469,,IC50,,SCIENTIFIC LITERATURE,=,1.0,DRUG LABEL,https://pubmed.ncbi.nlm.nih.gov/20160034,http://www.accessdata.fda.gov/drugsatfda_docs/label/2015/208462lbl.pdf,INHIBITOR,Tclin,Homo sapiens,HGNC:9542
+eteplirsen,5182,exon 51 of dystrophin pre-mRNA,RNA,P11532,DMD,DMD_HUMAN,,,,Mechanism of Action,UNKNOWN,,1.0,DRUG LABEL,,https://www.accessdata.fda.gov/drugsatfda_docs/label/2016/206488lbl.pdf,BINDING AGENT,Tclin,Homo sapiens,HGNC:2928
+apatinib,5211,Proto-oncogene tyrosine-protein kinase Src,Kinase,P12931,SRC,SRC_HUMAN,6.276,,IC50,,SCIENTIFIC LITERATURE,=,,,https://pubmed.ncbi.nlm.nih.gov/21443688,,INHIBITOR,Tclin,Homo sapiens,HGNC:11283
+midostaurin,5231,Proto-oncogene tyrosine-protein kinase Src,Kinase,P12931,SRC,SRC_HUMAN,5.92,,Kd,Binding constant for SRC kinase domain,CHEMBL,=,,,,,,Tclin,Homo sapiens,HGNC:11283
+midostaurin,5231,Serine/threonine-protein kinase MARK2,Kinase,Q7KZI7,MARK2,MARK2_HUMAN,7.0,,Kd,Binding constant for MARK2 kinase domain,CHEMBL,=,,,,,,Tchem,Homo sapiens,HGNC:3332
+midostaurin,5231,Tyrosine-protein kinase Lyn,Kinase,P07948,LYN,LYN_HUMAN,5.38,,Kd,Binding constant for LYN kinase domain,CHEMBL,=,,,,,,Tclin,Homo sapiens,HGNC:6735
+midostaurin,5231,Serine/threonine-protein kinase PAK 3,Kinase,O75914,PAK3,PAK3_HUMAN,6.75,,Kd,Binding constant for full-length PAK3,CHEMBL,=,,,,,,Tchem,Homo sapiens,HGNC:8592
+midostaurin,5231,Serine/threonine-protein kinase PAK 1,Kinase,Q13153,PAK1,PAK1_HUMAN,5.7,,Kd,Binding affinity to PAK1,CHEMBL,=,,,,,,Tchem,Homo sapiens,HGNC:8590
+midostaurin,5231,Serine/threonine-protein kinase PAK 2,Kinase,Q13177,PAK2,PAK2_HUMAN,5.68,,Kd,Binding affinity to PAK2,CHEMBL,=,,,,,,Tchem,Homo sapiens,HGNC:8591
+neratinib,5252,Proto-oncogene tyrosine-protein kinase Src,Kinase,P12931,SRC,SRC_HUMAN,5.39,,Kd,Binding constant for SRC kinase domain,CHEMBL,=,,,,,,Tclin,Homo sapiens,HGNC:11283
+neratinib,5252,Focal adhesion kinase 1,Kinase,Q05397,PTK2,FAK1_HUMAN,5.72,,Kd,Binding constant for FAK kinase domain,CHEMBL,=,,,,,,Tclin,Homo sapiens,HGNC:9611
+neratinib,5252,Tyrosine-protein kinase Lyn,Kinase,P07948,LYN,LYN_HUMAN,6.09,,Kd,Binding constant for LYN kinase domain,CHEMBL,=,,,,,,Tclin,Homo sapiens,HGNC:6735
+neratinib,5252,Serine/threonine-protein kinase PAK 1,Kinase,Q13153,PAK1,PAK1_HUMAN,6.68,,Kd,Binding constant for PAK1 kinase domain,CHEMBL,=,,,,,,Tchem,Homo sapiens,HGNC:8590
+neratinib,5252,Serine/threonine-protein kinase PAK 2,Kinase,Q13177,PAK2,PAK2_HUMAN,7.1,,Kd,Binding constant for PAK2 kinase domain,CHEMBL,=,,,,,,Tchem,Homo sapiens,HGNC:8591
+acalabrutinib,5260,Tyrosine-protein kinase Lyn,Kinase,P07948,LYN,LYN_HUMAN,6.0,,EC50,,IUPHAR,=,,,,,INHIBITOR,Tclin,Homo sapiens,HGNC:6735
+dacomitinib,5297,Proto-oncogene tyrosine-protein kinase Src,Kinase,P12931,SRC,SRC_HUMAN,6.96,,IC50,Inhibition of Src (unknown origin),CHEMBL,=,,,,,,Tclin,Homo sapiens,HGNC:11283
+lorlatinib,5302,Focal adhesion kinase 1,Kinase,Q05397,PTK2,FAK1_HUMAN,7.77,,IC50,,SCIENTIFIC LITERATURE,=,1.0,DRUG LABEL,https://pubmed.ncbi.nlm.nih.gov/25733882,https://www.accessdata.fda.gov/drugsatfda_docs/label/2018/210868s000lbl.pdf,INHIBITOR,Tclin,Homo sapiens,HGNC:9611
+revefenacin,5303,Muscarinic acetylcholine receptor M1,GPCR,P11229,CHRM1,ACM1_HUMAN,9.38,,Ki,,SCIENTIFIC LITERATURE,=,1.0,DRUG LABEL,https://pubmed.ncbi.nlm.nih.gov/29736245,https://www.accessdata.fda.gov/drugsatfda_docs/label/2018/210598s000lbl.pdf,ANTAGONIST,Tclin,Homo sapiens,HGNC:1950
+selinexor,5330,Exportin-1,Nuclear other,O14980,XPO1,XPO1_HUMAN,7.7,,IC50,Mechanism of Action,SCIENTIFIC LITERATURE,=,1.0,DRUG LABEL,https://clinicaltrials.gov/ProvidedDocs/61/NCT02215161/Prot_SAP_000.pdf,https://www.accessdata.fda.gov/drugsatfda_docs/label/2019/212306s000lbl.pdf,INHIBITOR,Tclin,Homo sapiens,HGNC:12825
+quizartinib,5341,Tyrosine-protein kinase Lyn,Kinase,P07948,LYN,LYN_HUMAN,5.24,,Kd,Binding constant for LYN kinase domain,CHEMBL,=,,,,,,Tclin,Homo sapiens,HGNC:6735
+entrectinib,5345,Focal adhesion kinase 1,Kinase,Q05397,PTK2,FAK1_HUMAN,6.85,,IC50,Inhibition of FAK (unknown origin) in presence of gamma33-ATP,CHEMBL,=,,,,,,Tclin,Homo sapiens,HGNC:9611
+fedratinib,5347,Proto-oncogene tyrosine-protein kinase Src,Kinase,P12931,SRC,SRC_HUMAN,7.12,,Kd,Binding constant for SRC kinase domain,CHEMBL,=,,,,,,Tclin,Homo sapiens,HGNC:11283
+fedratinib,5347,Focal adhesion kinase 1,Kinase,Q05397,PTK2,FAK1_HUMAN,7.38,,Kd,Binding constant for FAK kinase domain,CHEMBL,=,,,,,,Tclin,Homo sapiens,HGNC:9611
+fedratinib,5347,Serine/threonine-protein kinase MARK2,Kinase,Q7KZI7,MARK2,MARK2_HUMAN,5.51,,Kd,Binding constant for MARK2 kinase domain,CHEMBL,=,,,,,,Tchem,Homo sapiens,HGNC:3332
+fedratinib,5347,Tyrosine-protein kinase Lyn,Kinase,P07948,LYN,LYN_HUMAN,6.3,,Kd,Binding constant for LYN kinase domain,CHEMBL,=,,,,,,Tclin,Homo sapiens,HGNC:6735
+fedratinib,5347,Serine/threonine-protein kinase PAK 7,Kinase,Q9P286,PAK5,PAK5_HUMAN,5.92,,Kd,Binding constant for PAK7 kinase domain,CHEMBL,=,,,,,,Tchem,Homo sapiens,HGNC:15916
+fedratinib,5347,Serine/threonine-protein kinase PAK 1,Kinase,Q13153,PAK1,PAK1_HUMAN,5.51,,Kd,Binding constant for PAK1 kinase domain,CHEMBL,=,,,,,,Tchem,Homo sapiens,HGNC:8590
+fedratinib,5347,Serine/threonine-protein kinase PAK 2,Kinase,Q13177,PAK2,PAK2_HUMAN,5.22,,Kd,Binding constant for PAK2 kinase domain,CHEMBL,=,,,,,,Tchem,Homo sapiens,HGNC:8591
+fedratinib,5347,Serine/threonine-protein kinase PAK 4,Kinase,O96013,PAK4,PAK4_HUMAN,5.42,,Kd,Binding constant for PAK4 kinase domain,CHEMBL,=,,,,,,Tchem,Homo sapiens,HGNC:16059
+golodirsen,5357,exon 53 of dystrophin pre-mRNA,RNA,P11532,DMD,DMD_HUMAN,,,,Mechanism of Action,UNKNOWN,,1.0,DRUG LABEL,,https://www.accessdata.fda.gov/drugsatfda_docs/label/2019/211970s000lbl.pdf,ANTISENSE INHIBITOR,Tclin,Homo sapiens,HGNC:2928
+brilliant Blue G,5359,Alpha-synuclein,Transporter,P37840,SNCA,SYUA_HUMAN,5.27,,IC50,Inhibition of wild type alpha-synuclein (unknown origin) aggregation expressed in Escherichia coli BL21 after 30 days by thioflavin T staining-based spectrofluorimetric analysis,CHEMBL,=,,,,,,Tchem,Homo sapiens,HGNC:11138
+oliceridine,5406,Voltage-dependent L-type calcium channel subunit alpha-1C,Ion channel,Q13936,CACNA1C,CAC1C_HUMAN,4.44,,IC50,Inhibition of human Cav 1.2 ion channel expressed in HEK293 cells by whole-cell patch clamp technique,CHEMBL,=,,,,,,Tclin,Homo sapiens,HGNC:1390
+oliceridine,5406,Voltage-dependent L-type calcium channel subunit alpha-1C,Ion channel,Q13936,CACNA1C,CAC1C_HUMAN,4.44,,IC50,Inhibition of human Cav 1.2 ion channel expressed in HEK293 cells by whole-cell patch clamp technique,CHEMBL,=,,,,,,Tclin,Homo sapiens,HGNC:1390
+viltolarsen,5408,exon 53 of dystrophin pre-mRNA,RNA,P11532,DMD,DMD_HUMAN,8.33,,EC50,Activity determined in rhabdomyosarcoma cells isolated from DMD patients,DRUG LABEL,=,1.0,DRUG LABEL,https://www.accessdata.fda.gov/drugsatfda_docs/nda/2020/212154Orig1s000PharmR.pdf,https://www.accessdata.fda.gov/drugsatfda_docs/label/2020/212154Orig1s000lbl.pdf,BINDING AGENT,Tclin,Homo sapiens,HGNC:2928
+tirbanibulin,5431,Proto-oncogene tyrosine-protein kinase Src,Kinase,P12931,SRC,SRC_HUMAN,4.34,,IC50,Low affinity is expected because the peptide substrate binding site is not well formed when Src is isolated.,IUPHAR,=,,,,,INHIBITOR,Tclin,Homo sapiens,HGNC:11283
+tirbanibulin,5431,Tyrosine-protein kinase Lyn,Kinase,P07948,LYN,LYN_HUMAN,7.0,,IC50,Inhibition of LYN (unknown origin),CHEMBL,=,,,,,,Tclin,Homo sapiens,HGNC:6735
+tirbanibulin,5431,Proto-oncogene tyrosine-protein kinase Src,Kinase,P12931,SRC,SRC_HUMAN,4.34,,IC50,Low affinity is expected because the peptide substrate binding site is not well formed when Src is isolated.,IUPHAR,=,,,,,INHIBITOR,Tclin,Homo sapiens,HGNC:11283
+tirbanibulin,5431,Tyrosine-protein kinase Lyn,Kinase,P07948,LYN,LYN_HUMAN,7.0,,IC50,Inhibition of LYN (unknown origin),CHEMBL,=,,,,,,Tclin,Homo sapiens,HGNC:6735
+casimersen,5443,exon 53 of dystrophin pre-mRNA,RNA,P11532,DMD,DMD_HUMAN,,,,Mechanism of Action,UNKNOWN,,1.0,DRUG LABEL,,https://www.accessdata.fda.gov/drugsatfda_docs/label/2021/213026lbl.pdf,ANTISENSE INHIBITOR,Tclin,Homo sapiens,HGNC:2928
+infigratinib,5459,Proto-oncogene tyrosine-protein kinase Src,Kinase,P12931,SRC,SRC_HUMAN,5.53,,IC50,Inhibition of SRC-mediated proliferation of mouse BAF3 cells transformed with TEL-Kinase construct,CHEMBL,=,,,,,,Tclin,Homo sapiens,HGNC:11283
+infigratinib,5459,Tyrosine-protein kinase Lyn,Kinase,P07948,LYN,LYN_HUMAN,6.52,,IC50,Inhibition of recombinant LYN kinase,CHEMBL,=,,,,,,Tclin,Homo sapiens,HGNC:6735
+infigratinib,5459,Proto-oncogene tyrosine-protein kinase Src,Kinase,P12931,SRC,SRC_HUMAN,5.53,,IC50,Inhibition of SRC-mediated proliferation of mouse BAF3 cells transformed with TEL-Kinase construct,CHEMBL,=,,,,,,Tclin,Homo sapiens,HGNC:11283
+infigratinib,5459,Tyrosine-protein kinase Lyn,Kinase,P07948,LYN,LYN_HUMAN,6.52,,IC50,Inhibition of recombinant LYN kinase,CHEMBL,=,,,,,,Tclin,Homo sapiens,HGNC:6735
+infigratinib,5459,Proto-oncogene tyrosine-protein kinase Src,Kinase,P12931,SRC,SRC_HUMAN,5.53,,IC50,Inhibition of SRC-mediated proliferation of mouse BAF3 cells transformed with TEL-Kinase construct,CHEMBL,=,,,,,,Tclin,Homo sapiens,HGNC:11283
