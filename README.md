@@ -58,12 +58,12 @@ First, the nodes and edges of the knowledge graph need to be indexed such that t
 | Parameters          | DMD            |                | HD            |                | OI            |                |
 | ------------------- | -------------- | -------------- | --------------| -------------- | ------------- | -------------- |
 |                     | Original KG    | Restructured KG| Original KG   | Restructured KG| Original KG   | Restructured KG|
-| Number of walks     |                |                |               |                | 6             | 4              |
-| Walk length         |                |                |               |                | 7             | 7              |
-| Embedding dimension |                |                |               |                | 128           | 32             |
-| p                   |                |                |               |                | 1.0           | 0.5            |
-| q                   |                |                |               |                | 0.5           | 0.5            |
-| epochs              |                |                |               |                | 10            | 10             |
+| Number of walks     | 6              | 4              |               |                | 6             | 4              |
+| Walk length         | 7              | 7              |               |                | 7             | 7              |
+| Embedding dimension | 128            | 32             |               |                | 128           | 32             |
+| p                   | 1.0            | 0.75           |               |                | 1.0           | 0.5            |
+| q                   | 0.5            | 0.5            |               |                | 0.5           | 0.5            |
+| epochs              | 10             | 10             |               |                | 10            | 10             |
 
 ### Training GNN Model
 
@@ -72,14 +72,14 @@ First, the nodes and edges of the knowledge graph need to be indexed such that t
 | Parameters                   | DMD            |                | HD            |                | OI            |                |
 | ---------------------------- | -------------- | -------------- | --------------| -------------- | ------------- | -------------- |
 |                              | Original KG    | Restructured KG| Original KG   | Restructured KG| Original KG   | Restructured KG|
-| Hidden dimension             |                |                |               |                | 256           | 64             |
-| Output dimension             |                |                |               |                | 64            | 128            |
-| Layers                       |                |                |               |                | 2             | 2              |
-| Aggregation function         |                |                |               |                | mean          | mean           |
-| Dropout                      |                |                |               |                | 0.2           | 0.1            |
-| Learning rate                |                |                |               |                | 0.000606      | 0.026789       |
-| Epochs                       |                |                |               |                | 100           | 150            |
-| Edge Negative Sampling Ratio |                |                |               |                | 1.5           | 1.0            |
+| Hidden dimension             | 128            | 64             |               |                | 256           | 64             |
+| Output dimension             | 256            | 64             |               |                | 64            | 128            |
+| Layers                       | 4              | 2              |               |                | 2             | 2              |
+| Aggregation function         | mean           | mean           |               |                | mean          | mean           |
+| Dropout                      | 0.1            | 0.2            |               |                | 0.2           | 0.1            |
+| Learning rate                | 0.012352       | 0.003191       |               |                | 0.000606      | 0.026789       |
+| Epochs                       | 200            | mean           |               |                | 100           | 150            |
+| Edge Negative Sampling Ratio | 0.5            | 1.0            |               |                | 1.5           | 1.0            |
 
 ## Generating Explanations
 
