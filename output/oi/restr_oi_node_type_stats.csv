@@ -1,0 +1,12 @@
+Node Type,Count,Percentage,Average Degree,Median Degree
+phenotype,5351,54.07%,3.02,1.0
+gene,3559,35.96%,46.92,33.0
+variant,642,6.49%,2.03,2.0
+drug,153,1.55%,1.50,1.0
+molecular function,89,0.90%,57.83,21.0
+taxon,24,0.24%,78.79,86.5
+gene product,22,0.22%,10.23,2.5
+genotype,21,0.21%,15.76,13.0
+disease,19,0.19%,75.05,46.0
+biological process,15,0.15%,26.93,23.0
+biological artifact,2,0.02%,3.00,3.0

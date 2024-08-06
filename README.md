@@ -24,16 +24,20 @@ To get all associations in the knowledge graph for a given disease, a list of se
 
 The Monarch Initiative associations collected by the previously mentioned fetcher ([`localfetcher/main.py`](https://github.com/rosazwart/XAI-FO/tree/main/localfetcher/main.py)) do not yet contain drug information. To add drug information, data is used from two different datasets being DrugCentral and Therapeutic Target Database (TTD). The former contains drug-phenotype interactions while the latter includes drug-protein interactions. In order to merge the drug information with the associations that are already included in the knowledge graph, the following scripts in folder [`kg_builder/original`](https://github.com/rosazwart/XAI-FO/tree/main/kg_builder/original) need to be run in the given order:
 
-- [`kg_builder/original/restructurer_main.py`](https://github.com/rosazwart/XAI-FO/blob/main/kg_builder/original/restructurer_main.py) - The entities found in the Monarch Initiative associations need to be organized into different conceptual classes such that the concepts, relations and triples are the same as found in the knowledge graph built in previous research[^1]. The resulting nodes after reorganizing are found in [`kg_builder/original/output`](https://github.com/rosazwart/XAI-FO/tree/main/kg_builder/original/output) such as `prev_dmd_monarch_nodes.csv`. All associations are found in folder [`output`](https://github.com/rosazwart/XAI-FO/tree/main/output) within the subfolder that corresponds to the relevant disease. For example DMD, for which the file [`output/dmd/prev_dmd_monarch_associations.csv`](https://github.com/rosazwart/XAI-FO/blob/main/output/dmd/prev_dmd_monarch_associations.csv) contains all associations that conform with the data model of the knowledge graph from previous research[^1].
-- [`kg_builder/original/drug_info_merger_main.ipynb`](https://github.com/rosazwart/XAI-FO/blob/main/kg_builder/original/drug_info_merger_main.ipynb) - The drug information data from Drug Central and TTD are prepared to be compatible with the associations from Monarch Initiative. For example, acquiring the Human Phenotype identifiers of the disease entities found in the Drug Central dataset or acquiring the corresponding genes given the proteins that are targets of drugs given the TTD data. The relevant drug-disease pairs are found in [`kg_builder/original/output`](https://github.com/rosazwart/XAI-FO/tree/main/kg_builder/original/output) such as file `matched_drug_to_disease_dmd.csv`. In the same output folder, the relevant drug-gene pairs are stored in for example `matched_drug_targets_dmd.csv`.
-- [`kg_builder/original/kg_drug_info_merger_main.ipynb`](https://github.com/rosazwart/XAI-FO/blob/main/kg_builder/original/kg_drug_info_merger_main.ipynb) - This script will transform the found drug-disease and drug-gene pairs to associations that conform to the data model of the knowledge graph using the correct relations between the entities. The associations are found in folder [`output`](https://github.com/rosazwart/XAI-FO/tree/main/output). For example the files with the drug information associations for DMD being `output/dmd/prev_dmd_drugcentral_associations.csv` and `output/dmd/prev_dmd_ttd_associations.csv`.
-- [`kg_builder/original/kg_builder_main.py`](https://github.com/rosazwart/XAI-FO/blob/main/kg_builder/original/kg_builder_main.py) - Now, the knowledge graph is built that contains the associations from Monarch Initiative, DrugCentral and TTD. All the nodes and edges of this complete knowledge graph are stored for DMD in files `output/dmd/prev_dmd_kg_nodes.csv` and `output/dmd/prev_kg_dmd_edges.csv`.
+- [`kg_builder/original/1_restructurer_main.py`](https://github.com/rosazwart/XAI-FO/blob/main/kg_builder/original/1_restructurer_main.py) - The entities found in the Monarch Initiative associations need to be organized into different conceptual classes such that the concepts, relations and triples are the same as found in the knowledge graph built in previous research[^1]. The resulting nodes after reorganizing are found in [`kg_builder/original/output`](https://github.com/rosazwart/XAI-FO/tree/main/kg_builder/original/output) such as `prev_dmd_monarch_nodes.csv`. All associations are found in folder [`output`](https://github.com/rosazwart/XAI-FO/tree/main/output) within the subfolder that corresponds to the relevant disease. For example DMD, for which the file [`output/dmd/prev_dmd_monarch_associations.csv`](https://github.com/rosazwart/XAI-FO/blob/main/output/dmd/prev_dmd_monarch_associations.csv) contains all associations that conform with the data model of the knowledge graph from previous research[^1].
+- [`kg_builder/original/2_drug_info_merger_main.ipynb`](https://github.com/rosazwart/XAI-FO/blob/main/kg_builder/original/2_drug_info_merger_main.ipynb) - The drug information data from Drug Central and TTD are prepared to be compatible with the associations from Monarch Initiative. For example, acquiring the Human Phenotype identifiers of the disease entities found in the Drug Central dataset or acquiring the corresponding genes given the proteins that are targets of drugs given the TTD data. The relevant drug-disease pairs are found in [`kg_builder/original/output`](https://github.com/rosazwart/XAI-FO/tree/main/kg_builder/original/output) such as file `matched_drug_to_disease_dmd.csv`. In the same output folder, the relevant drug-gene pairs are stored in for example `matched_drug_targets_dmd.csv`.
+- [`kg_builder/original/3_kg_drug_info_merger_main.ipynb`](https://github.com/rosazwart/XAI-FO/blob/main/kg_builder/original/3_kg_drug_info_merger_main.ipynb) - This script will transform the found drug-disease and drug-gene pairs to associations that conform to the data model of the knowledge graph using the correct relations between the entities. The associations are found in folder [`output`](https://github.com/rosazwart/XAI-FO/tree/main/output). For example the files with the drug information associations for DMD being `output/dmd/prev_dmd_drugcentral_associations.csv` and `output/dmd/prev_dmd_ttd_associations.csv`.
+- [`kg_builder/original/4_kg_builder_main.py`](https://github.com/rosazwart/XAI-FO/blob/main/kg_builder/original/4_kg_builder_main.py) - Now, the knowledge graph is built that contains the associations from Monarch Initiative, DrugCentral and TTD. All the nodes and edges of this complete knowledge graph are stored for DMD in files `output/dmd/prev_dmd_kg_nodes.csv` and `output/dmd/prev_kg_dmd_edges.csv`.
 
 ### Acquiring the Restructured Knowledge Graph
 
 The Monarch Initiative associations collected by the previously mentioned fetcher ([`localfetcher/main.py`](https://github.com/rosazwart/XAI-FO/tree/main/localfetcher/main.py)) do not yet contain drug information. To add drug information, data is used from two different datasets being DrugCentral and Therapeutic Target Database (TTD). The former contains drug-phenotype interactions while the latter includes drug-protein interactions. In order to merge the drug information with the associations that are already included in the knowledge graph, the following script needs to be performed:
 
 - [`kg_builder/restructured/kg_builder_main.py`](https://github.com/rosazwart/XAI-FO/blob/main/kg_builder/restructured/kg_builder_main.py) - This script merges the drug information from Drug Central and TTD into the knowledge graph with the Monarch Initiative associations. The complete knowledge graph is stored into two files being `output/dmd/restr_dmd_kg_nodes.csv` and `output/dmd/restr_dmd_kg_edges.csv`.
+
+### Analyzing Knowledge Graphs
+
+To analyse the built knowledge graphs, run [`analyser/kg_analyser.ipynb`](https://github.com/rosazwart/XAI-FO/blob/main/analyser/kg_analyser.ipynb). In [`analyser/data_params.py`](https://github.com/rosazwart/XAI-FO/blob/main/analyser/data_params.py) the parameters can be set to determine which knowledge graphs need to be included. The analysis outputs multiple files that can be found in the `output` folder and related subfolder such as [`output/dmd`](https://github.com/rosazwart/XAI-FO/tree/main/output/dmd). The files contain information about for example all existing triples in the knowledge graph and statistics for each node- and edge type. Also, the knowledge graphs are stored into GEXF (Graph Exchange XML Format) files to support loading in the network into various network visualization applications.
 
 ## Generating Predictions
 
@@ -51,31 +55,31 @@ First, the nodes and edges of the knowledge graph need to be indexed such that t
 
 #### Hyperparameters
 
-| Parameters          | DMD            |               | HD            |               | OI            |               |
-| ------------------- | -------------- | ------------- | --------------| ------------- | ------------- | ------------- |
+| Parameters          | DMD            |                | HD            |                | OI            |                |
+| ------------------- | -------------- | -------------- | --------------| -------------- | ------------- | -------------- |
 |                     | Original KG    | Restructured KG| Original KG   | Restructured KG| Original KG   | Restructured KG|
-| Number of walks     |                |               |               |               |               |               |
-| Walk length         |                |               |               |               |               |               |
-| Embedding dimension |                |               |               |               |               |               |
-| p                   |                |               |               |               |               |               |
-| q                   |                |               |               |               |               |               |
-| epochs              |                |               |               |               |               |               |
+| Number of walks     |                |                |               |                | 6             | 4              |
+| Walk length         |                |                |               |                | 7             | 7              |
+| Embedding dimension |                |                |               |                | 128           | 32             |
+| p                   |                |                |               |                | 1.0           | 0.5            |
+| q                   |                |                |               |                | 0.5           | 0.5            |
+| epochs              |                |                |               |                | 10            | 10             |
 
 ### Training GNN Model
 
 #### Hyperparameters
 
-| Parameters                   | DMD            |               | HD            |               | OI            |               |
-| ---------------------------- | -------------- | ------------- | --------------| ------------- | ------------- | ------------- |
+| Parameters                   | DMD            |                | HD            |                | OI            |                |
+| ---------------------------- | -------------- | -------------- | --------------| -------------- | ------------- | -------------- |
 |                              | Original KG    | Restructured KG| Original KG   | Restructured KG| Original KG   | Restructured KG|
-| Hidden dimension             |                |               |               |               |               |               |
-| Output dimension             |                |               |               |               |               |               |
-| Layers                       |                |               |               |               |               |               |
-| Aggregation function         |                |               |               |               |               |               |
-| Dropout                      |                |               |               |               |               |               |
-| Learning rate                |                |               |               |               |               |               |
-| Epochs                       |                |               |               |               |               |               |
-| Edge Negative Sampling Ratio |                |               |               |               |               |               |
+| Hidden dimension             |                |                |               |                | 256           | 64             |
+| Output dimension             |                |                |               |                | 64            | 128            |
+| Layers                       |                |                |               |                | 2             | 2              |
+| Aggregation function         |                |                |               |                | mean          | mean           |
+| Dropout                      |                |                |               |                | 0.2           | 0.1            |
+| Learning rate                |                |                |               |                | 0.000606      | 0.026789       |
+| Epochs                       |                |                |               |                | 100           | 150            |
+| Edge Negative Sampling Ratio |                |                |               |                | 1.5           | 1.0            |
 
 ## Generating Explanations
 
