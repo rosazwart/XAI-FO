@@ -1,0 +1,14 @@
+Best trial config for restr dmd: {'device': device(type='cpu'), 'hidden_dim': 64, 'output_dim': 64, 'epochs': 150, 'type_size': 20, 'epoch_e2v': 5, 'num_walks': 4, 'walk_length': 7, 'p': 0.75, 'q': 0.5, 'dimensions_e2v': 32, 'df':                              head                  label_head  class_head  ...  class_tail index_tail type
+0                       HGNC:7582                        MYL1           4  ...           4       4018    0
+1          dictyBase:DDB_G0287981                  DDB0187718           4  ...           4      10290    0
+2         WormBase:WBGene00015704                      tiam-1           4  ...           4       3028    0
+3      ENSEMBL:ENSPTRG00000013519  ENSEMBL:ENSPTRG00000013519           4  ...           4       8454    0
+4      ENSEMBL:ENSGALG00000000209  ENSEMBL:ENSGALG00000000209           4  ...           4       5422    0
+...                           ...                         ...         ...  ...         ...        ...  ...
+96372                  HGNC:26068                     LAMTOR1           4  ...           4       1822    0
+96373  ENSEMBL:ENSCAFG00000014976                       MARK2           4  ...           4       3574    0
+96374                  HGNC:19181                       KIF14           4  ...           4       1526    3
+96375                   HGNC:9863                       RAPSN           4  ...           4       1962    0
+96376                   HGNC:1391                     CACNA1D           4  ...           8       6385    5
+
+[96377 rows x 10 columns], 'lr': 0.0031912132879829695, 'aggr': 'mean', 'dropout': 0.2, 'layers': 2, 'edge_neg_sampl': 1.0}

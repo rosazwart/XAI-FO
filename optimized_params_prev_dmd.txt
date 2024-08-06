@@ -1,0 +1,14 @@
+Best trial config for prev dmd: {'device': device(type='cpu'), 'hidden_dim': 128, 'output_dim': 256, 'epochs': 200, 'type_size': 22, 'epoch_e2v': 10, 'num_walks': 6, 'walk_length': 7, 'p': 1, 'q': 0.5, 'dimensions_e2v': 128, 'df':                              head                  label_head  class_head  ...  class_tail index_tail type
+0             PomBase:SPCC1739.14                      npp106           4  ...           5       1624    0
+1      ENSEMBL:ENSFCAG00000005056  ENSEMBL:ENSFCAG00000005056           5  ...           5       9307    0
+2      ENSEMBL:ENSCAFG00000007105                        TNS2           5  ...           5       6744    0
+3      ENSEMBL:ENSECAG00000022054  ENSEMBL:ENSECAG00000022054           5  ...           3       6526    1
+4      ENSEMBL:ENSPTRG00000003869  ENSEMBL:ENSPTRG00000003869           5  ...           3       2812    1
+...                           ...                         ...         ...  ...         ...        ...  ...
+95498                 MGI:1352759                       Rnf11           5  ...           6      10683   11
+95499                    RGD:3751                      Sptbn2           5  ...           5       3994    1
+95500      ZFIN:ZDB-GENE-000322-6                       mylz3           5  ...           5      10680    2
+95501                   MGI:96892                         Lyn           5  ...           1       6112    3
+95502  ENSEMBL:ENSFCAG00000018405  ENSEMBL:ENSFCAG00000018405           5  ...           5       5023    0
+
+[95503 rows x 10 columns], 'lr': 0.012352045357848415, 'aggr': 'mean', 'dropout': 0.1, 'layers': 4, 'edge_neg_sampl': 0.5}
