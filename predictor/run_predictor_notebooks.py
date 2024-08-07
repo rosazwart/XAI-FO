@@ -1,7 +1,7 @@
 import subprocess
 
 if __name__ == "__main__":
-    notebooks_to_run = ['edge2vec_embedding.ipynb', 'predictor.ipynb']
+    notebooks_to_run = ['predictor/2_edge2vec_embedding.ipynb', 'predictor/3_predictor.ipynb']
 
     for i in range(10):
         print(f'Time {i}')

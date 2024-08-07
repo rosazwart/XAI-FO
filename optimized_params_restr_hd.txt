@@ -1,0 +1,14 @@
+Best trial config for restr hd: {'device': device(type='cpu'), 'hidden_dim': 256, 'output_dim': 64, 'epochs': 150, 'type_size': 19, 'epoch_e2v': 10, 'num_walks': 2, 'walk_length': 7, 'p': 1, 'q': 1, 'dimensions_e2v': 128, 'df':                               head                  label_head  class_head  ...  class_tail index_tail type
+0                       HGNC:11280                      SQSTM1           4  ...           4      12355    0
+1              FlyBase:FBgn0264855                   AP-2alpha           4  ...           4      10645    1
+2                   SGD:S000001709                        VPS1           4  ...           4       8881    1
+3                      RGD:1595923                      RT1-A2           4  ...           4      14166    1
+4          WormBase:WBGene00012735                      sptf-3           4  ...           4       3446    1
+...                            ...                         ...         ...  ...         ...        ...  ...
+230223  ENSEMBL:ENSGALG00000003800                      PABPC4           4  ...           4       7423    1
+230224  ENSEMBL:ENSECAG00000006095  ENSEMBL:ENSECAG00000006095           4  ...           4      13107    1
+230225    ZFIN:ZDB-GENE-060825-293                       rab9a           4  ...           4       3844    1
+230226  ENSEMBL:ENSGALG00000008534                      POLR2H           4  ...           4       3372    1
+230227     WormBase:WBGene00001134                       eat-3           4  ...           4      14385    1
+
+[230228 rows x 10 columns], 'lr': 0.036447056879784764, 'aggr': 'sum', 'dropout': 0.2, 'layers': 6, 'edge_neg_sampl': 0.5}
