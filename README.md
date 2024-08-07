@@ -6,6 +6,8 @@ This repository provides a drug-repurposing pipeline that predicts new drug cand
 
 Previous research by Pablo Perdomo Quinteiro[^1] provided this drug-repurposing pipeline. This is a project that builds upon this pipeline focusing on improving the conceptual model that the input knowledge graph conforms to and finding out whether the predictions and explanations improve as well.
 
+In the implementation of the workflow, the keyword `prev` is used to indicate the knowledge graphs that comply with the original data model from previous research[^1]. The keyword `restr` implies that the knowledge graph is the restructured knowledge graph, complying to the newly designed conceptual model. The keywords `dmd`, `hd` and `oi` state that the knowledge graph is built from entities related to the disease DMD, HD or OI as seeds, respectively. 
+
 ## Building Knowledge Graphs
 
 Two kinds of knowledge graphs can be built given any disease being a knowledge graph that aligns with the data model of previous research (original KG) and a knowledge graph that has undergone structural changes in order to conform to a newly designed conceptual model using Foundational Ontologies: 
