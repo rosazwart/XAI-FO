@@ -99,6 +99,10 @@ For the GNN training step, this script is used:
 | Epochs                       | 200            | 150            | 150           | 150            | 100           | 150            |
 | Edge Negative Sampling Ratio | 0.5            | 1.0            | 1.5           | 0.5            | 1.5           | 1.0            |
 
+### Analyzing Prediction Performance and Results
+
+To analyse the predictions and accuracy of the trained GNN model, run [`analyser/prediction_analyser.ipynb`](https://github.com/rosazwart/XAI-FO/blob/main/analyser/prediction_analyser.ipynb). In [`analyser/data_params.py`](https://github.com/rosazwart/XAI-FO/blob/main/analyser/data_params.py) the parameters can be set to determine which GNN models are included based on which knowledge graphs are used as training data. The analyser outputs files in the corresponding folder specifying which disease subject and which data model are used in the knowledge graph training data such as `output/dmd/prev_e2v`. For example, the predicted drug-symptom pair overlap between all independent runs of the GNN model trained on the same knowledge graph or training curves. The analysis considers all runs that have been performed, utilizing the prediction results from all run folders identified as for example `output/dmd/prev_e2v/run_xxx`. Some analysis results are stored into the parent folder such as `output/dmd` when it consists of the prediction results from both knowledge graphs (`prev` and `restr`) on the same disease such as the comparison of AUC ROC and F1 scores between the GNN models trained on the differently structured knowledge graphs given the same disease as subject.
+
 ## Generating Explanations
 
 [^1]: [Master's thesis project](https://github.com/PPerdomoQ/rare-disease-explainer) of Pablo Perdomo Quinteiro
