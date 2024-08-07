@@ -72,12 +72,12 @@ For the node embedding step, method Edge2vec[^2] has been implemented. The scrip
 | Parameters          | DMD            |                | HD            |                | OI            |                |
 | ------------------- | -------------- | -------------- | --------------| -------------- | ------------- | -------------- |
 |                     | Original KG    | Restructured KG| Original KG   | Restructured KG| Original KG   | Restructured KG|
-| Number of walks     | 6              | 4              |               |                | 6             | 4              |
-| Walk length         | 7              | 7              |               |                | 7             | 7              |
-| Embedding dimension | 128            | 32             |               |                | 128           | 32             |
-| p                   | 1.0            | 0.75           |               |                | 1.0           | 0.5            |
-| q                   | 0.5            | 0.5            |               |                | 0.5           | 0.5            |
-| epochs              | 10             | 10             |               |                | 10            | 10             |
+| Number of walks     | 6              | 4              | 6             | 2              | 6             | 4              |
+| Walk length         | 7              | 7              | 7             | 7              | 7             | 7              |
+| Embedding dimension | 128            | 32             | 64            | 128            | 128           | 32             |
+| p                   | 1.0            | 0.75           | 0.5           | 1.0            | 1.0           | 0.5            |
+| q                   | 0.5            | 0.5            | 0.75          | 1.0            | 0.5           | 0.5            |
+| epochs              | 10             | 10             | 10            | 10             | 10            | 10             |
 
 ### Training GNN Model
 
@@ -90,14 +90,14 @@ For the GNN training step, this script is used:
 | Parameters                   | DMD            |                | HD            |                | OI            |                |
 | ---------------------------- | -------------- | -------------- | --------------| -------------- | ------------- | -------------- |
 |                              | Original KG    | Restructured KG| Original KG   | Restructured KG| Original KG   | Restructured KG|
-| Hidden dimension             | 128            | 64             |               |                | 256           | 64             |
-| Output dimension             | 256            | 64             |               |                | 64            | 128            |
-| Layers                       | 4              | 2              |               |                | 2             | 2              |
-| Aggregation function         | mean           | mean           |               |                | mean          | mean           |
-| Dropout                      | 0.1            | 0.2            |               |                | 0.2           | 0.1            |
-| Learning rate                | 0.012352       | 0.003191       |               |                | 0.000606      | 0.026789       |
-| Epochs                       | 200            | mean           |               |                | 100           | 150            |
-| Edge Negative Sampling Ratio | 0.5            | 1.0            |               |                | 1.5           | 1.0            |
+| Hidden dimension             | 128            | 64             | 256           | 256            | 256           | 64             |
+| Output dimension             | 256            | 64             | 64            | 64             | 64            | 128            |
+| Layers                       | 4              | 2              | 4             | 6              | 2             | 2              |
+| Aggregation function         | mean           | mean           | mean          | sum            | mean          | mean           |
+| Dropout                      | 0.1            | 0.2            | 0.1           | 0.2            | 0.2           | 0.1            |
+| Learning rate                | 0.012352       | 0.003191       | 0.015119      | 0.0364471      | 0.000606      | 0.026789       |
+| Epochs                       | 200            | 150            | 150           | 150            | 100           | 150            |
+| Edge Negative Sampling Ratio | 0.5            | 1.0            | 1.5           | 0.5            | 1.5           | 1.0            |
 
 ## Generating Explanations
 
