@@ -1,7 +1,7 @@
 Drug,Symptom ID,Symptom
-aprindine,HP:0003560,Muscular dystrophy
 aprindine,HP:0001644,Dilated cardiomyopathy
 aprindine,HP:0003236,Elevated circulating creatine kinase concentration
+aprindine,HP:0003115,Abnormal EKG
 aprindine,HP:0001638,Cardiomyopathy
 aprindine,HP:0001635,Congestive heart failure
-aprindine,HP:0003115,Abnormal EKG
+aprindine,HP:0003560,Muscular dystrophy
