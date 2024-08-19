@@ -113,6 +113,18 @@ Explanations are generated using the script:
 
 - [`predictor/4_explainer.ipynb`](https://github.com/rosazwart/XAI-FO/blob/main/predictor/4_explainer.ipynb) - As for the prediction process, use file [`predictor/data_params.py`](https://github.com/rosazwart/XAI-FO/blob/main/predictor/data_params.py) to adjust for which knowledge graph explanations need to be generated. In the Jupyter Notebook itself, it needs to be set which drug-symptom pairs are considered during the explanation generation. This is decided by indicating for how many runs the included drug-symptom pairs are found. For example, a value of `5` is the threshold of a drug-symptom pair to be included for finding explanations when it is found in at least 5 runs. In this case and for an original DMD KG, the explainer will output the explanation graphs in the folder `output/dmd/prev_e2v/expl_5`. This folder contains all found complete and incomplete explanations. Explanations are considered complete when there exists a direct or indirect path between the symptom and drug of the pair that is explained in the graph. The explanation graphs are stored in multiple formats such as an image or the raw data (`gpickle`, `pkl`).
 
+### Hyperparameters 
+
+The hyperparameters are not adjusted during the hyperparameter optimization step for each different knowledge graph and is thus fixed for each input.
+
+| Parameters                   | Values         |
+| ---------------------------- | -------------- |
+| Epochs                       | 700            |
+| Number of hops               | 1              |
+| Maximum size of explanation  | 15             |
+| Search iterations            | 10             |
+| Learning rate                | 0.01           |
+
 ### Analyzing Generated Explanations
 
 [^1]: [Master's thesis project](https://github.com/PPerdomoQ/rare-disease-explainer) of Pablo Perdomo Quinteiro
