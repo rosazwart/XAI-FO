@@ -127,5 +127,17 @@ The hyperparameters are not adjusted during the hyperparameter optimization step
 
 ### Analyzing Generated Explanations
 
+The generated explanations are analyzed using:
+
+- [`analyser/explanation_analyser.ipynb`](https://github.com/rosazwart/XAI-FO/blob/main/analyser/explanation_analyser.ipynb) - This analysis script looks at the objective measurements to assess the explanations as well as the assessment of how many complete and incomplete the explainer yielded given the number of drug-symptom pairs that is included during the explanation generation.
+
+This script outputs the following file for analyzing for example the explanations on the DMD KGs:
+
+- `output/dmd/dmd_explanation_objective_measurements.csv` - Stores the objective measurements of the explanations found for each DMD KG
+
+For each KG and the set of drug-symptom pairs that is used for generating the explanations, a file is stored that shows the yield of the explanainer. For example, for the original DMD KG looking at the explanations generated for the drug-symptom pairs that are found in at least 5 runs, the file is found here:
+
+- `output/dmd/prev_e2v/expl_5/dmd_prev_expl_5_explanation_results.csv`
+
 [^1]: [Master's thesis project](https://github.com/PPerdomoQ/rare-disease-explainer) of Pablo Perdomo Quinteiro
 [^2]: Gao, Z., Fu, G., Ouyang, C. et al. edge2vec: Representation learning using edge semantics for biomedical knowledge discovery. BMC Bioinformatics 20, 306 (2019). [https://doi.org/10.1186/s12859-019-2914-2](https://doi.org/10.1186/s12859-019-2914-2)
