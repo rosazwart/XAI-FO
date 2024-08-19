@@ -49,7 +49,9 @@ The results from the node embedding and GNN training steps are found in the foll
 
 - `output/dmd/prev_e2v/run_001`
 
-Multiple runs of the embedding and prediction process on the same knowledge graphs are allowed (and even recommended for analyzing the workflow performance) where each run is stored into a separate folder. For example, the first run is found in this subfolder called `run_001`.
+Multiple runs of the embedding and prediction process on the same knowledge graphs are allowed (and even recommended for analyzing the workflow performance) where each run is stored into a separate folder. For example, the first run is found in this subfolder called `run_001`. This can be done using the script:
+
+- [`predictor/run_predictor_notebooks.py`](https://github.com/rosazwart/XAI-FO/blob/main/predictor/run_predictor_notebooks.py) - This script will run the prediction pipeline (embedding and GNN model training). To adjust the parameters that select which knowledge graph is used as input, change the values in file [`predictor/data_params.py`](https://github.com/rosazwart/XAI-FO/blob/main/predictor/data_params.py).
 
 ### Indexing
 
@@ -106,6 +108,24 @@ For the GNN training step, this script is used:
 To analyse the predictions and accuracy of the trained GNN model, run [`analyser/prediction_analyser.ipynb`](https://github.com/rosazwart/XAI-FO/blob/main/analyser/prediction_analyser.ipynb). In [`analyser/data_params.py`](https://github.com/rosazwart/XAI-FO/blob/main/analyser/data_params.py) the parameters can be set to determine which GNN models are included based on which knowledge graphs are used as training data. The analyser outputs files in the corresponding folder specifying which disease subject and which data model are used in the knowledge graph training data such as `output/dmd/prev_e2v`. For example, the predicted drug-symptom pair overlap between all independent runs of the GNN model trained on the same knowledge graph or training curves. The analysis considers all runs that have been performed, utilizing the prediction results from all run folders identified as for example `output/dmd/prev_e2v/run_xxx`. Some analysis results are stored into the parent folder such as `output/dmd` when it consists of the prediction results from both knowledge graphs (`prev` and `restr`) on the same disease such as the comparison of AUC ROC and F1 scores between the GNN models trained on the differently structured knowledge graphs given the same disease as subject.
 
 ## Generating Explanations
+
+Explanations are generated using the script:
+
+- [`predictor/4_explainer.ipynb`](https://github.com/rosazwart/XAI-FO/blob/main/predictor/4_explainer.ipynb) - As for the prediction process, use file [`predictor/data_params.py`](https://github.com/rosazwart/XAI-FO/blob/main/predictor/data_params.py) to adjust for which knowledge graph explanations need to be generated. In the Jupyter Notebook itself, it needs to be set which drug-symptom pairs are considered during the explanation generation. This is decided by indicating for how many runs the included drug-symptom pairs are found. For example, a value of `5` is the threshold of a drug-symptom pair to be included for finding explanations when it is found in at least 5 runs. In this case and for an original DMD KG, the explainer will output the explanation graphs in the folder `output/dmd/prev_e2v/expl_5`. This folder contains all found complete and incomplete explanations. Explanations are considered complete when there exists a direct or indirect path between the symptom and drug of the pair that is explained in the graph. The explanation graphs are stored in multiple formats such as an image or the raw data (`gpickle`, `pkl`).
+
+### Hyperparameters 
+
+The hyperparameters are not adjusted during the hyperparameter optimization step for each different knowledge graph and is thus fixed for each input.
+
+| Parameters                   | Values         |
+| ---------------------------- | -------------- |
+| Epochs                       | 700            |
+| Number of hops               | 1              |
+| Maximum size of explanation  | 15             |
+| Search iterations            | 10             |
+| Learning rate                | 0.01           |
+
+### Analyzing Generated Explanations
 
 [^1]: [Master's thesis project](https://github.com/PPerdomoQ/rare-disease-explainer) of Pablo Perdomo Quinteiro
 [^2]: Gao, Z., Fu, G., Ouyang, C. et al. edge2vec: Representation learning using edge semantics for biomedical knowledge discovery. BMC Bioinformatics 20, 306 (2019). [https://doi.org/10.1186/s12859-019-2914-2](https://doi.org/10.1186/s12859-019-2914-2)
