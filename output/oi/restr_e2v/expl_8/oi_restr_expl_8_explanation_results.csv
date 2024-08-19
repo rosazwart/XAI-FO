@@ -1,35 +1,35 @@
 drug,symptom ID,symptom,complete explanations,incomplete explanations
 ascorbic acid,HP:0000978,Bruising susceptibility,2,6
 ascorbic acid,HP:0000975,Hyperhidrosis,0,0
-tacrolimus,HP:0000703,Dentinogenesis imperfecta,0,9
-tacrolimus,HP:0000772,Abnormality of the ribs,0,0
-tacrolimus,HP:0002980,Femoral bowing,0,0
-tacrolimus,HP:0002953,Vertebral compression fracture,0,8
+siltuximab,HP:0001873,Thrombocytopenia,0,0
 tacrolimus,HP:0002983,Micromelia,0,0
-tacrolimus,HP:0011073,Abnormality of dental color,0,0
-ascorbic acid,HP:0006487,Bowing of the long bones,0,8
-raloxifene,HP:0002823,Abnormality of femur morphology,0,8
-tacrolimus,HP:0002645,Wormian bones,0,8
-ascorbic acid,HP:0002119,Ventriculomegaly,0,8
-tacrolimus,HP:0002273,Tetraparesis,0,0
 tacrolimus,HP:0000239,Large fontanelles,0,0
-tacrolimus,HP:0000325,Triangular face,0,0
-ascorbic acid,HP:0001382,Joint hypermobility,0,8
 ciclosporin,HP:0000325,Triangular face,0,0
-tacrolimus,HP:0006640,Multiple rib fractures,0,0
-tacrolimus,HP:0002659,Increased susceptibility to fractures,0,8
-ascorbic acid,HP:0002953,Vertebral compression fracture,0,8
-ascorbic acid,HP:0002980,Femoral bowing,0,0
-tacrolimus,HP:0000883,Thin ribs,0,8
+tacrolimus,HP:0000772,Abnormality of the ribs,0,0
 ascorbic acid,HP:0001371,Flexion contracture,0,9
-tacrolimus,HP:0004586,Biconcave vertebral bodies,0,8
-tacrolimus,HP:0003100,Slender long bone,0,0
-tacrolimus,HP:0000365,Hearing impairment,0,8
+ascorbic acid,HP:0002980,Femoral bowing,0,0
+siltuximab,HP:0007957,Corneal opacity,0,0
+tacrolimus,HP:0005257,Thoracic hypoplasia,0,0
+ascorbic acid,HP:0001382,Joint hypermobility,0,8
+ascorbic acid,HP:0006487,Bowing of the long bones,0,8
+tacrolimus,HP:0000325,Triangular face,0,0
+tacrolimus,HP:0002273,Tetraparesis,0,0
+tacrolimus,HP:0002980,Femoral bowing,0,0
+ascorbic acid,HP:0002119,Ventriculomegaly,0,8
 tacrolimus,HP:0002757,Recurrent fractures,0,8
 ciclosporin,HP:0000365,Hearing impairment,0,8
-tacrolimus,HP:0000444,Convex nasal ridge,0,8
-siltuximab,HP:0001873,Thrombocytopenia,0,0
-siltuximab,HP:0007957,Corneal opacity,0,0
-ascorbic acid,HP:0005692,Joint hyperflexibility,3,5
 tacrolimus,HP:0004482,Relative macrocephaly,0,0
-tacrolimus,HP:0005257,Thoracic hypoplasia,0,0
+ascorbic acid,HP:0002953,Vertebral compression fracture,0,8
+tacrolimus,HP:0002645,Wormian bones,0,8
+tacrolimus,HP:0002659,Increased susceptibility to fractures,0,8
+tacrolimus,HP:0003100,Slender long bone,0,0
+tacrolimus,HP:0011073,Abnormality of dental color,0,0
+tacrolimus,HP:0000444,Convex nasal ridge,0,8
+tacrolimus,HP:0000703,Dentinogenesis imperfecta,0,9
+raloxifene,HP:0002823,Abnormality of femur morphology,0,8
+tacrolimus,HP:0000883,Thin ribs,0,8
+tacrolimus,HP:0004586,Biconcave vertebral bodies,0,8
+tacrolimus,HP:0006640,Multiple rib fractures,0,0
+ascorbic acid,HP:0005692,Joint hyperflexibility,3,5
+tacrolimus,HP:0000365,Hearing impairment,0,8
+tacrolimus,HP:0002953,Vertebral compression fracture,0,8
