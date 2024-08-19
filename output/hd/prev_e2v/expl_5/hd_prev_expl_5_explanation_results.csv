@@ -1,0 +1,79 @@
+drug,symptom ID,symptom,complete explanations,incomplete explanations
+phenelzine,HP:0010794,Impaired visuospatial constructive cognition,0,0
+phenelzine,HP:0002312,Clumsiness,0,0
+phenelzine,HP:0000718,Aggressive behavior,0,0
+phenelzine,HP:0100785,Insomnia,0,0
+felbamate,HP:0002500,Abnormal cerebral white matter morphology,0,0
+phenelzine,HP:0002063,Rigidity,0,0
+phenelzine,HP:0002067,Bradykinesia,0,6
+adenosine triphosphate,HP:0001288,Gait disturbance,0,0
+cerulenin,HP:0002067,Bradykinesia,0,6
+pantoprazole,HP:0001272,Cerebellar atrophy,0,7
+pantoprazole,HP:0002540,Inability to walk,0,0
+pantoprazole,HP:0001332,Dystonia,0,0
+omeprazole,HP:0001347,Hyperreflexia,0,5
+phenelzine,HP:0002591,Polyphagia,0,0
+omeprazole,HP:0000722,Obsessive-compulsive behavior,0,0
+phenelzine,HP:0000739,Anxiety,0,0
+cycloserine,HP:0200136,Oral-pharyngeal dysphagia,0,0
+hexachlorophene,HP:0000713,Agitation,5,0
+omeprazole,HP:0000716,Depression,0,5
+phenelzine,HP:0003487,Babinski sign,0,8
+brilliant Blue G,HP:0000746,Delusions,0,0
+phenelzine,HP:0001272,Cerebellar atrophy,0,5
+phenelzine,HP:0002141,Gait imbalance,0,0
+adenosine triphosphate,HP:0001824,Weight loss,0,7
+phenelzine,HP:0009088,Speech articulation difficulties,0,0
+phenelzine,HP:0000713,Agitation,0,6
+phenelzine,HP:0000738,Hallucinations,0,0
+omeprazole,HP:0001250,Seizure,0,7
+phenelzine,HP:0004408,Abnormality of the sense of smell,0,0
+phenelzine,HP:0031845,Abnormal libido,0,0
+omeprazole,HP:0000718,Aggressive behavior,0,0
+felbamate,HP:0200136,Oral-pharyngeal dysphagia,0,0
+phenelzine,HP:0030955,Alcoholism,0,0
+ifenprodil,HP:0002500,Abnormal cerebral white matter morphology,0,0
+omeprazole,HP:0002059,Cerebral atrophy,0,6
+phenelzine,HP:0000746,Delusions,0,0
+pantoprazole,HP:0001347,Hyperreflexia,0,5
+cerulenin,HP:0002171,Gliosis,0,0
+pantoprazole,HP:0000722,Obsessive-compulsive behavior,0,0
+phenelzine,HP:0000496,Abnormality of eye movement,0,0
+orlistat,HP:0001824,Weight loss,0,5
+phenelzine,HP:0002169,Clonus,0,0
+phenelzine,HP:0002340,Caudate atrophy,0,0
+pantoprazole,HP:0000716,Depression,0,5
+phenelzine,HP:0045082,Decreased body mass index,0,0
+cerulenin,HP:0001288,Gait disturbance,0,0
+phenelzine,HP:0000737,Irritability,0,0
+omeprazole,HP:0001332,Dystonia,0,0
+phenelzine,HP:0001347,Hyperreflexia,0,7
+phenelzine,HP:0000722,Obsessive-compulsive behavior,0,0
+phenelzine,HP:0002529,Neuronal loss in central nervous system,0,0
+pantoprazole,HP:0001250,Seizure,0,8
+phenelzine,HP:0002354,Memory impairment,0,0
+phenelzine,HP:0031589,Suicidal ideation,0,0
+phenelzine,HP:0007010,Poor fine motor coordination,0,0
+brilliant Blue G,HP:0002529,Neuronal loss in central nervous system,0,0
+pantoprazole,HP:0002300,Mutism,0,0
+phenelzine,HP:0003107,Abnormal circulating cholesterol concentration,0,0
+omeprazole,HP:0002072,Chorea,0,5
+ifenprodil,HP:0200136,Oral-pharyngeal dysphagia,0,0
+phenelzine,HP:0030842,Choking episodes,0,0
+phenelzine,HP:0000741,Apathy,0,0
+phenelzine,HP:0000726,Dementia,0,5
+phenelzine,HP:0025401,Staring gaze,0,0
+phenelzine,HP:0002066,Gait ataxia,0,0
+phenelzine,HP:0000751,Personality changes,0,0
+omeprazole,HP:0001272,Cerebellar atrophy,0,6
+phenelzine,HP:0002300,Mutism,0,0
+pantoprazole,HP:0002355,Difficulty walking,0,0
+phenelzine,HP:0003324,Generalized muscle weakness,0,6
+brilliant Blue G,HP:0000751,Personality changes,0,0
+cycloserine,HP:0002500,Abnormal cerebral white matter morphology,0,0
+pantoprazole,HP:0000726,Dementia,0,6
+pantoprazole,HP:0000718,Aggressive behavior,0,0
+phenelzine,HP:0040140,Degeneration of the striatum,0,0
+pantoprazole,HP:0002059,Cerebral atrophy,0,8
+phenelzine,HP:0031473,Hostility,0,0
+phenelzine,HP:0000734,Disinhibition,0,0

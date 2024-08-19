@@ -1,0 +1,4 @@
+drug,symptom ID,symptom,complete explanations,incomplete explanations
+adenosine triphosphate,HP:0001824,Weight loss,10,0
+adenosine triphosphate,HP:0001288,Gait disturbance,7,3
+adenosine triphosphate,HP:0002591,Polyphagia,0,0
