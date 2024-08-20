@@ -1,0 +1,17 @@
+drug,symptom ID,symptom,complete explanations,incomplete explanations
+aprindine,HP:0003115,Abnormal EKG,0,0
+aprindine,HP:0003707,Calf muscle pseudohypertrophy,0,10
+levosimendan,HP:0003323,Progressive muscle weakness,0,10
+levosimendan,HP:0001644,Dilated cardiomyopathy,0,10
+aprindine,HP:0001638,Cardiomyopathy,0,10
+levosimendan,HP:0003560,Muscular dystrophy,0,10
+aprindine,HP:0001635,Congestive heart failure,0,0
+aprindine,HP:0001644,Dilated cardiomyopathy,0,9
+aprindine,HP:0003323,Progressive muscle weakness,0,10
+levosimendan,HP:0003236,Elevated circulating creatine kinase concentration,5,5
+aprindine,HP:0003560,Muscular dystrophy,0,10
+levosimendan,HP:0003115,Abnormal EKG,0,0
+aprindine,HP:0003236,Elevated circulating creatine kinase concentration,0,10
+aprindine,HP:0008981,Calf muscle hypertrophy,0,0
+levosimendan,HP:0011675,Arrhythmia,0,10
+levosimendan,HP:0001638,Cardiomyopathy,0,10
