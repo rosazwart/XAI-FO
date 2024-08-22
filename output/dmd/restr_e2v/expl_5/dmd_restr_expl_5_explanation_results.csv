@@ -1,79 +1,79 @@
 drug,symptom ID,symptom,complete explanations,incomplete explanations
-levosimendan,HP:0003323,Progressive muscle weakness,0,9
-brilliant Blue G,HP:0003391,Gowers sign,0,0
-aprindine,HP:0003115,Abnormal EKG,0,0
-mezlocillin,HP:0001252,Hypotonia,0,6
-aprindine,HP:0003707,Calf muscle pseudohypertrophy,0,9
-azathioprine,HP:0002093,Respiratory insufficiency,0,0
-azathioprine,HP:0001371,Flexion contracture,0,0
-mezlocillin,HP:0001263,Global developmental delay,0,8
-brilliant Blue G,HP:0001328,Specific learning disability,0,0
-aprindine,HP:0003236,Elevated circulating creatine kinase concentration,0,10
-mezlocillin,HP:0003701,Proximal muscle weakness,0,0
-azathioprine,HP:0001256,"Intellectual disability, mild",0,0
-levosimendan,HP:0003560,Muscular dystrophy,0,8
-brilliant Blue G,HP:0001265,Hyporeflexia,0,7
-brilliant Blue G,HP:0003202,Skeletal muscle atrophy,0,0
-mezlocillin,HP:0000750,Delayed speech and language development,0,7
-brilliant Blue G,HP:0003323,Progressive muscle weakness,0,5
-aprindine,HP:0001635,Congestive heart failure,0,10
-mezlocillin,HP:0001270,Motor delay,0,7
-azathioprine,HP:0001252,Hypotonia,0,9
-aprindine,HP:0008981,Calf muscle hypertrophy,0,0
-azathioprine,HP:0001263,Global developmental delay,0,8
-aprindine,HP:0001265,Hyporeflexia,0,6
-mezlocillin,HP:0003307,Hyperlordosis,0,0
-levosimendan,HP:0001644,Dilated cardiomyopathy,0,9
-aprindine,HP:0003202,Skeletal muscle atrophy,0,0
-brilliant Blue G,HP:0002093,Respiratory insufficiency,0,0
-brilliant Blue G,HP:0001371,Flexion contracture,0,0
-aprindine,HP:0003323,Progressive muscle weakness,0,9
-azathioprine,HP:0000750,Delayed speech and language development,0,7
-levosimendan,HP:0003701,Proximal muscle weakness,0,0
-brilliant Blue G,HP:0001256,"Intellectual disability, mild",0,0
-mezlocillin,HP:0002515,Waddling gait,0,6
-azathioprine,HP:0001270,Motor delay,0,8
-mezlocillin,HP:0001290,Generalized hypotonia,0,6
-aprindine,HP:0003560,Muscular dystrophy,0,10
-azathioprine,HP:0002791,Hypoventilation,0,0
-brilliant Blue G,HP:0001252,Hypotonia,0,8
-levosimendan,HP:0001638,Cardiomyopathy,0,9
-mezlocillin,HP:0002650,Scoliosis,0,6
-brilliant Blue G,HP:0001263,Global developmental delay,0,6
-mezlocillin,HP:0100543,Cognitive impairment,0,0
-brilliant Blue G,HP:0003701,Proximal muscle weakness,0,0
-azathioprine,HP:0002515,Waddling gait,0,6
 mezlocillin,HP:0002791,Hypoventilation,0,0
-mezlocillin,HP:0003391,Gowers sign,0,0
-brilliant Blue G,HP:0003560,Muscular dystrophy,0,5
 brilliant Blue G,HP:0000750,Delayed speech and language development,0,7
-levosimendan,HP:0011675,Arrhythmia,0,9
-azathioprine,HP:0001290,Generalized hypotonia,0,8
-aprindine,HP:0001644,Dilated cardiomyopathy,0,10
-mezlocillin,HP:0001328,Specific learning disability,0,0
-brilliant Blue G,HP:0001270,Motor delay,0,7
-azathioprine,HP:0002650,Scoliosis,0,8
-brilliant Blue G,HP:0001638,Cardiomyopathy,0,8
-aprindine,HP:0003701,Proximal muscle weakness,0,0
+mezlocillin,HP:0002515,Waddling gait,0,6
+aprindine,HP:0001635,Congestive heart failure,0,10
+aprindine,HP:0001265,Hyporeflexia,0,6
 azathioprine,HP:0100543,Cognitive impairment,0,0
-mezlocillin,HP:0001265,Hyporeflexia,0,6
-brilliant Blue G,HP:0003307,Hyperlordosis,0,0
-levosimendan,HP:0003115,Abnormal EKG,0,0
-azathioprine,HP:0003391,Gowers sign,0,0
-levosimendan,HP:0003236,Elevated circulating creatine kinase concentration,0,9
-brilliant Blue G,HP:0002515,Waddling gait,0,7
-aprindine,HP:0001638,Cardiomyopathy,0,10
-azathioprine,HP:0001328,Specific learning disability,0,0
-aprindine,HP:0003307,Hyperlordosis,0,0
-azathioprine,HP:0001265,Hyporeflexia,0,6
-aprindine,HP:0003391,Gowers sign,0,0
-mezlocillin,HP:0002093,Respiratory insufficiency,0,0
-mezlocillin,HP:0001371,Flexion contracture,0,0
-brilliant Blue G,HP:0001290,Generalized hypotonia,0,8
-levosimendan,HP:0008981,Calf muscle hypertrophy,0,0
-azathioprine,HP:0003202,Skeletal muscle atrophy,0,0
-mezlocillin,HP:0008981,Calf muscle hypertrophy,0,0
-brilliant Blue G,HP:0002650,Scoliosis,0,8
-mezlocillin,HP:0001256,"Intellectual disability, mild",0,0
-brilliant Blue G,HP:0003236,Elevated circulating creatine kinase concentration,0,6
+mezlocillin,HP:0001328,Specific learning disability,0,0
 brilliant Blue G,HP:0100543,Cognitive impairment,0,0
+mezlocillin,HP:0003701,Proximal muscle weakness,0,0
+levosimendan,HP:0001644,Dilated cardiomyopathy,0,9
+brilliant Blue G,HP:0002515,Waddling gait,0,7
+brilliant Blue G,HP:0003202,Skeletal muscle atrophy,0,0
+brilliant Blue G,HP:0003323,Progressive muscle weakness,0,5
+azathioprine,HP:0001328,Specific learning disability,0,0
+mezlocillin,HP:0001256,"Intellectual disability, mild",0,0
+aprindine,HP:0003707,Calf muscle pseudohypertrophy,0,9
+levosimendan,HP:0003701,Proximal muscle weakness,0,0
+brilliant Blue G,HP:0001328,Specific learning disability,0,0
+aprindine,HP:0003202,Skeletal muscle atrophy,0,0
+azathioprine,HP:0001263,Global developmental delay,0,8
+aprindine,HP:0003323,Progressive muscle weakness,0,9
+aprindine,HP:0001644,Dilated cardiomyopathy,0,10
+levosimendan,HP:0011675,Arrhythmia,0,9
+levosimendan,HP:0003236,Elevated circulating creatine kinase concentration,0,9
+azathioprine,HP:0002093,Respiratory insufficiency,0,0
+mezlocillin,HP:0008981,Calf muscle hypertrophy,0,0
+brilliant Blue G,HP:0003701,Proximal muscle weakness,0,0
+azathioprine,HP:0001256,"Intellectual disability, mild",0,0
+brilliant Blue G,HP:0002093,Respiratory insufficiency,0,0
+brilliant Blue G,HP:0003236,Elevated circulating creatine kinase concentration,0,6
+mezlocillin,HP:0001263,Global developmental delay,0,8
+aprindine,HP:0003701,Proximal muscle weakness,0,0
+brilliant Blue G,HP:0001256,"Intellectual disability, mild",0,0
+levosimendan,HP:0003560,Muscular dystrophy,0,8
+mezlocillin,HP:0002093,Respiratory insufficiency,0,0
+levosimendan,HP:0008981,Calf muscle hypertrophy,0,0
+azathioprine,HP:0001270,Motor delay,0,8
+mezlocillin,HP:0001371,Flexion contracture,0,0
+azathioprine,HP:0002650,Scoliosis,0,8
+aprindine,HP:0003236,Elevated circulating creatine kinase concentration,0,10
+levosimendan,HP:0001638,Cardiomyopathy,0,9
+brilliant Blue G,HP:0001270,Motor delay,0,7
+brilliant Blue G,HP:0003560,Muscular dystrophy,0,5
+azathioprine,HP:0001252,Hypotonia,0,9
+brilliant Blue G,HP:0002650,Scoliosis,0,8
+levosimendan,HP:0003115,Abnormal EKG,0,0
+azathioprine,HP:0001265,Hyporeflexia,0,6
+azathioprine,HP:0001290,Generalized hypotonia,0,8
+mezlocillin,HP:0001270,Motor delay,0,7
+mezlocillin,HP:0003307,Hyperlordosis,0,0
+mezlocillin,HP:0002650,Scoliosis,0,6
+azathioprine,HP:0003391,Gowers sign,0,0
+brilliant Blue G,HP:0001252,Hypotonia,0,8
+azathioprine,HP:0001371,Flexion contracture,0,0
+brilliant Blue G,HP:0001638,Cardiomyopathy,0,8
+azathioprine,HP:0000750,Delayed speech and language development,0,7
+brilliant Blue G,HP:0001265,Hyporeflexia,0,7
+brilliant Blue G,HP:0001263,Global developmental delay,0,6
+aprindine,HP:0003560,Muscular dystrophy,0,10
+aprindine,HP:0008981,Calf muscle hypertrophy,0,0
+mezlocillin,HP:0001252,Hypotonia,0,6
+brilliant Blue G,HP:0003391,Gowers sign,0,0
+brilliant Blue G,HP:0001371,Flexion contracture,0,0
+mezlocillin,HP:0001265,Hyporeflexia,0,6
+mezlocillin,HP:0001290,Generalized hypotonia,0,6
+aprindine,HP:0001638,Cardiomyopathy,0,10
+mezlocillin,HP:0003391,Gowers sign,0,0
+aprindine,HP:0003115,Abnormal EKG,0,0
+mezlocillin,HP:0000750,Delayed speech and language development,0,7
+aprindine,HP:0003391,Gowers sign,0,0
+brilliant Blue G,HP:0003307,Hyperlordosis,0,0
+azathioprine,HP:0002791,Hypoventilation,0,0
+levosimendan,HP:0003323,Progressive muscle weakness,0,9
+azathioprine,HP:0002515,Waddling gait,0,6
+azathioprine,HP:0003202,Skeletal muscle atrophy,0,0
+aprindine,HP:0003307,Hyperlordosis,0,0
+brilliant Blue G,HP:0001290,Generalized hypotonia,0,8
+mezlocillin,HP:0100543,Cognitive impairment,0,0

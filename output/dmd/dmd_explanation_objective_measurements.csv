@@ -1,2 +1,2 @@
 disease prefix,dataset prefix,embedding,seed,explanation overlap,total explanations,avg number of node types,avg number of edge types,avg number of triplets,avg shortest path length between drug and symptom
-dmd,prev,e2v,False,expl_9,5,3.8,3.8,5.0,2.6
+dmd,prev,e2v,False,expl_all,3,4.0,3.6666666666666665,5.0,3.3333333333333335
